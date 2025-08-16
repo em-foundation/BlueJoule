@@ -1,0 +1,7 @@
+/.history/
+/.vscode/
+.emscope/
+
+*.jls
+
+.DS_Store
