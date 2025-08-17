@@ -1,0 +1,42 @@
+span:
+    offset: 21625
+    width: 1000000
+events:
+    -
+        offset: 71625
+        width: 1625
+    -
+        offset: 172625
+        width: 625
+    -
+        offset: 273025
+        width: 975
+    -
+        offset: 373525
+        width: 1625
+    -
+        offset: 473875
+        width: 725
+    -
+        offset: 574450
+        width: 1525
+    -
+        offset: 675200
+        width: 1725
+    -
+        offset: 776275
+        width: 925
+    -
+        offset: 876775
+        width: 575
+    -
+        offset: 977200
+        width: 800
+sleep:
+    avg: 0.000004358853055009604
+    std: 9.616329891676246e-7
+    p95: 6.426596428354969e-7
+    'off': 33000
+options:
+    - '--gap 5'
+    - '--trim'
