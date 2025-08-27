@@ -51,7 +51,7 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 This repository
 
-| JS220 Capture | PPK2 Capture | Description |
+| JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|---|---|
 | [`adi-m17-evk-msdk-J`](captures/adi-m17-evk-msdk-J/) | [`adi-m17-evk-msdk-P`](captures/adi-m17-evk-msdk-P/) | &emsp; Analog Device MAX32655 · Maxim SDK|
 | [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | [`in-100-dk-none-P`](captures/in-100-dk-none-P/) | &emsp; InPlay IN100 · &lt;no software&gt; |
