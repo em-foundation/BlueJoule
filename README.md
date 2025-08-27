@@ -14,12 +14,7 @@
   <sup><a href="README.md">for a better view <b>&#x27a6;</b></a></sup>
 </p>
 
-<p align="left">
-  <img alt="Under construction"
-       src="https://img.shields.io/badge/-🚧%20Under%20construction-FFD24D?style=flat">
-</p>
-
-<p align="center"><img src="docs/images/uc-banner.svg" width="420" alt="Under construction"></p>
+<p align="center"><img src="docs/images/uc-banner.svg" width="100" alt="Under construction"></p>
 
 
 ---
