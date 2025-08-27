@@ -1,5 +1,5 @@
 <!-- gold-medal.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 12">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -6 24 30">
   <!-- ribbon: lighter gray -->
   <rect x="10" y="2" width="4" height="6" rx="1" fill="#58a6ff"/>
   <circle cx="12" cy="15" r="6" fill="#FFD700"/>
