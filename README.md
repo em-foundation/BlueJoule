@@ -52,7 +52,7 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 ## Catalog
 
-This repository houses the following **EM&bull;Scope** capture directories:
+This repository houses the following curated **EM&bull;Scope** capture directories &ndash; each initially populated by the `emscope grab` command with either its `-J, --js220` or `-P, --ppk2` option:
 
 | JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|---|---|
@@ -62,6 +62,8 @@ This repository houses the following **EM&bull;Scope** capture directories:
 | [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | [`nrf-54-dk-zephyr-P`](captures/nrf-54-dk-zephyr-P/) | &emsp; Nordic nRF54L15 · Zephyr OS |
 | [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | [`ti-23-lp-emsdk-P`](captures/ti-23-lp-emsdk-P/) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
 | [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | [`ti-23-lp-slsdk-P`](captures/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+
+A `README` file found in each directory provides additional information about the capture's HW/SW configuration.
 
 ## Scores
 
