@@ -1,0 +1,11 @@
+<!-- docs/images/uc-banner.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 56" width="420" height="56" role="img" aria-label="Under construction">
+  <!-- background -->
+  <rect x="0" y="0" width="420" height="56" rx="10" fill="#FFD24D"/>
+  <!-- text -->
+  <text x="50%" y="50%" text-anchor="middle"
+        font-family="system-ui, Segoe UI, Roboto, Helvetica, Arial, Apple Color Emoji, Noto Color Emoji, sans-serif"
+        font-size="22" fill="#1F2328" dominant-baseline="middle">
+    🚧 Under construction
+  </text>
+</svg>
