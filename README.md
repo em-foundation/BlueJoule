@@ -67,7 +67,7 @@ A `README` file found in each directory provides additional information about th
 
 ## Scores
 
-| JS220 Capture | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
+| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
 |---|---|---|
 | [`adi-m17-evk-msdk-J`](captures/adi-m17-evk-msdk-J/) | ` 14.75` | ` 47.75` |
 | [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | ` 41.92` &emsp; 🥈 | `306.84` &emsp; 🥇 |
@@ -75,6 +75,14 @@ A `README` file found in each directory provides additional information about th
 | [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | ` 41.93` &emsp; 🥈 | `121.06` |
 | [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | ` 48.62`  &emsp; 🥇 | `249.88` &emsp; 🥈 |
 | [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | ` 28.13`| `183.76` &emsp; 🥉 |
+
+| PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
+|---|---|---|
+| [`adi-m17-evk-msdk-P`](captures/adi-m17-evk-msdk-P/) | ` 14.02` | ` 47.36` |
+| [`in-100-dk-none-P`](captures/in-100-dk-none-P/) | ` 43.11` &emsp; 🥈 | `301.01` &emsp; 🥇 |
+| [`nrf-52-dk-zephyr-P`](captures/nrf-52-dk-zephyr-P/) | ` 27.30` | `113.68` |
+| [`nrf-54-dk-zephyr-P`](captures/nrf-54-dk-zephyr-P/) | ` 57.21` &emsp; 🥇 | `153.61` &emsp; 🥉 |
+| [`ti-23-lp-slsdk-P`](captures/ti-23-lp-slsdk-P/) | ` 27.37`| `173.87` &emsp; 🥈 |
 
 
 ## Contributing
