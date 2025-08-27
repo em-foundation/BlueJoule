@@ -67,13 +67,14 @@ A `README` file found in each directory provides additional information about th
 
 ## Scores
 
-| Capture | ![EM•eralds](https://img.shields.io/badge/EM%E2%80%A2eralds-%C2%A0-9ca3af?labelColor=005d2a) | Comments |
-|---|---:|---|
-| [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | `12.30`&#8239;<img src="docs/images/gold-medal.svg"   width="16" alt="">  | nRF54L15-DK · Zephyr |
-| [`nrf52dk-zephyr-B`](captures/nrf52dk-zephyr-B/)     | `10.20`&#8239;<img src="docs/images/silver-medal.svg" width="16" alt=""> | nRF52 DK · Zephyr |
-| [`xg24-silabs-C`](captures/xg24-silabs-C/)           | `09.60`&#8239;<img src="docs/images/bronze-medal.svg" width="16" alt=""> | SiLabs XG24 |
-| [`esp32c6-idf-D`](captures/esp32c6-idf-D/)           | `08.90`&#8239;<img src="docs/images/empty-medal.svg"  width="16" alt=""> | ESP32-C6 · IDF |
-
+| JS220 Capture | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
+|---|---|---|
+| [`adi-m17-evk-msdk-J`](captures/adi-m17-evk-msdk-J/) | ` 14.75` | ` 47.75` |
+| [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | ` 41.92` &emsp; 🥈 | `306.84` &emsp; 🥇 |
+| [`nrf-52-dk-zephyr-J`](captures/nrf-52-dk-zephyr-J/) | ` 27.72` | `122.85` |
+| [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | ` 41.93` &emsp; 🥈 | `121.06` |
+| [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | ` 48.62`  &emsp; 🥇 | `249.88` &emsp; 🥈 |
+| [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | ` 28.13`| `183.76` &emsp; 🥉 |
 
 
 ## Contributing
