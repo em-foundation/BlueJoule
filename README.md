@@ -46,3 +46,8 @@ And finally, the BLE advertising packet itself with 17 bytes of payload comprisi
 | `05`  |  `FF`  | `D3 08 FF`                               | Manufacturer &mdash; Company:&thinsp; [Novel Bits](https://novelbits.io/) (`0x08D3`),&thinsp; Data: `0xFF`&emsp; |
 
 When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;Hz event cycle &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
+
+## Catalog
+
+This repository
+
