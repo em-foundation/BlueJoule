@@ -21,7 +21,7 @@
 <h3 align="center">
   <a href="#application">Application</a>&nbsp;&#xFF5C;&nbsp;
   <a href="#catalog">Catalog</a>&nbsp;&#xFF5C;&nbsp;
-  <a href="#cloning">Cloning</a>&nbsp;&#xFF5C;&nbsp;
+  <a href="#scores">Scores</a>&nbsp;&#xFF5C;&nbsp;
   <a href="#contributing">Contributing</a>
 </h3>
 
@@ -51,6 +51,17 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 This repository
 
+| JS220 Capture | PPK2 Capture | Description |
+|---|---|---|
+| [`adi-m17-evk-msdk-J`](captures/adi-m17-evk-msdk-J/) | [`adi-m17-evk-msdk-P`](captures/adi-m17-evk-msdk-P/) | &emsp; Analog Device MAX32655 · Maxim SDK|
+| [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | [`in-100-dk-none-P`](captures/in-100-dk-none-P/) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| [`nrf-52-dk-zephyr-J`](captures/nrf-52-dk-zephyr-J/) | [`nrf-52-dk-zephyr-P`](captures/nrf-52-dk-zephyr-P/) | &emsp; Nordic nRF52832 · Zephyr OS |
+| [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | [`nrf-54-dk-zephyr-P`](captures/nrf-54-dk-zephyr-P/) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | [`ti-23-lp-emsdk-P`](captures/ti-23-lp-emsdk-P/) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | [`ti-23-lp-slsdk-P`](captures/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+
+## Scores
+
 | Capture | ![EM•eralds](https://img.shields.io/badge/EM%E2%80%A2eralds-%C2%A0-9ca3af?labelColor=005d2a) | Comments |
 |---|---:|---|
 | [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | `12.30`&#8239;<img src="docs/images/gold-medal.svg"   width="16" alt="">  | nRF54L15-DK · Zephyr |
@@ -59,4 +70,6 @@ This repository
 | [`esp32c6-idf-D`](captures/esp32c6-idf-D/)           | `08.90`&#8239;<img src="docs/images/empty-medal.svg"  width="16" alt=""> | ESP32-C6 · IDF |
 
 
+
+## Contributing
 
