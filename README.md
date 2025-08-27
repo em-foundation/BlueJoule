@@ -51,3 +51,12 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 This repository
 
+| Capture | ![EM•eralds](https://img.shields.io/badge/EM%E2%80%A2eralds-%C2%A0-9ca3af?labelColor=005d2a) | Comments |
+|---|---:|---|
+| [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | `12.30`&#8239;<img src="docs/images/gold-medal.svg"   width="24" alt="">  | nRF54L15-DK · Zephyr |
+| [`nrf52dk-zephyr-B`](captures/nrf52dk-zephyr-B/)     | `10.20`&#8239;<img src="docs/images/silver-medal.svg" width="24" alt=""> | nRF52 DK · Zephyr |
+| [`xg24-silabs-C`](captures/xg24-silabs-C/)           | `09.60`&#8239;<img src="docs/images/bronze-medal.svg" width="24" alt=""> | SiLabs XG24 |
+| [`esp32c6-idf-D`](captures/esp32c6-idf-D/)           | `08.90`&#8239;<img src="docs/images/empty-medal.svg"  width="24" alt=""> | ESP32-C6 · IDF |
+
+
+
