@@ -60,12 +60,26 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | [`in-100-dk-none-P`](captures/in-100-dk-none-P/) | &emsp; InPlay IN100 · &lt;no software&gt; |
 | [`nrf-52-dk-zephyr-J`](captures/nrf-52-dk-zephyr-J/) | [`nrf-52-dk-zephyr-P`](captures/nrf-52-dk-zephyr-P/) | &emsp; Nordic nRF52832 · Zephyr OS |
 | [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | [`nrf-54-dk-zephyr-P`](captures/nrf-54-dk-zephyr-P/) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | [`ti-23-lp-emsdk-P`](captures/ti-23-lp-emsdk-P/) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | &nbsp; | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
 | [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | [`ti-23-lp-slsdk-P`](captures/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 
 A `README` file found in each directory provides additional information about the capture's HW/SW configuration.
 
 ## Scores
+
+We've compiled a pair of **EM&bull;erald** scores for each capture, adssuming a 1&thinsp;s and 10&thinsp;s event cycle in each case.&thinsp; We've also awarded Gold&thinsp;🥇, Silver&thinsp;🥈, and Bronze&thinsp;🥉 medals when merited.
+
+> [!IMPORTANT]
+> Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
+
+<br>
+
+> [!TIP]
+> To query the following **JS220** scores, run these commands from the root of this repository:
+> ```
+> emscope view -w 1 --score -C '*-J'
+> emscope view -w 10 --score -C '*-J'
+> ```
 
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
 |---|---|---|
@@ -75,6 +89,15 @@ A `README` file found in each directory provides additional information about th
 | [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | ` 41.93` &emsp; 🥈 | `121.06` |
 | [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | ` 48.62`  &emsp; 🥇 | `249.88` &emsp; 🥈 |
 | [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | ` 28.13`| `183.76` &emsp; 🥉 |
+
+<br>
+
+> [!TIP]
+> To query the following **PPK2** scores, run these commands from the root of this repository:
+> ```
+> emscope view -w 1 --score -C '*-P'
+> emscope view -w 10 --score -C '*-P'
+> ```
 
 | PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
 |---|---|---|
