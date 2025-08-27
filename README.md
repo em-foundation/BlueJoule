@@ -14,6 +14,11 @@
   <sup><a href="README.md">for a better view <b>&#x27a6;</b></a></sup>
 </p>
 
+<p align="left">
+  <img alt="Under construction"
+       src="https://img.shields.io/badge/-🚧%20Under%20construction-FFD24D?style=flat">
+</p>
+
 ---
 
 <a id="toc"></a>
@@ -49,7 +54,7 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 ## Catalog
 
-This repository
+This repository houses the following **EM&bull;Scope** capture directories:
 
 | JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|---|---|
