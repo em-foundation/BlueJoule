@@ -1,0 +1,26 @@
+<!-- EM•Scope wordmark (inline SVG) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" role="img" aria-label="EM•Scope">
+  <style>
+    :root{
+      --fg:#C9D1D9;        /* text color */
+      --accent:#12E4C7;    /* EM• bullet color */
+      --bg:transparent;    /* set to #0D1117 for dark banner */
+      --size:64px;
+      --weight:700;
+    }
+    text{
+      font: var(--weight) var(--size)/1 system-ui, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Noto Color Emoji", sans-serif;
+      fill: var(--fg);
+      letter-spacing:.2px;
+    }
+    .dot{ fill: var(--accent); }
+    .bg{ fill: var(--bg); }
+  </style>
+
+  <!-- optional background: change --bg to a color to enable -->
+  <rect class="bg" x="0" y="0" width="100%" height="100%" rx="12"/>
+
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle">
+    EM<tspan class="dot">•</tspan>Scope
+  </text>
+</svg>
