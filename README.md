@@ -74,14 +74,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-> [!TIP]
-> To query the following **JS220** scores, run these commands from the root of this repository:
-> ```
-> emscope view -w 1 --score -C '*-J'
-> emscope view -w 10 --score -C '*-J'
-> ```
-
-| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
+| &emsp;&emsp;&emsp;&emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
 | [`adi-m17-evk-msdk-J`](data/adi-m17-evk-msdk-J/) | ` 14.75` | ` 47.75` |
 | [`in-100-dk-none-J`](data/in-100-dk-none-J/) | ` 41.92` &emsp; 🥈 | `306.84` &emsp; 🥇 |
@@ -92,14 +85,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-> [!TIP]
-> To query the following **PPK2** scores, run these commands from the root of this repository:
-> ```
-> emscope view -w 1 --score -C '*-P'
-> emscope view -w 10 --score -C '*-P'
-> ```
-
-| PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
+| &emsp;&emsp;&emsp;&emsp;&emsp;PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
 | [`adi-m17-evk-msdk-P`](data/adi-m17-evk-msdk-P/) | ` 14.02` | ` 47.36` |
 | [`in-100-dk-none-P`](data/in-100-dk-none-P/) | ` 43.11` &emsp; 🥈 | `301.01` &emsp; 🥇 |
@@ -107,6 +93,16 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | [`nrf-54-dk-zephyr-P`](data/nrf-54-dk-zephyr-P/) | ` 57.21` &emsp; 🥇 | `153.61` &emsp; 🥉 |
 | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | ` 27.37`| `173.87` &emsp; 🥈 |
 
+> [!NOTE]
+> By installing the [`emscope`](https://github.com/em-foundation/emscope) tool, you can these scores from the command-line as follows:
+> ```
+> emscope view -w 1 --score -C '*-J'
+> emscope view -w 10 --score -C '*-J'
+> 
+> emscope view -w 1 --score -C '*-P'
+> emscope view -w 10 --score -C '*-P'
+> ```
+> The `emscope view` command enables you to query _other_ event cycle scenarios, as well as to interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
 
 ## Contributing
 
