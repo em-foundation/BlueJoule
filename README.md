@@ -81,7 +81,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, adssuming a 
 > emscope view -w 10 --score -C '*-J'
 > ```
 
-| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
+| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:01`| EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:10` |
 |---|---|---|
 | [`adi-m17-evk-msdk-J`](captures/adi-m17-evk-msdk-J/) | ` 14.75` | ` 47.75` |
 | [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | ` 41.92` &emsp; 🥈 | `306.84` &emsp; 🥇 |
@@ -99,7 +99,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, adssuming a 
 > emscope view -w 10 --score -C '*-P'
 > ```
 
-| PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; @&thinsp;`00:00:01`| EM&bull;eralds&thinsp; @&thinsp;`00:00:10` |
+| PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:01`| EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:10` |
 |---|---|---|
 | [`adi-m17-evk-msdk-P`](captures/adi-m17-evk-msdk-P/) | ` 14.02` | ` 47.36` |
 | [`in-100-dk-none-P`](captures/in-100-dk-none-P/) | ` 43.11` &emsp; 🥈 | `301.01` &emsp; 🥇 |
