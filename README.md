@@ -110,3 +110,18 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, adssuming a 
 
 ## Contributing
 
+To contribute new captures (or to refine existing captures), fork this repository and then submit a pull request (PR) for our consideration.&thinsp; Needless to say, we presume prior experience with the [`emscope`](&thinsp;🟢&thinsp;) command-line tool.
+
+> [!TIP]
+> Use this command sequence when locally cloning your fork of this repo:
+>
+>```
+> $ GIT_LFS_SKIP_SMUDGE=1 git clone --filter=blob:none https://github.com/<USER-NAME>/<FORKED-REPO-NAME>
+> $ cd <FORKED-REPO-NAME>
+> $ git lfs install --local --skip-smudge
+>```
+>From here, you can use `emscope pack -u` to deflate `emscope-capture.zip` files locally as needed.
+
+If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `README.md` file into your new directory, and then modify this file accordingly.
+
+
