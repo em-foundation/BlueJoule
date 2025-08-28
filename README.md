@@ -56,12 +56,12 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 
 | JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|---|---|
-| [`adi-m17-evk-msdk-J`](captures/adi-m17-evk-msdk-J/) | [`adi-m17-evk-msdk-P`](captures/adi-m17-evk-msdk-P/) | &emsp; Analog Device MAX32655 · Maxim SDK|
-| [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | [`in-100-dk-none-P`](captures/in-100-dk-none-P/) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| [`nrf-52-dk-zephyr-J`](captures/nrf-52-dk-zephyr-J/) | [`nrf-52-dk-zephyr-P`](captures/nrf-52-dk-zephyr-P/) | &emsp; Nordic nRF52832 · Zephyr OS |
-| [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | [`nrf-54-dk-zephyr-P`](captures/nrf-54-dk-zephyr-P/) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | &nbsp; | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | [`ti-23-lp-slsdk-P`](captures/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| [`adi-m17-evk-msdk-J`](data/adi-m17-evk-msdk-J/) | [`adi-m17-evk-msdk-P`](data/adi-m17-evk-msdk-P/) | &emsp; Analog Device MAX32655 · Maxim SDK|
+| [`in-100-dk-none-J`](data/in-100-dk-none-J/) | [`in-100-dk-none-P`](data/in-100-dk-none-P/) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| [`nrf-52-dk-zephyr-J`](data/nrf-52-dk-zephyr-J/) | [`nrf-52-dk-zephyr-P`](data/nrf-52-dk-zephyr-P/) | &emsp; Nordic nRF52832 · Zephyr OS |
+| [`nrf-54-dk-zephyr-J`](data/nrf-54-dk-zephyr-J/) | [`nrf-54-dk-zephyr-P`](data/nrf-54-dk-zephyr-P/) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| [`ti-23-lp-emsdk-J`](data/ti-23-lp-emsdk-J/) | &nbsp; | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| [`ti-23-lp-slsdk-J`](data/ti-23-lp-slsdk-J/) | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 
 A `README` file found in each directory provides additional information about the capture's HW/SW configuration.
 
@@ -83,12 +83,12 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:01`| EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:10` |
 |---|---|---|
-| [`adi-m17-evk-msdk-J`](captures/adi-m17-evk-msdk-J/) | ` 14.75` | ` 47.75` |
-| [`in-100-dk-none-J`](captures/in-100-dk-none-J/) | ` 41.92` &emsp; 🥈 | `306.84` &emsp; 🥇 |
-| [`nrf-52-dk-zephyr-J`](captures/nrf-52-dk-zephyr-J/) | ` 27.72` | `122.85` |
-| [`nrf-54-dk-zephyr-J`](captures/nrf-54-dk-zephyr-J/) | ` 41.93` &emsp; 🥈 | `121.06` |
-| [`ti-23-lp-emsdk-J`](captures/ti-23-lp-emsdk-J/) | ` 48.62`  &emsp; 🥇 | `249.88` &emsp; 🥈 |
-| [`ti-23-lp-slsdk-J`](captures/ti-23-lp-slsdk-J/) | ` 28.13`| `183.76` &emsp; 🥉 |
+| [`adi-m17-evk-msdk-J`](data/adi-m17-evk-msdk-J/) | ` 14.75` | ` 47.75` |
+| [`in-100-dk-none-J`](data/in-100-dk-none-J/) | ` 41.92` &emsp; 🥈 | `306.84` &emsp; 🥇 |
+| [`nrf-52-dk-zephyr-J`](data/nrf-52-dk-zephyr-J/) | ` 27.72` | `122.85` |
+| [`nrf-54-dk-zephyr-J`](data/nrf-54-dk-zephyr-J/) | ` 41.93` &emsp; 🥈 | `121.06` |
+| [`ti-23-lp-emsdk-J`](data/ti-23-lp-emsdk-J/) | ` 48.62`  &emsp; 🥇 | `249.88` &emsp; 🥈 |
+| [`ti-23-lp-slsdk-J`](data/ti-23-lp-slsdk-J/) | ` 28.13`| `183.76` &emsp; 🥉 |
 
 <br>
 
@@ -101,11 +101,11 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 | PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:01`| EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:10` |
 |---|---|---|
-| [`adi-m17-evk-msdk-P`](captures/adi-m17-evk-msdk-P/) | ` 14.02` | ` 47.36` |
-| [`in-100-dk-none-P`](captures/in-100-dk-none-P/) | ` 43.11` &emsp; 🥈 | `301.01` &emsp; 🥇 |
-| [`nrf-52-dk-zephyr-P`](captures/nrf-52-dk-zephyr-P/) | ` 27.30` | `113.68` |
-| [`nrf-54-dk-zephyr-P`](captures/nrf-54-dk-zephyr-P/) | ` 57.21` &emsp; 🥇 | `153.61` &emsp; 🥉 |
-| [`ti-23-lp-slsdk-P`](captures/ti-23-lp-slsdk-P/) | ` 27.37`| `173.87` &emsp; 🥈 |
+| [`adi-m17-evk-msdk-P`](data/adi-m17-evk-msdk-P/) | ` 14.02` | ` 47.36` |
+| [`in-100-dk-none-P`](data/in-100-dk-none-P/) | ` 43.11` &emsp; 🥈 | `301.01` &emsp; 🥇 |
+| [`nrf-52-dk-zephyr-P`](data/nrf-52-dk-zephyr-P/) | ` 27.30` | `113.68` |
+| [`nrf-54-dk-zephyr-P`](data/nrf-54-dk-zephyr-P/) | ` 57.21` &emsp; 🥇 | `153.61` &emsp; 🥉 |
+| [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | ` 27.37`| `173.87` &emsp; 🥈 |
 
 
 ## Contributing
@@ -124,6 +124,6 @@ To contribute new captures (or to refine existing captures), fork this repositor
 
 If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `README.md` file into your new directory, and then modify this file's contents accordingly.
 
-For any technical questions or roadmap suggestions, start a thread on our [discussions](https://github.com/em-foundation/bleadv-captures/discussions/) page.
+For any technical questions or roadmap suggestions, start a thread on our [discussions](https://github.com/em-foundation/bleadv-data/discussions/) page.
 
 
