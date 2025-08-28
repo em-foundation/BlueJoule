@@ -40,7 +40,7 @@ Our benchmark will broadcast the same packet on the three standard BLE advertisi
 
 To faciliate "apples-to-apples" comparisons among different platforms, we require the underlying BLE radio to transmit packets at 0&thinsp;dB.&thinsp; A differentiator for HW vendors, TX power consumption in `mW` will often headline their datasheets.
 
-And finally, the BLE advertising packet itself with 17 bytes of payload comprising the following standard data types:
+And finally, the advertising packet itself comprises 17 bytes of payload defined with the following BLE data types:
 
 | Len | Type | Data (hex)                                   | Notes                                         |
 |----:|-----:|----------------------------------------------|-----------------------------------------------|
@@ -48,7 +48,7 @@ And finally, the BLE advertising packet itself with 17 bytes of payload comprisi
 | `0A`  |  `08`  | `42 6C 75 65 4A 6F 75 6C 65`             | Local Name &mdash; `"BlueJoule"`             |
 | `05`  |  `FF`  | `D3 08 FF`                               | Manufacturer &mdash; Company:&thinsp; [Novel Bits](https://novelbits.io/) (`0x08D3`),&thinsp; Data: `0xFF`&emsp; |
 
-When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;Hz event cycle &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
+When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;s event cycle &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
 
 ## Catalog
 
@@ -94,7 +94,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | ` 27.37`| `173.87` &emsp; 🥈 |
 
 > [!NOTE]
-> By installing the [`emscope`](https://github.com/em-foundation/emscope) tool, you can these scores from the command-line as follows:
+> After installing the [`emscope`](https://github.com/em-foundation/emscope) tool, you can retrieve these scores from the command-line as follows:
 > ```
 > emscope view -w 1 --score -C '*-J'
 > emscope view -w 10 --score -C '*-J'
@@ -102,7 +102,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 > emscope view -w 1 --score -C '*-P'
 > emscope view -w 10 --score -C '*-P'
 > ```
-> The `emscope view` command enables you to query _other_ event cycle scenarios, as well as to interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
+> The `emscope view` command enables you to query _other_ event cycle scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
 
 ## Contributing
 
@@ -120,6 +120,6 @@ To contribute new captures (or to refine existing captures), fork this repositor
 
 If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `ABOUT.md` file into your new directory, and then modify this file's contents accordingly.
 
-For any technical questions or roadmap suggestions, start a thread on our [discussions](https://github.com/em-foundation/bleadv-data/discussions/) page.
+For any technical questions or roadmap suggestions, create a new thread on our [discussions](https://github.com/em-foundation/bleadv-data/discussions/) page.
 
 
