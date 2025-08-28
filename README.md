@@ -124,4 +124,6 @@ To contribute new captures (or to refine existing captures), fork this repositor
 
 If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `README.md` file into your new directory, and then modify this file accordingly.
 
+For any technical questions or roadmap suggestions, start a thread on our [discussions](https://github.com/em-foundation/bleadv-captures/discussions/) page.
+
 
