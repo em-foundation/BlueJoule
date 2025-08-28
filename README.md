@@ -63,7 +63,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | [`ti-23-lp-emsdk-J`](data/ti-23-lp-emsdk-J) | &nbsp; | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
 | [`ti-23-lp-slsdk-J`](data/ti-23-lp-slsdk-J/ABOUT.md) | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 
-A `README` file found in each directory provides additional information about the capture's HW/SW configuration.
+An `ABOUT.md` file found in each directory provides additional information about the capture's HW/SW configuration.
 
 ## Scores
 
@@ -122,7 +122,7 @@ To contribute new captures (or to refine existing captures), fork this repositor
 >```
 >From here, you can use `emscope pack -u` to deflate `emscope-capture.zip` files locally as needed.
 
-If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `README.md` file into your new directory, and then modify this file's contents accordingly.
+If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `ABOUT.md` file into your new directory, and then modify this file's contents accordingly.
 
 For any technical questions or roadmap suggestions, start a thread on our [discussions](https://github.com/em-foundation/bleadv-data/discussions/) page.
 
