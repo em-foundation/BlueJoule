@@ -1,7 +1,7 @@
 
 # Texas Instruments CC2340R5 · SimpleLink SDK
 
-## HW/SW Configuration
+## HW/SW configuration
 
 * [CC2340R5 MCU](https://www.ti.com/product/CC2340R5) &ndash; 48&thinsp;MHz Cortex-M0+ &thinsp;|&thinsp; &le;&thinsp;512&thinsp;KB flash &thinsp;|&thinsp; &le;&thinsp;64&thinsp;KB SRAM
 * [LP-EM-CC2340R5 dev kit](https://www.ti.com/tool/LP-EM-CC2340R5)
@@ -14,6 +14,12 @@
 <p align="center">
     <img src="ti-23-lp-slsdk-J-event-B.png" alt="Event" width="900">
 </p>
+
+## Observations
+
+* results align with the vendor's power specifications
+* highly competitive deep-sleep current (~600&thinsp;nA)
+* excessive CPU activity (~750&thinsp;&mu;S) lowers final score
 
 <!-- *** do not edit below this line *** -->
 
