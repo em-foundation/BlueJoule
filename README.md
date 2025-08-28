@@ -67,7 +67,7 @@ A `README` file found in each directory provides additional information about th
 
 ## Scores
 
-We've compiled a pair of **EM&bull;erald** scores for each capture, adssuming a 1&thinsp;s and 10&thinsp;s event cycle in each case.&thinsp; We've also awarded Gold&thinsp;🥇, Silver&thinsp;🥈, and Bronze&thinsp;🥉 medals when merited.
+We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1&thinsp;s and 10&thinsp;s event cycle in each case.&thinsp; We've also awarded Gold&thinsp;🥇, Silver&thinsp;🥈, and Bronze&thinsp;🥉 medals when merited.
 
 > [!IMPORTANT]
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
@@ -122,7 +122,7 @@ To contribute new captures (or to refine existing captures), fork this repositor
 >```
 >From here, you can use `emscope pack -u` to deflate `emscope-capture.zip` files locally as needed.
 
-If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `README.md` file into your new directory, and then modify this file accordingly.
+If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `README.md` file into your new directory, and then modify this file's contents accordingly.
 
 For any technical questions or roadmap suggestions, start a thread on our [discussions](https://github.com/em-foundation/bleadv-captures/discussions/) page.
 
