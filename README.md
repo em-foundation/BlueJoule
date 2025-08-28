@@ -106,7 +106,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 ## Contributing
 
-To contribute new captures (or to refine existing captures), fork this repository and then submit a pull request (PR) for our consideration.&thinsp; Needless to say, we presume prior experience with the [`emscope`](&thinsp;🟢&thinsp;) command-line tool.
+To contribute new captures (or to refine existing captures), fork this repository and then submit a pull request (PR) for our consideration.&thinsp; Needless to say, we presume prior experience with the [`emscope`](https://github.com/em-foundation/emscope) command-line tool.
 
 > [!TIP]
 > Use this command sequence when locally cloning your fork of this repo:
