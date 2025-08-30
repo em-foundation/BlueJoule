@@ -43,5 +43,6 @@
 |:---:|:---:|:---:|:---:|
 | 30.980&thinsp;&mu;J | 50.388&thinsp;&mu;J | 435.354&thinsp;mJ | 183.76 |
 
+<br>
 
 <p align="right"><sub>generated at 2025-08-28T14:15:00.905Z</sub></p>
