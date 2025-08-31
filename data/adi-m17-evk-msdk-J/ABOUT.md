@@ -27,18 +27,16 @@
 |  48.216 µJ | 193.931 µJ |   1.676 J | 47.75 |
 
 <br>
-<p align="right"><sub>generated at 2025-08-31T13:37:56.294Z</sub></p>
+<p align="right"><sub>generated at 2025-08-31T15:40:10.833Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
 
 ## Typical event
 
-
 <p align="center">
-    <img src="adi-m17-evk-msdk-J-event-A.png" alt="Event" width="900">
+    <img src="adi-m17-evk-msdk-J-event-ID.png" alt="Event" width="900">
 </p>
-
 
 ## Observations
 

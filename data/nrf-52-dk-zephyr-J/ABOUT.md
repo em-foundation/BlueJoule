@@ -27,12 +27,16 @@
 |  28.736 µJ |  75.373 µJ | 651.224 mJ | 122.85 |
 
 <br>
-<p align="right"><sub>generated at 2025-08-31T13:16:39.905Z</sub></p>
+<p align="right"><sub>generated at 2025-08-31T15:39:42.583Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
 
 ## Typical event
+
+<p align="center">
+    <img src="nrf-52-dk-zephyr-J-event-ID.png" alt="Event" width="900">
+</p>
 
 ## Observations
 

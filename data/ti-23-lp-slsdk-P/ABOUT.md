@@ -27,12 +27,16 @@
 |  31.672 µJ |  53.255 µJ | 460.120 mJ | 173.87 |
 
 <br>
-<p align="right"><sub>generated at 2025-08-31T13:16:40.679Z</sub></p>
+<p align="right"><sub>generated at 2025-08-31T14:28:24.798Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
 
 ## Typical event
+
+<p align="center">
+    <img src="ti-23-lp-slsdk-P-event-ID.png" alt="Event" width="900">
+</p>
 
 ## Observations
 

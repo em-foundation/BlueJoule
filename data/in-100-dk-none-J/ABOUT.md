@@ -27,12 +27,16 @@
 |  21.189 µJ |  30.177 µJ | 260.725 mJ | 306.84 |
 
 <br>
-<p align="right"><sub>generated at 2025-08-31T13:16:39.647Z</sub></p>
+<p align="right"><sub>generated at 2025-08-31T15:39:38.942Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
 
 ## Typical event
+
+<p align="center">
+    <img src="in-100-dk-none-J-event-ID.png" alt="Event" width="900">
+</p>
 
 ## Observations
 
