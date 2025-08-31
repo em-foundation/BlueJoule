@@ -57,15 +57,12 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 <!-- @catalog-begin -->
 | JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|---|---|
-| [adi-m17-evk-msdk-J](data/adi-m17-evk-msdk-J) | [adi-m17-evk-msdk-P](data/adi-m17-evk-msdk-P) | &emsp; Analog Device MAX32655 · Maxim SDK |
-| [in-100-dk-none-J](data/in-100-dk-none-J) | [in-100-dk-none-P](data/in-100-dk-none-P) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| [nrf-52-dk-zephyr-J](data/nrf-52-dk-zephyr-J) | [nrf-52-dk-zephyr-P](data/nrf-52-dk-zephyr-P) | &emsp; Nordic nRF52832 · Zephyr OS |
-| [nrf-54-dk-bmsdk-J](data/nrf-54-dk-bmsdk-J) |  | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| [nrf-54-dk-zephyr-J](data/nrf-54-dk-zephyr-J) | [nrf-54-dk-zephyr-P](data/nrf-54-dk-zephyr-P) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| [si-g22e-ehk-rail-J](data/si-g22e-ehk-rail-J) | [si-g22e-ehk-rail-P](data/si-g22e-ehk-rail-P) | &emsp; SiLabs EFR32xG22E · RAIL |
-| [ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J) |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| [ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J) | [ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
- |
+| [`adi-m17-evk-msdk-J`](data/adi-m17-evk-msdk-J/) | [`adi-m17-evk-msdk-P`](data/adi-m17-evk-msdk-P/) | &emsp; Analog Device MAX32655 · Maxim SDK|
+| [`in-100-dk-none-J`](data/in-100-dk-none-J/) | [`in-100-dk-none-P`](data/in-100-dk-none-P/) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| [`nrf-52-dk-zephyr-J`](data/nrf-52-dk-zephyr-J/) | [`nrf-52-dk-zephyr-P`](data/nrf-52-dk-zephyr-P/) | &emsp; Nordic nRF52832 · Zephyr OS |
+| [`nrf-54-dk-zephyr-J`](data/nrf-54-dk-zephyr-J/) | [`nrf-54-dk-zephyr-P`](data/nrf-54-dk-zephyr-P/) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| [`ti-23-lp-emsdk-J`](data/ti-23-lp-emsdk-J) | &nbsp; | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| [`ti-23-lp-slsdk-J`](data/ti-23-lp-slsdk-J/ABOUT.md) | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
 An `ABOUT.md` file found in each directory provides additional information about the capture's HW/SW configuration.
