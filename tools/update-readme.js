@@ -40,7 +40,7 @@ function genCatTab() {
             const cn = `${targ}${suf}`
             let about = CAPS.get(cn)
             if (about) {
-                line += `[${cn}](data/${cn})` 
+                line += `[${cn}](data/${cn}/ABOUT.md)` 
                 desc = desc || `&emsp; ${about.match(re)[1]}`
             }
             line += ' | '
@@ -53,10 +53,7 @@ function genCatTab() {
 
 let txt = Fs.readFileSync('README.md', 'utf-8')
 findCaps()
-// console.log(CAPS.keys())
 const ct = genCatTab()
 const RE = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
 txt = txt.replace(RE, ct)
 Fs.writeFileSync('README.md', txt)
-// const out = txt.replace(RE, '1234')
-// console.log(out)
