@@ -36,7 +36,7 @@
 
 
 <p align="center">
-    <img src="<adi-m17-evk-msdk-J-event-A.png" alt="Event" width="900">
+    <img src="adi-m17-evk-msdk-J-event-A.png" alt="Event" width="900">
 </p>
 
 
