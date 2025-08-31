@@ -12,22 +12,22 @@
 
 | supply voltage | &emsp;current (avg)&emsp; | &emsp;current (std)&emsp; | &emsp;average power&emsp;
 |:---:|:---:|:---:|:---:|
-| 3.30 V | 607.320 nA |  14.927 µA |   2.001 µW |
+| 1.80 V |   3.363 µA | 739.156 nA |   6.044 µW |
 
 ### 🟠&ensp;1&thinsp;s event cycle
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per cycle&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  17.043 µJ |  19.044 µJ |   1.645 J | 48.62 |
+|  16.039 µJ |  22.083 µJ |   1.908 J | 41.93 |
 
 ### 🟠&ensp;10&thinsp;s event cycle
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per cycle&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  17.043 µJ |  37.055 µJ | 320.156 mJ | 249.88 |
+|  16.039 µJ |  76.482 µJ | 660.805 mJ | 121.06 |
 
 <br>
-<p align="right"><sub>generated at 2025-08-31T13:16:40.418Z</sub></p>
+<p align="right"><sub>generated at 2025-08-31T13:16:40.163Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
