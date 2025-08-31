@@ -34,13 +34,13 @@ This repository uses **EM&bull;Scope** to benchmark a representative **Bluetooth
 
 ## Application
 
-Repetitve advertising remains a fundamental modality of any Bluetooth Low Energy application.&thinsp; Because of its inherent simplicity, programs illustrating the [BLE broadcaster role](https://novelbits.io/bluetooth-low-energy-advertisements-part-1/) often serve as the "Hello World" within this space.
+Repetitve advertising remains a fundamental capability of any Bluetooth Low Energy application.&thinsp; Because of its inherent simplicity, programs illustrating the [BLE broadcaster role](https://novelbits.io/bluetooth-low-energy-advertisements-part-1/) often serve as the "Hello World" within this space.
 
 Our benchmark will broadcast the same packet on the three standard BLE advertising channels.&thinsp; These transmissions occur back-to-back within a single _advertising event_; and these events will unfold at a 1&thinsp;s _advertising interval_. 
 
 To faciliate "apples-to-apples" comparisons among different platforms, we require the underlying BLE radio to transmit packets at 0&thinsp;dB.&thinsp; A differentiator for HW vendors, TX power consumption in `mW` will often headline their datasheets.
 
-And finally, the BLE advertising packet itself with 17 bytes of payload comprising the following standard data types:
+And finally, the advertising packet itself comprises 17 bytes of payload defined with the following BLE data types:
 
 | Len | Type | Data (hex)                                   | Notes                                         |
 |----:|-----:|----------------------------------------------|-----------------------------------------------|
@@ -48,7 +48,7 @@ And finally, the BLE advertising packet itself with 17 bytes of payload comprisi
 | `0A`  |  `08`  | `42 6C 75 65 4A 6F 75 6C 65`             | Local Name &mdash; `"BlueJoule"`             |
 | `05`  |  `FF`  | `D3 08 FF`                               | Manufacturer &mdash; Company:&thinsp; [Novel Bits](https://novelbits.io/) (`0x08D3`),&thinsp; Data: `0xFF`&emsp; |
 
-When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;Hz event cycle &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
+When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;s event cycle &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
 
 ## Catalog
 
@@ -60,10 +60,10 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | [`in-100-dk-none-J`](data/in-100-dk-none-J/) | [`in-100-dk-none-P`](data/in-100-dk-none-P/) | &emsp; InPlay IN100 · &lt;no software&gt; |
 | [`nrf-52-dk-zephyr-J`](data/nrf-52-dk-zephyr-J/) | [`nrf-52-dk-zephyr-P`](data/nrf-52-dk-zephyr-P/) | &emsp; Nordic nRF52832 · Zephyr OS |
 | [`nrf-54-dk-zephyr-J`](data/nrf-54-dk-zephyr-J/) | [`nrf-54-dk-zephyr-P`](data/nrf-54-dk-zephyr-P/) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| [`ti-23-lp-emsdk-J`](data/ti-23-lp-emsdk-J/) | &nbsp; | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| [`ti-23-lp-slsdk-J`](data/ti-23-lp-slsdk-J/) | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| [`ti-23-lp-emsdk-J`](data/ti-23-lp-emsdk-J) | &nbsp; | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| [`ti-23-lp-slsdk-J`](data/ti-23-lp-slsdk-J/ABOUT.md) | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 
-A `README` file found in each directory provides additional information about the capture's HW/SW configuration.
+An `ABOUT.md` file found in each directory provides additional information about the capture's HW/SW configuration.
 
 ## Scores
 
@@ -74,14 +74,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-> [!TIP]
-> To query the following **JS220** scores, run these commands from the root of this repository:
-> ```
-> emscope view -w 1 --score -C '*-J'
-> emscope view -w 10 --score -C '*-J'
-> ```
-
-| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:01`| EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:10` |
+| &emsp;&emsp;&emsp;&emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
 | [`adi-m17-evk-msdk-J`](data/adi-m17-evk-msdk-J/) | ` 14.75` | ` 47.75` |
 | [`in-100-dk-none-J`](data/in-100-dk-none-J/) | ` 41.92` &emsp; 🥈 | `306.84` &emsp; 🥇 |
@@ -92,14 +85,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-> [!TIP]
-> To query the following **PPK2** scores, run these commands from the root of this repository:
-> ```
-> emscope view -w 1 --score -C '*-P'
-> emscope view -w 10 --score -C '*-P'
-> ```
-
-| PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:01`| EM&thinsp;🟢&thinsp;eralds&thinsp; @&thinsp;`00:00:10` |
+| &emsp;&emsp;&emsp;&emsp;&emsp;PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
 | [`adi-m17-evk-msdk-P`](data/adi-m17-evk-msdk-P/) | ` 14.02` | ` 47.36` |
 | [`in-100-dk-none-P`](data/in-100-dk-none-P/) | ` 43.11` &emsp; 🥈 | `301.01` &emsp; 🥇 |
@@ -107,10 +93,20 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | [`nrf-54-dk-zephyr-P`](data/nrf-54-dk-zephyr-P/) | ` 57.21` &emsp; 🥇 | `153.61` &emsp; 🥉 |
 | [`ti-23-lp-slsdk-P`](data/ti-23-lp-slsdk-P/) | ` 27.37`| `173.87` &emsp; 🥈 |
 
+> [!NOTE]
+> After installing the [`emscope`](https://github.com/em-foundation/emscope) tool, you can retrieve these scores from the command-line as follows:
+> ```
+> emscope view -w 1 --score -C '*-J'
+> emscope view -w 10 --score -C '*-J'
+> 
+> emscope view -w 1 --score -C '*-P'
+> emscope view -w 10 --score -C '*-P'
+> ```
+> The `emscope view` command enables you to query _other_ event cycle scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
 
 ## Contributing
 
-To contribute new captures (or to refine existing captures), fork this repository and then submit a pull request (PR) for our consideration.&thinsp; Needless to say, we presume prior experience with the [`emscope`](&thinsp;🟢&thinsp;) command-line tool.
+To contribute new captures (or to refine existing captures), fork this repository and then submit a pull request (PR) for our consideration.&thinsp; Needless to say, we presume prior experience with the [`emscope`](https://github.com/em-foundation/emscope) command-line tool.
 
 > [!TIP]
 > Use this command sequence when locally cloning your fork of this repo:
@@ -122,8 +118,8 @@ To contribute new captures (or to refine existing captures), fork this repositor
 >```
 >From here, you can use `emscope pack -u` to deflate `emscope-capture.zip` files locally as needed.
 
-If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `README.md` file into your new directory, and then modify this file's contents accordingly.
+If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `ABOUT.md` file into your new directory, and then modify this file's contents accordingly.
 
-For any technical questions or roadmap suggestions, start a thread on our [discussions](https://github.com/em-foundation/bleadv-data/discussions/) page.
+For any technical questions or roadmap suggestions, create a new thread on our [discussions](https://github.com/em-foundation/bleadv-data/discussions/) page.
 
 
