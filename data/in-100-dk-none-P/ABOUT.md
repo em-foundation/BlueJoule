@@ -1,5 +1,5 @@
 
-<h1 align="center">Hardware Platform · Software Environment</h1>
+<h1 align="center">InPlay IN100 · &lt;no software&gt;</h1>
 
 ## HW/SW configuration
 

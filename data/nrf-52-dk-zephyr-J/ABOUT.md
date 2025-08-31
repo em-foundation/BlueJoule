@@ -1,5 +1,5 @@
 
-<h1 align="center">Hardware Platform · Software Environment</h1>
+<h1 align="center">Nordic nRF52832 · Zephyr OS</h1>
 
 ## HW/SW configuration
 

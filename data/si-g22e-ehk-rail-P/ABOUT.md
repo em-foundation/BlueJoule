@@ -1,5 +1,5 @@
 
-<h1 align="center">Hardware Platform · Software Environment</h1>
+<h1 align="center">SiLabs EFR32xG22E · RAIL</h1>
 
 ## HW/SW configuration
 
