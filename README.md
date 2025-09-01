@@ -85,9 +85,6 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 <!-- @medal|nrf-54-dk-zephyr-P  |G|B| -->
 <!-- @medal|ti-23-lp-slsdk-P    |N|S| -->
 
-
-ti-23-lp-emsdk-J
-
 <!-- @scores-begin -->
 
 <br>
@@ -119,15 +116,11 @@ ti-23-lp-emsdk-J
 <!-- @scores-end -->
 
 > [!NOTE]
-> After installing the [`emscope`](https://github.com/em-foundation/emscope) tool, you can retrieve these scores from the command-line as follows:
-> ```
-> emscope view -w 1 --score -C '*-J'
-> emscope view -w 10 --score -C '*-J'
-> 
-> emscope view -w 1 --score -C '*-P'
-> emscope view -w 10 --score -C '*-P'
-> ```
-> The `emscope view` command enables you to query _other_ event cycle scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
+> By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per cycle:
+>
+><p align="center"><b><sup>EM•eralds = 2400 / (<i>Joules per day</i> * 30) = 800 / <i>Joules per day</i><br>CR2032 energy:&nbsp; 225 mAh × 3.6 × 3.0 V ≈ 2.43 kJ<br>1 EM•erald ≈ 1 CR2032-month</sup></b></p>
+>
+> Consider installing the [`emscope`](https://github.com/em-foundation/emscope) tool.&thinsp; You can then query _other_ event cycle scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
 
 ## Contributing
 
