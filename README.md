@@ -67,7 +67,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | [ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | [ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
-An `ABOUT.md` file found in each directory provides additional information about the capture's HW/SW configuration.
+An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.
 
 ## Scores
 
