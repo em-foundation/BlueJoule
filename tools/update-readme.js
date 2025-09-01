@@ -73,7 +73,7 @@ function genScoreTab(aname) {
     for (const [k, v] of CAPS) {
         if (!(k.endsWith(pre))) continue
         const [ems1, ems10] = getEmeralds(v)
-        let line = `| [${k}](data/${k}/ABOUT.md) | &emsp;&emsp;${ems1} | &emsp;&emsp;${ems10} |`
+        let line = `| [${k}](data/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ} | &emsp;${BQ}${ems10}${BQ} |`
         getEmeralds(v)
         res += `${line}\n`
     }
@@ -96,11 +96,11 @@ function getEmeralds(about) {
                     break
                 case 1:
                     state = 2
-                    ems1 = (ln.split('|')[4])
+                    ems1 = (ln.split('|')[4]).trim()
                     break
                 case 2:
-                    ems10 = (ln.split('|')[4])
-                    return [ems1, ems10]
+                    ems10 = (ln.split('|')[4]).trim()
+                    return [ems1.padStart(7, ' '), ems10.padStart(7, ' ')]
             }
         }
     }
