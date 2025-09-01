@@ -95,7 +95,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-| PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
+| PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
 | &emsp;[adi-m17-evk-msdk-P](data/adi-m17-evk-msdk-P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
 | &emsp;[in-100-dk-none-P](data/in-100-dk-none-P/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |

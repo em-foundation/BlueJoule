@@ -65,7 +65,7 @@ ${genScoreTab('PPK2')}
 
 function genScoreTab(aname) {
     const pre = `-${aname[0]}`
-    const pad = aname[0] == 'P' ? '&emsp;' : ''
+    const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     let res = `<br>
 
 | ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} event cycle |
