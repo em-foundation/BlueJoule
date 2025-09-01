@@ -7,6 +7,8 @@ const Path = require('node:path')
 const CAPS = new Map()
 const TARGS = new Set()
 
+const BQ = '`'
+
 /*
 for (const de of Fs.readdirSync('data')) {
     const about = Fs.readFileSync(Path.join('data', de, 'ABOUT.md'), 'utf-8')
@@ -26,7 +28,7 @@ function findCaps() {
     }
 }
 
-function genCatTab() {
+function genCatalog() {
     let res =
 `<!-- @catalog-begin -->
 | JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
@@ -51,9 +53,65 @@ function genCatTab() {
     return `${res} |\n<!-- @catalog-end -->`
 }
 
+function genScores() {
+    return `<!-- @scores-begin -->
+
+${genScoreTab('JS220')}
+
+${genScoreTab('PPK2')}
+
+<!-- @scores-end -->`
+}
+
+function genScoreTab(aname) {
+    const pre = `-${aname[0]}`
+    let res = `<br>
+
+| &emsp;&emsp;&emsp;&emsp;&emsp;${aname} Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} event cycle |
+|---|---|---|
+`
+    for (const [k, v] of CAPS) {
+        if (!(k.endsWith(pre))) continue
+        const [ems1, ems10] = getEmeralds(v)
+        let line = `| [${k}](data/${k}/ABOUT.md) | &emsp;&emsp;${ems1} | &emsp;&emsp;${ems10} |`
+        getEmeralds(v)
+        res += `${line}\n`
+    }
+    return res
+}
+
+function getEmeralds(about) {
+    let state = -1
+    let ems1
+    let ems10
+    for (const ln of about.split('\n')) {
+        if (state < 0) {
+            state = ln.startsWith('<!-- @emscope-pack:start -->') ? 0 : -1
+            continue
+        }
+        if (ln.match(/^\|\s*\d/)) {
+            switch (state) {
+                case 0:
+                    state = 1
+                    break
+                case 1:
+                    state = 2
+                    ems1 = (ln.split('|')[4])
+                    break
+                case 2:
+                    ems10 = (ln.split('|')[4])
+                    return [ems1, ems10]
+            }
+        }
+    }
+}
+
 let txt = Fs.readFileSync('README.md', 'utf-8')
 findCaps()
-const ct = genCatTab()
-const RE = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
-txt = txt.replace(RE, ct)
+const catalog = genCatalog()
+const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
+txt = txt.replace(RE_CAT, catalog)
+const scores = genScores()
+const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
+txt = txt.replace(RE_SCO, scores)
 Fs.writeFileSync('README.md', txt)
