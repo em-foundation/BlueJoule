@@ -50,7 +50,7 @@ function genCatalog() {
         line += `${desc} |\n`
         res += line
     }
-    return `${res} |\n<!-- @catalog-end -->`
+    return `${res}<!-- @catalog-end -->`
 }
 
 function genScores() {

@@ -65,7 +65,6 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | [si-g22e-ehk-rail-J](data/si-g22e-ehk-rail-J/ABOUT.md) | [si-g22e-ehk-rail-P](data/si-g22e-ehk-rail-P/ABOUT.md) | &emsp; SiLabs EFR32xG22E · RAIL |
 | [ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J/ABOUT.md) |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
 | [ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | [ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
- |
 <!-- @catalog-end -->
 
 An `ABOUT.md` file found in each directory provides additional information about the capture's HW/SW configuration.
