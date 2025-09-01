@@ -76,6 +76,18 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 > [!IMPORTANT]
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
 
+<!-- @medal|in-100-dk-none-J    |S|G| -->
+<!-- @medal|nrf-54-dk-zephyr-J  |S|N| -->
+<!-- @medal|ti-23-lp-emsdk-J    |G|S| -->
+<!-- @medal|ti-23-lp-slsdk-J    |N|B| -->
+
+<!-- @medal|in-100-dk-none-P    |S|G| -->
+<!-- @medal|nrf-54-dk-zephyr-P  |G|B| -->
+<!-- @medal|ti-23-lp-slsdk-P    |N|S| -->
+
+
+ti-23-lp-emsdk-J
+
 <!-- @scores-begin -->
 
 <br>
@@ -83,13 +95,13 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
 | &emsp;[adi-m17-evk-msdk-J](data/adi-m17-evk-msdk-J/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
-| &emsp;[in-100-dk-none-J](data/in-100-dk-none-J/ABOUT.md) | &emsp;`  41.92` | &emsp;` 306.84` |
+| &emsp;[in-100-dk-none-J](data/in-100-dk-none-J/ABOUT.md) | &emsp;`  41.92` &emsp; 🥈 | &emsp;` 306.84` &emsp; 🥇 |
 | &emsp;[nrf-52-dk-zephyr-J](data/nrf-52-dk-zephyr-J/ABOUT.md) | &emsp;`  27.72` | &emsp;` 122.85` |
 | &emsp;[nrf-54-dk-bmsdk-J](data/nrf-54-dk-bmsdk-J/ABOUT.md) | &emsp;`  33.64` | &emsp;`  89.74` |
-| &emsp;[nrf-54-dk-zephyr-J](data/nrf-54-dk-zephyr-J/ABOUT.md) | &emsp;`  41.93` | &emsp;` 121.06` |
+| &emsp;[nrf-54-dk-zephyr-J](data/nrf-54-dk-zephyr-J/ABOUT.md) | &emsp;`  41.93` &emsp; 🥈 | &emsp;` 121.06` |
 | &emsp;[si-g22e-ehk-rail-J](data/si-g22e-ehk-rail-J/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
-| &emsp;[ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
-| &emsp;[ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` |
+| &emsp;[ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J/ABOUT.md) | &emsp;`  48.62` &emsp; 🥇 | &emsp;` 249.88` &emsp; 🥈 |
+| &emsp;[ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` &emsp; 🥉 |
 
 
 <br>
@@ -97,11 +109,11 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
 | &emsp;[adi-m17-evk-msdk-P](data/adi-m17-evk-msdk-P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
-| &emsp;[in-100-dk-none-P](data/in-100-dk-none-P/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |
+| &emsp;[in-100-dk-none-P](data/in-100-dk-none-P/ABOUT.md) | &emsp;`  43.11` &emsp; 🥈 | &emsp;` 301.01` &emsp; 🥇 |
 | &emsp;[nrf-52-dk-zephyr-P](data/nrf-52-dk-zephyr-P/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
-| &emsp;[nrf-54-dk-zephyr-P](data/nrf-54-dk-zephyr-P/ABOUT.md) | &emsp;`  57.21` | &emsp;` 153.61` |
+| &emsp;[nrf-54-dk-zephyr-P](data/nrf-54-dk-zephyr-P/ABOUT.md) | &emsp;`  57.21` &emsp; 🥇 | &emsp;` 153.61` &emsp; 🥉 |
 | &emsp;[si-g22e-ehk-rail-P](data/si-g22e-ehk-rail-P/ABOUT.md) | &emsp;`  31.92` | &emsp;`  92.80` |
-| &emsp;[ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` |
+| &emsp;[ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` &emsp; 🥈 |
 
 
 <!-- @scores-end -->

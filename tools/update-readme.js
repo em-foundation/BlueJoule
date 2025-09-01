@@ -5,19 +5,11 @@ const Fs = require('node:fs')
 const Path = require('node:path')
 
 const CAPS = new Map()
+const MEDALS_1 = new Map()
+const MEDALS_10 = new Map()
 const TARGS = new Set()
 
 const BQ = '`'
-
-/*
-for (const de of Fs.readdirSync('data')) {
-    const about = Fs.readFileSync(Path.join('data', de, 'ABOUT.md'), 'utf-8')
-    const re = /<h1\b[^>]*>(.*?)<\/h1>/is
-    const m = about.match(re)
-    if (!m) continue
-    if (de.endsWith('-J') || de.endsWith('-P')) {}
-}
-*/
 
 function findCaps() {
     for (const de of Fs.readdirSync('data')) {
@@ -25,6 +17,22 @@ function findCaps() {
         const about = Fs.readFileSync(Path.join('data', de, 'ABOUT.md'), 'utf-8')
         CAPS.set(de, about)
         TARGS.add(de.slice(0, de.length - 2))
+    }
+}
+
+function findMedals(txt) {
+    for (const ln of txt.split('\n')) {
+        if (!ln.startsWith('<!-- @medal|')) continue
+        const flds = ln.split('|')
+        const cn = flds[1].trim()
+        const m1 = flds[2]
+        const m10 = flds[3]
+        if (isMedal(m1)) {
+            MEDALS_1.set(cn, m1)
+        }
+        if (isMedal(m10)) {
+            MEDALS_10.set(cn, m10)
+        }
     }
 }
 
@@ -74,7 +82,9 @@ function genScoreTab(aname) {
     for (const [k, v] of CAPS) {
         if (!(k.endsWith(pre))) continue
         const [ems1, ems10] = getEmeralds(v)
-        let line = `| &emsp;[${k}](data/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ} | &emsp;${BQ}${ems10}${BQ} |`
+        const m1 = mkMedal(MEDALS_1, k)
+        const m10 = mkMedal(MEDALS_10, k)
+        let line = `| &emsp;[${k}](data/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ}${m1} | &emsp;${BQ}${ems10}${BQ}${m10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
@@ -107,8 +117,22 @@ function getEmeralds(about) {
     }
 }
 
-let txt = Fs.readFileSync('README.md', 'utf-8')
+function isMedal(s) {
+    return s == 'G' || s == 'S' || s == 'B'
+}
+
+function mkMedal(map, cn) {
+    switch (map.get(cn)) {
+        case 'G': return ' &emsp; 🥇'
+        case 'S': return ' &emsp; 🥈'
+        case 'B': return ' &emsp; 🥉'
+        default: return ''
+    }
+}
+
 findCaps()
+let txt = Fs.readFileSync('README.md', 'utf-8')
+findMedals(txt)
 const catalog = genCatalog()
 const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
 txt = txt.replace(RE_CAT, catalog)
