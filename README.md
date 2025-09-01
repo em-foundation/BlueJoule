@@ -30,7 +30,7 @@
 
 <br>
 
-This repository uses **EM&bull;Scope** to benchmark a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope) project to learn more about the **EM&bull;Scope** tool itself.
+This repository uses **EM&bull;Scope** to benchmark a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope/blob/main/README.md) project to learn more about the **EM&bull;Scope** tool itself.
 
 ## Application
 
@@ -40,19 +40,19 @@ Our benchmark will broadcast the same packet on the three standard BLE advertisi
 
 To faciliate "apples-to-apples" comparisons among different platforms, we require the underlying BLE radio to transmit packets at 0&thinsp;dB.&thinsp; A differentiator for HW vendors, TX power consumption in `mW` will often headline their datasheets.
 
-And finally, the advertising packet itself comprises 17 bytes of payload defined with the following BLE data types:
+And finally, the advertising packet itself comprises 19 bytes of payload defined with the following BLE data types:
 
 | Len | Type | Data (hex)                                   | Notes                                         |
 |----:|-----:|----------------------------------------------|-----------------------------------------------|
 | `02`  |  `01`  | `06`                                     | Flags &mdash; LE General Disc + BR/EDR not supported      |
 | `0A`  |  `08`  | `42 6C 75 65 4A 6F 75 6C 65`             | Local Name &mdash; `"BlueJoule"`             |
-| `05`  |  `FF`  | `D3 08 FF`                               | Manufacturer &mdash; Company:&thinsp; [Novel Bits](https://novelbits.io/) (`0x08D3`),&thinsp; Data: `0xFF`&emsp; |
+| `04`  |  `FF`  | `D3 08 FF`                               | Manufacturer &mdash; Company:&thinsp; [Novel Bits](https://novelbits.io/) (`0x08D3`),&thinsp; Data: `0xFF`&emsp; |
 
 When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;s event cycle &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
 
 ## Catalog
 
-This repository houses the following curated **EM&bull;Scope** capture directories &ndash; each initially populated by the `emscope grab` command with either its `-J, --js220` or `-P, --ppk2` option:
+This repository houses the following curated **EM&bull;Scope** capture directories &ndash; each initially populated using the `emscope grab` command with either its `-J, --js220` or `-P, --ppk2` option:
 
 <!-- @catalog-begin -->
 | JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
