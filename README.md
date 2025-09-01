@@ -81,28 +81,28 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-| &emsp;&emsp;&emsp;&emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
+| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
-| [adi-m17-evk-msdk-J](data/adi-m17-evk-msdk-J/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
-| [in-100-dk-none-J](data/in-100-dk-none-J/ABOUT.md) | &emsp;`  41.92` | &emsp;` 306.84` |
-| [nrf-52-dk-zephyr-J](data/nrf-52-dk-zephyr-J/ABOUT.md) | &emsp;`  27.72` | &emsp;` 122.85` |
-| [nrf-54-dk-bmsdk-J](data/nrf-54-dk-bmsdk-J/ABOUT.md) | &emsp;`  33.64` | &emsp;`  89.74` |
-| [nrf-54-dk-zephyr-J](data/nrf-54-dk-zephyr-J/ABOUT.md) | &emsp;`  41.93` | &emsp;` 121.06` |
-| [si-g22e-ehk-rail-J](data/si-g22e-ehk-rail-J/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
-| [ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
-| [ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` |
+| &emsp;[adi-m17-evk-msdk-J](data/adi-m17-evk-msdk-J/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
+| &emsp;[in-100-dk-none-J](data/in-100-dk-none-J/ABOUT.md) | &emsp;`  41.92` | &emsp;` 306.84` |
+| &emsp;[nrf-52-dk-zephyr-J](data/nrf-52-dk-zephyr-J/ABOUT.md) | &emsp;`  27.72` | &emsp;` 122.85` |
+| &emsp;[nrf-54-dk-bmsdk-J](data/nrf-54-dk-bmsdk-J/ABOUT.md) | &emsp;`  33.64` | &emsp;`  89.74` |
+| &emsp;[nrf-54-dk-zephyr-J](data/nrf-54-dk-zephyr-J/ABOUT.md) | &emsp;`  41.93` | &emsp;` 121.06` |
+| &emsp;[si-g22e-ehk-rail-J](data/si-g22e-ehk-rail-J/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
+| &emsp;[ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
+| &emsp;[ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` |
 
 
 <br>
 
-| &emsp;&emsp;&emsp;&emsp;&emsp;PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
+| PPK2 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
-| [adi-m17-evk-msdk-P](data/adi-m17-evk-msdk-P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
-| [in-100-dk-none-P](data/in-100-dk-none-P/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |
-| [nrf-52-dk-zephyr-P](data/nrf-52-dk-zephyr-P/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
-| [nrf-54-dk-zephyr-P](data/nrf-54-dk-zephyr-P/ABOUT.md) | &emsp;`  57.21` | &emsp;` 153.61` |
-| [si-g22e-ehk-rail-P](data/si-g22e-ehk-rail-P/ABOUT.md) | &emsp;`  31.92` | &emsp;`  92.80` |
-| [ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` |
+| &emsp;[adi-m17-evk-msdk-P](data/adi-m17-evk-msdk-P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
+| &emsp;[in-100-dk-none-P](data/in-100-dk-none-P/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |
+| &emsp;[nrf-52-dk-zephyr-P](data/nrf-52-dk-zephyr-P/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
+| &emsp;[nrf-54-dk-zephyr-P](data/nrf-54-dk-zephyr-P/ABOUT.md) | &emsp;`  57.21` | &emsp;` 153.61` |
+| &emsp;[si-g22e-ehk-rail-P](data/si-g22e-ehk-rail-P/ABOUT.md) | &emsp;`  31.92` | &emsp;`  92.80` |
+| &emsp;[ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` |
 
 
 <!-- @scores-end -->

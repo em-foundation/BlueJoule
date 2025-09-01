@@ -65,15 +65,16 @@ ${genScoreTab('PPK2')}
 
 function genScoreTab(aname) {
     const pre = `-${aname[0]}`
+    const pad = aname[0] == 'P' ? '&emsp;' : ''
     let res = `<br>
 
-| &emsp;&emsp;&emsp;&emsp;&emsp;${aname} Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} event cycle |
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} event cycle |
 |---|---|---|
 `
     for (const [k, v] of CAPS) {
         if (!(k.endsWith(pre))) continue
         const [ems1, ems10] = getEmeralds(v)
-        let line = `| [${k}](data/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ} | &emsp;${BQ}${ems10}${BQ} |`
+        let line = `| &emsp;[${k}](data/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ} | &emsp;${BQ}${ems10}${BQ} |`
         getEmeralds(v)
         res += `${line}\n`
     }
