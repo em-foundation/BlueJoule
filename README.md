@@ -53,14 +53,14 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 <!-- @catalog-begin -->
 | JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|---|---|
-| [adi-m17-evk-msdk-J](data/adi-m17-evk-msdk-J/ABOUT.md) | [adi-m17-evk-msdk-P](data/adi-m17-evk-msdk-P/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
-| [in-100-dk-none-J](data/in-100-dk-none-J/ABOUT.md) | [in-100-dk-none-P](data/in-100-dk-none-P/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| [nrf-52-dk-zephyr-J](data/nrf-52-dk-zephyr-J/ABOUT.md) | [nrf-52-dk-zephyr-P](data/nrf-52-dk-zephyr-P/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
-| [nrf-54-dk-bmsdk-J](data/nrf-54-dk-bmsdk-J/ABOUT.md) |  | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| [nrf-54-dk-zephyr-J](data/nrf-54-dk-zephyr-J/ABOUT.md) | [nrf-54-dk-zephyr-P](data/nrf-54-dk-zephyr-P/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| [si-g22e-ehk-rail-J](data/si-g22e-ehk-rail-J/ABOUT.md) | [si-g22e-ehk-rail-P](data/si-g22e-ehk-rail-P/ABOUT.md) | &emsp; SiLabs EFR32xG22E · RAIL |
-| [ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J/ABOUT.md) |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| [ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | [ti-23-lp-slsdk-P](data/ti-23-lp-slsdk-P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| [adi-m17-evk-msdk-J](captures/adi-m17-evk-msdk-J/ABOUT.md) | [adi-m17-evk-msdk-P](captures/adi-m17-evk-msdk-P/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
+| [in-100-dk-none-J](captures/in-100-dk-none-J/ABOUT.md) | [in-100-dk-none-P](captures/in-100-dk-none-P/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| [nrf-52-dk-zephyr-J](captures/nrf-52-dk-zephyr-J/ABOUT.md) | [nrf-52-dk-zephyr-P](captures/nrf-52-dk-zephyr-P/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
+| [nrf-54-dk-bmsdk-J](captures/nrf-54-dk-bmsdk-J/ABOUT.md) |  | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| [nrf-54-dk-zephyr-J](captures/nrf-54-dk-zephyr-J/ABOUT.md) | [nrf-54-dk-zephyr-P](captures/nrf-54-dk-zephyr-P/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| [si-g22e-ehk-rail-J](captures/si-g22e-ehk-rail-J/ABOUT.md) | [si-g22e-ehk-rail-P](captures/si-g22e-ehk-rail-P/ABOUT.md) | &emsp; SiLabs EFR32xG22E · RAIL |
+| [ti-23-lp-emsdk-J](captures/ti-23-lp-emsdk-J/ABOUT.md) |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| [ti-23-lp-slsdk-J](captures/ti-23-lp-slsdk-J/ABOUT.md) | [ti-23-lp-slsdk-P](captures/ti-23-lp-slsdk-P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.

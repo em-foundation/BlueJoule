@@ -10,11 +10,12 @@ const MEDALS_10 = new Map()
 const TARGS = new Set()
 
 const BQ = '`'
+const CAPDIR = 'captures'
 
 function findCaps() {
-    for (const de of Fs.readdirSync('captures')) {
+    for (const de of Fs.readdirSync(CAPDIR)) {
         if (!de.endsWith('-J') && !de.endsWith('-P')) continue
-        const about = Fs.readFileSync(Path.join('data', de, 'ABOUT.md'), 'utf-8')
+        const about = Fs.readFileSync(Path.join(CAPDIR, de, 'ABOUT.md'), 'utf-8')
         CAPS.set(de, about)
         TARGS.add(de.slice(0, de.length - 2))
     }
@@ -50,7 +51,7 @@ function genCatalog() {
             const cn = `${targ}${suf}`
             let about = CAPS.get(cn)
             if (about) {
-                line += `[${cn}](data/${cn}/ABOUT.md)` 
+                line += `[${cn}](${CAPDIR}/${cn}/ABOUT.md)` 
                 desc = desc || `&emsp; ${about.match(re)[1]}`
             }
             line += ' | '
