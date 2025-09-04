@@ -12,7 +12,7 @@ const TARGS = new Set()
 const BQ = '`'
 
 function findCaps() {
-    for (const de of Fs.readdirSync('data')) {
+    for (const de of Fs.readdirSync('captures')) {
         if (!de.endsWith('-J') && !de.endsWith('-P')) continue
         const about = Fs.readFileSync(Path.join('data', de, 'ABOUT.md'), 'utf-8')
         CAPS.set(de, about)
