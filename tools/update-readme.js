@@ -14,10 +14,12 @@ const CAPDIR = 'captures'
 
 function findCaps() {
     for (const de of Fs.readdirSync(CAPDIR)) {
-        if (!de.endsWith('-J') && !de.endsWith('-P')) continue
-        const about = Fs.readFileSync(Path.join(CAPDIR, de, 'ABOUT.md'), 'utf-8')
-        CAPS.set(de, about)
-        TARGS.add(de.slice(0, de.length - 2))
+        if (de.endsWith('__J') || de.endsWith('__P')) {
+            const about = Fs.readFileSync(Path.join(CAPDIR, de, 'ABOUT.md'), 'utf-8')
+            CAPS.set(de, about)
+            TARGS.add(de.slice(0, de.length - 3))
+            continue
+        }
     }
 }
 
@@ -47,7 +49,7 @@ function genCatalog() {
         let line = '| '
         let desc = undefined
         const re = /<h1\b[^>]*>(.*?)<\/h1>/is
-        for (const suf of ['-J', '-P']) {
+        for (const suf of ['__J', '__P']) {
             const cn = `${targ}${suf}`
             let about = CAPS.get(cn)
             if (about) {
