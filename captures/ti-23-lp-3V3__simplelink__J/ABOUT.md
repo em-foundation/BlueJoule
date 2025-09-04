@@ -42,7 +42,7 @@
 ## Typical event
 
 <p align="center">
-    <img src="ti-23-lp-3V3__simplelink__J-event-B.png" alt="Event" width="900">
+    <img src="event-B.png" alt="Event" width="900">
 </p>
 
 ## Observations
