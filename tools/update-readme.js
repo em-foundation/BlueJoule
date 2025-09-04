@@ -37,6 +37,7 @@ function findMedals(txt) {
             MEDALS_10.set(cn, m10)
         }
     }
+    console.log(MEDALS_1)
 }
 
 function genCatalog() {
@@ -75,7 +76,7 @@ ${genScoreTab('PPK2')}
 }
 
 function genScoreTab(aname) {
-    const pre = `-${aname[0]}`
+    const pre = `__${aname[0]}`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     let res = `<br>
 
