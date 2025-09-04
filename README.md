@@ -59,7 +59,6 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | [nrf-54-dk-bmsdk-J](captures/nrf-54-dk-bmsdk-J/ABOUT.md) |  | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
 | [nrf-54-dk-zephyr-J](captures/nrf-54-dk-zephyr-J/ABOUT.md) | [nrf-54-dk-zephyr-P](captures/nrf-54-dk-zephyr-P/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
 | [si-g22e-ehk-rail-J](captures/si-g22e-ehk-rail-J/ABOUT.md) | [si-g22e-ehk-rail-P](captures/si-g22e-ehk-rail-P/ABOUT.md) | &emsp; SiLabs EFR32xG22E · RAIL |
-| [ti-23-lp-emsdk-J](captures/ti-23-lp-emsdk-J/ABOUT.md) |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
 | [ti-23-lp-slsdk-J](captures/ti-23-lp-slsdk-J/ABOUT.md) | [ti-23-lp-slsdk-P](captures/ti-23-lp-slsdk-P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
@@ -93,7 +92,6 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | &emsp;[nrf-54-dk-bmsdk-J](data/nrf-54-dk-bmsdk-J/ABOUT.md) | &emsp;`  33.64` | &emsp;`  89.74` |
 | &emsp;[nrf-54-dk-zephyr-J](data/nrf-54-dk-zephyr-J/ABOUT.md) | &emsp;`  41.93` &emsp; 🥈 | &emsp;` 121.06` |
 | &emsp;[si-g22e-ehk-rail-J](data/si-g22e-ehk-rail-J/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
-| &emsp;[ti-23-lp-emsdk-J](data/ti-23-lp-emsdk-J/ABOUT.md) | &emsp;`  48.62` &emsp; 🥇 | &emsp;` 249.88` &emsp; 🥈 |
 | &emsp;[ti-23-lp-slsdk-J](data/ti-23-lp-slsdk-J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` &emsp; 🥉 |
 
 
