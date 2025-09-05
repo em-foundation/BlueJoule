@@ -44,7 +44,7 @@ And finally, the advertising packet itself comprises 19 bytes of payload defined
 | `0A`  |  `08`  | `42 6C 75 65 4A 6F 75 6C 65`             | Local Name &mdash; `"BlueJoule"`             |
 | `04`  |  `FF`  | `D3 08 FF`                               | Manufacturer &mdash; Company:&thinsp; [Novel Bits](https://novelbits.io/) (`0x08D3`),&thinsp; Data: `0xFF`&emsp; |
 
-When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;s event cycle &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
+When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 1&thinsp;s event period &ndash; we presume that the application has entered some "deep-sleep" mode to minimize power consumption.
 
 ## Catalog
 
@@ -67,7 +67,7 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 
 ## Scores
 
-We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1&thinsp;s and 10&thinsp;s event cycle in each case.&thinsp; We've also awarded Gold&thinsp;🥇, Silver&thinsp;🥈, and Bronze&thinsp;🥉 medals when merited.
+We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1&thinsp;s and 10&thinsp;s event period in each case.&thinsp; We've also awarded Gold&thinsp;🥇, Silver&thinsp;🥈, and Bronze&thinsp;🥉 medals when merited.
 
 > [!IMPORTANT]
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
@@ -84,7 +84,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
+| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event period |
 |---|---|---|
 | &emsp;[adi-m17-evk-msdk__J](data/adi-m17-evk-msdk__J/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
 | &emsp;[in-100-dk-none__J](data/in-100-dk-none__J/ABOUT.md) | &emsp;`  41.92` &emsp; 🥈 | &emsp;` 306.84` &emsp; 🥇 |
@@ -97,7 +97,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-| PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
+| PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event period |
 |---|---|---|
 | &emsp;[adi-m17-evk-msdk__P](data/adi-m17-evk-msdk__P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
 | &emsp;[in-100-dk-none__P](data/in-100-dk-none__P/ABOUT.md) | &emsp;`  43.11` &emsp; 🥈 | &emsp;` 301.01` &emsp; 🥇 |
@@ -110,11 +110,11 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 <!-- @scores-end -->
 
 > [!NOTE]
-> By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per cycle:
+> By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per period:
 >
 ><p align="center"><b><sup>EM•eralds = 2400 / (<i>Joules per day</i> * 30) = 800 / <i>Joules per day</i><br>CR2032 energy:&nbsp; 225 mAh × 3.6 × 3.0 V ≈ 2.43 kJ<br>1 EM•erald ≈ 1 CR2032-month</sup></b></p>
 >
-> Consider installing the [`emscope`](https://github.com/em-foundation/emscope) tool.&thinsp; You can then query _other_ event cycle scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
+> Consider installing the [`emscope`](https://github.com/em-foundation/emscope) tool.&thinsp; You can then query _other_ event period scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
 
 ## Contributing
 
