@@ -1,0 +1,19 @@
+span:
+    offset: 0
+    width: 3000000
+events:
+    -
+        offset: 978500
+        width: 2000
+    -
+        offset: 1978500
+        width: 2000
+    -
+        offset: 2978500
+        width: 2000
+sleep:
+    avg: 5.847986320063614e-7
+    std: 0.000018552470409147478
+    p95: 6.630290840803355e-7
+    'off': 8000
+options: []
