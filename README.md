@@ -84,7 +84,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event period |
+| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` period |
 |---|---|---|
 | &emsp;[adi-m17-evk-msdk__J](data/adi-m17-evk-msdk__J/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
 | &emsp;[in-100-dk-none__J](data/in-100-dk-none__J/ABOUT.md) | &emsp;`  41.92` &emsp; 🥈 | &emsp;` 306.84` &emsp; 🥇 |
@@ -97,7 +97,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <br>
 
-| PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event period |
+| PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` period |
 |---|---|---|
 | &emsp;[adi-m17-evk-msdk__P](data/adi-m17-evk-msdk__P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
 | &emsp;[in-100-dk-none__P](data/in-100-dk-none__P/ABOUT.md) | &emsp;`  43.11` &emsp; 🥈 | &emsp;` 301.01` &emsp; 🥇 |
