@@ -1,5 +1,5 @@
 
-<h1 align="center">SiLabs EFR32xG22E · RAIL</h1>
+<h1 align="center">SiLabs EFR32xG22E · Simplicity (RAIL)</h1>
 
 ## HW/SW configuration
 
@@ -35,7 +35,7 @@
 ## Typical event
 
 <p align="center">
-    <img src="si-g22e-ehk-rail-P-event-ID.png" alt="Event" width="900">
+    <img src="event-B.png" alt="Event" width="900">
 </p>
 
 ## Observations

@@ -35,7 +35,7 @@
 ## Typical event
 
 <p align="center">
-    <img src="nrf-54-dk-zephyr-P-event-ID.png" alt="Event" width="900">
+    <img src="event-C.png" alt="Event" width="900">
 </p>
 
 ## Observations

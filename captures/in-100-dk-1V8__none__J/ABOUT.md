@@ -35,7 +35,7 @@
 ## Typical event
 
 <p align="center">
-    <img src="in-100-dk-none-J-event-ID.png" alt="Event" width="900">
+    <img src="event-B.png" alt="Event" width="900">
 </p>
 
 ## Observations
