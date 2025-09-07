@@ -87,7 +87,7 @@ function genScoreTab(aname) {
         const [ems1, ems10] = getEmeralds(v)
         const m1 = mkMedal(MEDALS_1, k)
         const m10 = mkMedal(MEDALS_10, k)
-        let line = `| &emsp;[${k}](data/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ}${m1} | &emsp;${BQ}${ems10}${BQ}${m10} |`
+        let line = `| &emsp;[${k}](captures/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ}${m1} | &emsp;${BQ}${ems10}${BQ}${m10} |`
         getEmeralds(v)
         res += `${line}\n`
     }

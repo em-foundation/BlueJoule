@@ -91,38 +91,38 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
-| &emsp;[adi-m17-evk__msdk__J](data/adi-m17-evk__msdk__J/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
-| &emsp;[in-100-dk-1V8__none__J](data/in-100-dk-1V8__none__J/ABOUT.md) | &emsp;`  41.92` | &emsp;` 306.84` |
-| &emsp;[in-100-dk__none__J](data/in-100-dk__none__J/ABOUT.md) | &emsp;`  22.85` | &emsp;` 155.14` |
-| &emsp;[nrf-52-dk__zephyr__J](data/nrf-52-dk__zephyr__J/ABOUT.md) | &emsp;`  27.72` | &emsp;` 122.85` |
-| &emsp;[nrf-54-dk-1V8__baremetal__J](data/nrf-54-dk-1V8__baremetal__J/ABOUT.md) | &emsp;`  33.64` | &emsp;`  89.74` |
-| &emsp;[nrf-54-dk-1V8__zephyr__J](data/nrf-54-dk-1V8__zephyr__J/ABOUT.md) | &emsp;`  41.93` | &emsp;` 121.06` |
-| &emsp;[nrf-54-dk__baremetal__J](data/nrf-54-dk__baremetal__J/ABOUT.md) | &emsp;`  27.09` | &emsp;`  64.82` |
-| &emsp;[nrf-54-dk__zephyr__J](data/nrf-54-dk__zephyr__J/ABOUT.md) | &emsp;`  31.07` | &emsp;`  71.43` |
-| &emsp;[sil-g22e-ehk__simplicity__J](data/sil-g22e-ehk__simplicity__J/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
-| &emsp;[ti-23-lp-2V2__emscript__J](data/ti-23-lp-2V2__emscript__J/ABOUT.md) | &emsp;`  72.21` | &emsp;` 379.34` |
-| &emsp;[ti-23-lp-2V2__simplelink__J](data/ti-23-lp-2V2__simplelink__J/ABOUT.md) | &emsp;`  29.73` | &emsp;` 197.07` |
-| &emsp;[ti-23-lp__emscript__J](data/ti-23-lp__emscript__J/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
-| &emsp;[ti-23-lp__simplelink__J](data/ti-23-lp__simplelink__J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` |
+| &emsp;[adi-m17-evk__msdk__J](captures/adi-m17-evk__msdk__J/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
+| &emsp;[in-100-dk-1V8__none__J](captures/in-100-dk-1V8__none__J/ABOUT.md) | &emsp;`  41.92` | &emsp;` 306.84` |
+| &emsp;[in-100-dk__none__J](captures/in-100-dk__none__J/ABOUT.md) | &emsp;`  22.85` | &emsp;` 155.14` |
+| &emsp;[nrf-52-dk__zephyr__J](captures/nrf-52-dk__zephyr__J/ABOUT.md) | &emsp;`  27.72` | &emsp;` 122.85` |
+| &emsp;[nrf-54-dk-1V8__baremetal__J](captures/nrf-54-dk-1V8__baremetal__J/ABOUT.md) | &emsp;`  33.64` | &emsp;`  89.74` |
+| &emsp;[nrf-54-dk-1V8__zephyr__J](captures/nrf-54-dk-1V8__zephyr__J/ABOUT.md) | &emsp;`  41.93` | &emsp;` 121.06` |
+| &emsp;[nrf-54-dk__baremetal__J](captures/nrf-54-dk__baremetal__J/ABOUT.md) | &emsp;`  27.09` | &emsp;`  64.82` |
+| &emsp;[nrf-54-dk__zephyr__J](captures/nrf-54-dk__zephyr__J/ABOUT.md) | &emsp;`  31.07` | &emsp;`  71.43` |
+| &emsp;[sil-g22e-ehk__simplicity__J](captures/sil-g22e-ehk__simplicity__J/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
+| &emsp;[ti-23-lp-2V2__emscript__J](captures/ti-23-lp-2V2__emscript__J/ABOUT.md) | &emsp;`  72.21` | &emsp;` 379.34` |
+| &emsp;[ti-23-lp-2V2__simplelink__J](captures/ti-23-lp-2V2__simplelink__J/ABOUT.md) | &emsp;`  29.73` | &emsp;` 197.07` |
+| &emsp;[ti-23-lp__emscript__J](captures/ti-23-lp__emscript__J/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
+| &emsp;[ti-23-lp__simplelink__J](captures/ti-23-lp__simplelink__J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` |
 
 
 <br>
 
 | PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` event cycle |
 |---|---|---|
-| &emsp;[adi-m17-evk__msdk__P](data/adi-m17-evk__msdk__P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
-| &emsp;[in-100-dk-1V8__none__P](data/in-100-dk-1V8__none__P/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |
-| &emsp;[in-100-dk__none__P](data/in-100-dk__none__P/ABOUT.md) | &emsp;`  22.95` | &emsp;` 148.92` |
-| &emsp;[nrf-52-dk__zephyr__P](data/nrf-52-dk__zephyr__P/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
-| &emsp;[nrf-54-dk-1V8__baremetal__P](data/nrf-54-dk-1V8__baremetal__P/ABOUT.md) | &emsp;`  35.09` | &emsp;`  86.91` |
-| &emsp;[nrf-54-dk-1V8__zephyr__P](data/nrf-54-dk-1V8__zephyr__P/ABOUT.md) | &emsp;`  57.21` | &emsp;` 153.61` |
-| &emsp;[nrf-54-dk__baremetal__P](data/nrf-54-dk__baremetal__P/ABOUT.md) | &emsp;`  27.35` | &emsp;`  64.54` |
-| &emsp;[nrf-54-dk__zephyr__P](data/nrf-54-dk__zephyr__P/ABOUT.md) | &emsp;`  31.94` | &emsp;`  71.26` |
-| &emsp;[sil-g22e-ehk__simplicity__P](data/sil-g22e-ehk__simplicity__P/ABOUT.md) | &emsp;`  31.92` | &emsp;`  92.80` |
-| &emsp;[ti-23-lp-2V2__emscript__P](data/ti-23-lp-2V2__emscript__P/ABOUT.md) | &emsp;`  42.09` | &emsp;` 228.65` |
-| &emsp;[ti-23-lp-2V2__simplelink__P](data/ti-23-lp-2V2__simplelink__P/ABOUT.md) | &emsp;`  29.62` | &emsp;` 182.12` |
-| &emsp;[ti-23-lp__emscript__P](data/ti-23-lp__emscript__P/ABOUT.md) | &emsp;`  39.95` | &emsp;` 228.08` |
-| &emsp;[ti-23-lp__simplelink__P](data/ti-23-lp__simplelink__P/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` |
+| &emsp;[adi-m17-evk__msdk__P](captures/adi-m17-evk__msdk__P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
+| &emsp;[in-100-dk-1V8__none__P](captures/in-100-dk-1V8__none__P/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |
+| &emsp;[in-100-dk__none__P](captures/in-100-dk__none__P/ABOUT.md) | &emsp;`  22.95` | &emsp;` 148.92` |
+| &emsp;[nrf-52-dk__zephyr__P](captures/nrf-52-dk__zephyr__P/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
+| &emsp;[nrf-54-dk-1V8__baremetal__P](captures/nrf-54-dk-1V8__baremetal__P/ABOUT.md) | &emsp;`  35.09` | &emsp;`  86.91` |
+| &emsp;[nrf-54-dk-1V8__zephyr__P](captures/nrf-54-dk-1V8__zephyr__P/ABOUT.md) | &emsp;`  57.21` | &emsp;` 153.61` |
+| &emsp;[nrf-54-dk__baremetal__P](captures/nrf-54-dk__baremetal__P/ABOUT.md) | &emsp;`  27.35` | &emsp;`  64.54` |
+| &emsp;[nrf-54-dk__zephyr__P](captures/nrf-54-dk__zephyr__P/ABOUT.md) | &emsp;`  31.94` | &emsp;`  71.26` |
+| &emsp;[sil-g22e-ehk__simplicity__P](captures/sil-g22e-ehk__simplicity__P/ABOUT.md) | &emsp;`  31.92` | &emsp;`  92.80` |
+| &emsp;[ti-23-lp-2V2__emscript__P](captures/ti-23-lp-2V2__emscript__P/ABOUT.md) | &emsp;`  42.09` | &emsp;` 228.65` |
+| &emsp;[ti-23-lp-2V2__simplelink__P](captures/ti-23-lp-2V2__simplelink__P/ABOUT.md) | &emsp;`  29.62` | &emsp;` 182.12` |
+| &emsp;[ti-23-lp__emscript__P](captures/ti-23-lp__emscript__P/ABOUT.md) | &emsp;`  39.95` | &emsp;` 228.08` |
+| &emsp;[ti-23-lp__simplelink__P](captures/ti-23-lp__simplelink__P/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` |
 
 
 <!-- @scores-end -->
