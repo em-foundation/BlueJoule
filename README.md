@@ -98,7 +98,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | &emsp;[sil-g22e-ehk__simplicity__J](data/sil-g22e-ehk__simplicity__J/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
 | &emsp;[ti-23-lp-1V5__emscript__J](data/ti-23-lp-1V5__emscript__J/ABOUT.md) | &emsp;`  33.78` | &emsp;` 328.22` |
 | &emsp;[ti-23-lp-2V2__emscript__J](data/ti-23-lp-2V2__emscript__J/ABOUT.md) | &emsp;`  72.21` | &emsp;` 379.34` |
-| &emsp;[ti-23-lp-2V2__simplelink__J](data/ti-23-lp-2V2__simplelink__J/ABOUT.md) | &emsp;`  56.46` | &emsp;` 319.83` |
+| &emsp;[ti-23-lp-2V2__simplelink__J](data/ti-23-lp-2V2__simplelink__J/ABOUT.md) | &emsp;`  29.73` | &emsp;` 197.07` |
 | &emsp;[ti-23-lp__emscript__J](data/ti-23-lp__emscript__J/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
 | &emsp;[ti-23-lp__simplelink__J](data/ti-23-lp__simplelink__J/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` |
 
