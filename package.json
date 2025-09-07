@@ -1,0 +1,27 @@
+{
+  "name": "bleadv-captures",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">     <img src=\"docs/images/logo.png\" alt=\"Logo\" width=\"400\"> </p> <br> <p align=\"center\">     &emsp;&ensp;<img src=\"docs/images/tagline.png\" alt=\"TagLine\" width=\"750\"> </p>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/em-foundation/bleadv-captures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/em-foundation/bleadv-captures/issues"
+  },
+  "homepage": "https://github.com/em-foundation/bleadv-captures#readme",
+  "devDependencies": {
+    "@types/node": "^24.3.0"
+  }
+}

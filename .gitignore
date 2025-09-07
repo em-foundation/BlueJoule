@@ -2,6 +2,7 @@
 /.test/
 /.vscode/
 .emscope/
+/node_modules/
 
 *.jls
 
