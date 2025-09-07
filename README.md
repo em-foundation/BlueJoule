@@ -56,7 +56,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | [adi-m17-evk__msdk__J](captures/adi-m17-evk__msdk__J/ABOUT.md) | [adi-m17-evk__msdk__P](captures/adi-m17-evk__msdk__P/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
 | [in-100-dk-1V8__none__J](captures/in-100-dk-1V8__none__J/ABOUT.md) | [in-100-dk-1V8__none__P](captures/in-100-dk-1V8__none__P/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
 | [nrf-52-dk__zephyr__J](captures/nrf-52-dk__zephyr__J/ABOUT.md) | [nrf-52-dk__zephyr__P](captures/nrf-52-dk__zephyr__P/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
-| [nrf-54-dk-1V8__baremetal__J](captures/nrf-54-dk-1V8__baremetal__J/ABOUT.md) |  | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| [nrf-54-dk-1V8__baremetal__J](captures/nrf-54-dk-1V8__baremetal__J/ABOUT.md) | [nrf-54-dk-1V8__baremetal__P](captures/nrf-54-dk-1V8__baremetal__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
 | [nrf-54-dk-1V8__zephyr__J](captures/nrf-54-dk-1V8__zephyr__J/ABOUT.md) | [nrf-54-dk-1V8__zephyr__P](captures/nrf-54-dk-1V8__zephyr__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
 | [nrf-54-dk__baremetal__J](captures/nrf-54-dk__baremetal__J/ABOUT.md) | [nrf-54-dk__baremetal__P](captures/nrf-54-dk__baremetal__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
 | [nrf-54-dk__zephyr__J](captures/nrf-54-dk__zephyr__J/ABOUT.md) | [nrf-54-dk__zephyr__P](captures/nrf-54-dk__zephyr__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
@@ -111,6 +111,7 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | &emsp;[adi-m17-evk__msdk__P](data/adi-m17-evk__msdk__P/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
 | &emsp;[in-100-dk-1V8__none__P](data/in-100-dk-1V8__none__P/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |
 | &emsp;[nrf-52-dk__zephyr__P](data/nrf-52-dk__zephyr__P/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
+| &emsp;[nrf-54-dk-1V8__baremetal__P](data/nrf-54-dk-1V8__baremetal__P/ABOUT.md) | &emsp;`  35.09` | &emsp;`  86.91` |
 | &emsp;[nrf-54-dk-1V8__zephyr__P](data/nrf-54-dk-1V8__zephyr__P/ABOUT.md) | &emsp;`  57.21` | &emsp;` 153.61` |
 | &emsp;[nrf-54-dk__baremetal__P](data/nrf-54-dk__baremetal__P/ABOUT.md) | &emsp;`  27.35` | &emsp;`  64.54` |
 | &emsp;[nrf-54-dk__zephyr__P](data/nrf-54-dk__zephyr__P/ABOUT.md) | &emsp;`  31.94` | &emsp;`  71.26` |
