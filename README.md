@@ -131,8 +131,8 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 > By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per period:
 >
 ><p align="left"><b><sup>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;EM•eralds = 2400 / (<i>Joules per day</i> * 30) = 800 / <i>Joules per day</i><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CR2032 energy:&nbsp; 225 mAh × 3.6 × 3.0 V ≈ 2.43 kJ<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1 EM•erald ≈ 1 CR2032-month</sup></b></p>
->
-> Consider installing the [`emscope`](https://github.com/em-foundation/emscope) tool.&thinsp; You can then query _other_ event period scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
+
+Consider installing the [open-source](https://github.com/em-foundation/emscope) **EM&bull;Scope** tool.&thinsp; You can then query _other_ event period scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
 
 ## Contributing
 
