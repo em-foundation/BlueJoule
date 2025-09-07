@@ -37,7 +37,6 @@ function findMedals(txt) {
             MEDALS_10.set(cn, m10)
         }
     }
-    console.log(MEDALS_1)
 }
 
 function genCatalog() {
