@@ -51,7 +51,7 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 This repository houses the following curated **EM&bull;Scope** capture directories &ndash; each initially populated using the `emscope grab` command with either its `-J, --js220` or `-P, --ppk2` option:
 
 <!-- @catalog-begin -->
-| &emsp;Capture | &emsp;&emsp;JS220&emsp;&emsp; | &emsp;&emsp;PPK2&nbsp;&emsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| Capture | &emsp;&emsp;JS220&emsp;&emsp; | &emsp;&emsp;PPK2&nbsp;&emsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
 | `adi-m17-evk/msdk` | [**&nearr;**](captures/js220/adi-m17-evk/msdk/ABOUT.md) | [**&nearr;**](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
 | `in-100-dk/none` | [**&nearr;**](captures/js220/in-100-dk/none/ABOUT.md) | [**&nearr;**](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |

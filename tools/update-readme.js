@@ -47,7 +47,7 @@ function findMedals(txt) {
 function genCatalog() {
     let res =
 `<!-- @catalog-begin -->
-| &emsp;Capture | &emsp;&emsp;JS220&emsp;&emsp; | &emsp;&emsp;PPK2&nbsp;&emsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| Capture | &emsp;&emsp;JS220&emsp;&emsp; | &emsp;&emsp;PPK2&nbsp;&emsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
 `
     for (const targ of TARGS) {
