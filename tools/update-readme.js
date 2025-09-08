@@ -93,7 +93,8 @@ function genScoreTab(aname) {
         const m1 = mkMedal(MEDALS_1, k)
         const m10 = mkMedal(MEDALS_10, k)
         const cn = k.slice(pre.length)
-        let line = `| &emsp;[${cn}](captures/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ}${m1} | &emsp;${BQ}${ems10}${BQ}${m10} |`
+        const tab = cn.match(/-\dV\d$/) ? '&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;' : ''
+        let line = `| &emsp;[${cn}](captures/${k}/ABOUT.md) | ${tab}&emsp;${BQ}${ems1}${BQ}${m1} | ${tab}&emsp;${BQ}${ems10}${BQ}${m10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
@@ -132,9 +133,9 @@ function isMedal(s) {
 
 function mkMedal(map, cn) {
     switch (map.get(cn)) {
-        case 'G': return ' &emsp; 🥇'
-        case 'S': return ' &emsp; 🥈'
-        case 'B': return ' &emsp; 🥉'
+        case 'G': return ' &nbsp; 🥇'
+        case 'S': return ' &nbsp; 🥈'
+        case 'B': return ' &nbsp; 🥉'
         default: return ''
     }
 }
