@@ -91,38 +91,38 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` period |
 |---|---|---|
-| &emsp;[adi-m17-evk/msdk](captures/js220/adi-m17-evk/msdk/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
-| &emsp;[in-100-dk/none](captures/js220/in-100-dk/none/ABOUT.md) | &emsp;`  22.85` &nbsp; 🥈 | &emsp;` 155.14` &nbsp; 🥇 |
-| &emsp;[in-100-dk/none-1V8](captures/js220/in-100-dk/none-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  41.92` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 306.84` |
-| &emsp;[nrf-52-dk/zephyr](captures/js220/nrf-52-dk/zephyr/ABOUT.md) | &emsp;`  27.72` | &emsp;` 122.85` |
-| &emsp;[nrf-54-dk/baremetal](captures/js220/nrf-54-dk/baremetal/ABOUT.md) | &emsp;`  27.09` | &emsp;`  64.82` |
-| &emsp;[nrf-54-dk/baremetal-1V8](captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  33.64` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  89.74` |
-| &emsp;[nrf-54-dk/zephyr](captures/js220/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.07` &nbsp; 🥈 | &emsp;`  71.43` |
-| &emsp;[nrf-54-dk/zephyr-1V8](captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  41.93` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 121.06` |
-| &emsp;[sil-g22e-ehk/rail](captures/js220/sil-g22e-ehk/rail/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
-| &emsp;[ti-23-lp/emscript](captures/js220/ti-23-lp/emscript/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
-| &emsp;[ti-23-lp/emscript-2V2](captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  72.21` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 379.34` |
-| &emsp;[ti-23-lp/simplelink](captures/js220/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` &nbsp; 🥉 |
-| &emsp;[ti-23-lp/simplelink-2V2](captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  29.73` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 197.07` |
+| &emsp;[adi-m17-evk/msdk](captures/js220/adi-m17-evk/msdk/ABOUT.md) | &emsp;`  14.75`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  14.75` | &emsp;`  47.75`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  47.75` |
+| &emsp;[in-100-dk/none](captures/js220/in-100-dk/none/ABOUT.md) | &emsp;`  22.85` &nbsp; 🥈&emsp;&emsp;&emsp;`  22.85` | &emsp;` 155.14` &nbsp; 🥇&emsp;&emsp;&emsp;` 155.14` |
+| &emsp;[in-100-dk/none-1V8](captures/js220/in-100-dk/none-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  41.92`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 306.84`&nbsp;&nbsp;&nbsp; |
+| &emsp;[nrf-52-dk/zephyr](captures/js220/nrf-52-dk/zephyr/ABOUT.md) | &emsp;`  27.72`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  27.72` | &emsp;` 122.85`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;` 122.85` |
+| &emsp;[nrf-54-dk/baremetal](captures/js220/nrf-54-dk/baremetal/ABOUT.md) | &emsp;`  27.09`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  27.09` | &emsp;`  64.82`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  64.82` |
+| &emsp;[nrf-54-dk/baremetal-1V8](captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  33.64`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  89.74`&nbsp;&nbsp;&nbsp; |
+| &emsp;[nrf-54-dk/zephyr](captures/js220/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.07` &nbsp; 🥈&emsp;&emsp;&emsp;`  31.07` | &emsp;`  71.43`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  71.43` |
+| &emsp;[nrf-54-dk/zephyr-1V8](captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  41.93`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 121.06`&nbsp;&nbsp;&nbsp; |
+| &emsp;[sil-g22e-ehk/rail](captures/js220/sil-g22e-ehk/rail/ABOUT.md) | &emsp;`  31.85`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  31.85` | &emsp;`  99.02`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  99.02` |
+| &emsp;[ti-23-lp/emscript](captures/js220/ti-23-lp/emscript/ABOUT.md) | &emsp;`  48.62`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  48.62` | &emsp;` 249.88`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;` 249.88` |
+| &emsp;[ti-23-lp/emscript-2V2](captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  72.21`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 379.34`&nbsp;&nbsp;&nbsp; |
+| &emsp;[ti-23-lp/simplelink](captures/js220/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  28.13`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  28.13` | &emsp;` 183.76` &nbsp; 🥉&emsp;&emsp;&emsp;` 183.76` |
+| &emsp;[ti-23-lp/simplelink-2V2](captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  29.73`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 197.07`&nbsp;&nbsp;&nbsp; |
 
 
 <br>
 
 | PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` period |
 |---|---|---|
-| &emsp;[adi-m17-evk/msdk](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
-| &emsp;[in-100-dk/none](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp;`  22.95` &nbsp; 🥈 | &emsp;` 148.92` &nbsp; 🥇 |
-| &emsp;[in-100-dk/none-1V8](captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  43.11` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 301.01` |
-| &emsp;[nrf-52-dk/zephyr](captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
-| &emsp;[nrf-54-dk/baremetal](captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp;`  27.35` | &emsp;`  64.54` |
-| &emsp;[nrf-54-dk/baremetal-1V8](captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  35.09` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  86.91` |
-| &emsp;[nrf-54-dk/zephyr](captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.94` &nbsp; 🥇 | &emsp;`  71.26` &nbsp; 🥉 |
-| &emsp;[nrf-54-dk/zephyr-1V8](captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  57.21` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 153.61` |
-| &emsp;[sil-g22e-ehk/rail](captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp;`  31.92` | &emsp;`  92.80` |
-| &emsp;[ti-23-lp/emscript](captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp;`  39.95` | &emsp;` 228.08` |
-| &emsp;[ti-23-lp/emscript-2V2](captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  42.09` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 228.65` |
-| &emsp;[ti-23-lp/simplelink](captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` &nbsp; 🥈 |
-| &emsp;[ti-23-lp/simplelink-2V2](captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  29.62` | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 182.12` |
+| &emsp;[adi-m17-evk/msdk](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp;`  14.02`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  14.02` | &emsp;`  47.36`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  47.36` |
+| &emsp;[in-100-dk/none](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp;`  22.95` &nbsp; 🥈&emsp;&emsp;&emsp;`  22.95` | &emsp;` 148.92` &nbsp; 🥇&emsp;&emsp;&emsp;` 148.92` |
+| &emsp;[in-100-dk/none-1V8](captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  43.11`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 301.01`&nbsp;&nbsp;&nbsp; |
+| &emsp;[nrf-52-dk/zephyr](captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp;`  27.30`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  27.30` | &emsp;` 113.68`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;` 113.68` |
+| &emsp;[nrf-54-dk/baremetal](captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp;`  27.35`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  27.35` | &emsp;`  64.54`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  64.54` |
+| &emsp;[nrf-54-dk/baremetal-1V8](captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  35.09`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  86.91`&nbsp;&nbsp;&nbsp; |
+| &emsp;[nrf-54-dk/zephyr](captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.94` &nbsp; 🥇&emsp;&emsp;&emsp;`  31.94` | &emsp;`  71.26` &nbsp; 🥉&emsp;&emsp;&emsp;`  71.26` |
+| &emsp;[nrf-54-dk/zephyr-1V8](captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  57.21`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 153.61`&nbsp;&nbsp;&nbsp; |
+| &emsp;[sil-g22e-ehk/rail](captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp;`  31.92`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  31.92` | &emsp;`  92.80`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  92.80` |
+| &emsp;[ti-23-lp/emscript](captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp;`  39.95`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  39.95` | &emsp;` 228.08`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;` 228.08` |
+| &emsp;[ti-23-lp/emscript-2V2](captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  42.09`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 228.65`&nbsp;&nbsp;&nbsp; |
+| &emsp;[ti-23-lp/simplelink](captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  27.37`&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;`  27.37` | &emsp;` 173.87` &nbsp; 🥈&emsp;&emsp;&emsp;` 173.87` |
+| &emsp;[ti-23-lp/simplelink-2V2](captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;`  29.62`&nbsp;&nbsp;&nbsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;` 182.12`&nbsp;&nbsp;&nbsp; |
 
 
 <!-- @scores-end -->
