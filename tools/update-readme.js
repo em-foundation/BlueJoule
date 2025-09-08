@@ -142,7 +142,7 @@ function mkMedal(map, cn) {
 findCaps('js220')
 findCaps('ppk2')
 let txt = Fs.readFileSync('README.md', 'utf-8')
-// findMedals(txt)
+findMedals(txt)
 const catalog = genCatalog()
 const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
 txt = txt.replace(RE_CAT, catalog)

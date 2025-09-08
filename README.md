@@ -77,13 +77,13 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 > [!IMPORTANT]
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
 
-<!-- @medal|in-100-dk-none__J          |S|G| -->
-<!-- @medal|nrf-54-dk-zephyr__J        |S|N| -->
-<!-- @medal|ti-23-lp-3V3__simplelink__J    |N|B| -->
+<!-- @medal|js220/in-100-dk/none            |S|G| -->
+<!-- @medal|js220/nrf-54-dk/zephyr          |S|N| -->
+<!-- @medal|js220/ti-23-lp/simplelink       |N|B| -->
 
-<!-- @medal|in-100-dk-none__P          |S|G| -->
-<!-- @medal|nrf-54-dk-zephyr__P        |G|B| -->
-<!-- @medal|ti-23-lp-slsdk__P          |N|S| -->
+<!-- @medal|ppk2/in-100-dk/none             |S|G| -->
+<!-- @medal|ppk2/nrf-54-dk/zephyr           |G|B| -->
+<!-- @medal|ppk2/ti-23-lp/simplelink        |N|S| -->
 
 <!-- @scores-begin -->
 
@@ -92,17 +92,17 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` period |
 |---|---|---|
 | &emsp;[adi-m17-evk/msdk](captures/js220/adi-m17-evk/msdk/ABOUT.md) | &emsp;`  14.75` | &emsp;`  47.75` |
-| &emsp;[in-100-dk/none](captures/js220/in-100-dk/none/ABOUT.md) | &emsp;`  22.85` | &emsp;` 155.14` |
+| &emsp;[in-100-dk/none](captures/js220/in-100-dk/none/ABOUT.md) | &emsp;`  22.85` &emsp; 🥈 | &emsp;` 155.14` &emsp; 🥇 |
 | &emsp;[in-100-dk/none-1V8](captures/js220/in-100-dk/none-1V8/ABOUT.md) | &emsp;`  41.92` | &emsp;` 306.84` |
 | &emsp;[nrf-52-dk/zephyr](captures/js220/nrf-52-dk/zephyr/ABOUT.md) | &emsp;`  27.72` | &emsp;` 122.85` |
 | &emsp;[nrf-54-dk/baremetal](captures/js220/nrf-54-dk/baremetal/ABOUT.md) | &emsp;`  27.09` | &emsp;`  64.82` |
 | &emsp;[nrf-54-dk/baremetal-1V8](captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;`  33.64` | &emsp;`  89.74` |
-| &emsp;[nrf-54-dk/zephyr](captures/js220/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.07` | &emsp;`  71.43` |
+| &emsp;[nrf-54-dk/zephyr](captures/js220/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.07` &emsp; 🥈 | &emsp;`  71.43` |
 | &emsp;[nrf-54-dk/zephyr-1V8](captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;`  41.93` | &emsp;` 121.06` |
 | &emsp;[sil-g22e-ehk/rail](captures/js220/sil-g22e-ehk/rail/ABOUT.md) | &emsp;`  31.85` | &emsp;`  99.02` |
 | &emsp;[ti-23-lp/emscript](captures/js220/ti-23-lp/emscript/ABOUT.md) | &emsp;`  48.62` | &emsp;` 249.88` |
 | &emsp;[ti-23-lp/emscript-2V2](captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;`  72.21` | &emsp;` 379.34` |
-| &emsp;[ti-23-lp/simplelink](captures/js220/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` |
+| &emsp;[ti-23-lp/simplelink](captures/js220/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  28.13` | &emsp;` 183.76` &emsp; 🥉 |
 | &emsp;[ti-23-lp/simplelink-2V2](captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;`  29.73` | &emsp;` 197.07` |
 
 
@@ -111,17 +111,17 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:01` period | EM&bull;eralds&thinsp; &mdash;&thinsp;`00:00:10` period |
 |---|---|---|
 | &emsp;[adi-m17-evk/msdk](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp;`  14.02` | &emsp;`  47.36` |
-| &emsp;[in-100-dk/none](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp;`  22.95` | &emsp;` 148.92` |
+| &emsp;[in-100-dk/none](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp;`  22.95` &emsp; 🥈 | &emsp;` 148.92` &emsp; 🥇 |
 | &emsp;[in-100-dk/none-1V8](captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp;`  43.11` | &emsp;` 301.01` |
 | &emsp;[nrf-52-dk/zephyr](captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp;`  27.30` | &emsp;` 113.68` |
 | &emsp;[nrf-54-dk/baremetal](captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp;`  27.35` | &emsp;`  64.54` |
 | &emsp;[nrf-54-dk/baremetal-1V8](captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;`  35.09` | &emsp;`  86.91` |
-| &emsp;[nrf-54-dk/zephyr](captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.94` | &emsp;`  71.26` |
+| &emsp;[nrf-54-dk/zephyr](captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp;`  31.94` &emsp; 🥇 | &emsp;`  71.26` &emsp; 🥉 |
 | &emsp;[nrf-54-dk/zephyr-1V8](captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;`  57.21` | &emsp;` 153.61` |
 | &emsp;[sil-g22e-ehk/rail](captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp;`  31.92` | &emsp;`  92.80` |
 | &emsp;[ti-23-lp/emscript](captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp;`  39.95` | &emsp;` 228.08` |
 | &emsp;[ti-23-lp/emscript-2V2](captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;`  42.09` | &emsp;` 228.65` |
-| &emsp;[ti-23-lp/simplelink](captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` |
+| &emsp;[ti-23-lp/simplelink](captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp;`  27.37` | &emsp;` 173.87` &emsp; 🥈 |
 | &emsp;[ti-23-lp/simplelink-2V2](captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;`  29.62` | &emsp;` 182.12` |
 
 
