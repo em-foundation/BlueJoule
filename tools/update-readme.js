@@ -12,13 +12,18 @@ const TARGS = new Set()
 const BQ = '`'
 const CAPDIR = 'captures'
 
-function findCaps() {
-    for (const de of Fs.readdirSync(CAPDIR)) {
-        if (de.endsWith('__J') || de.endsWith('__P')) {
-            const about = Fs.readFileSync(Path.join(CAPDIR, de, 'ABOUT.md'), 'utf-8')
-            CAPS.set(de, about)
-            TARGS.add(de.slice(0, de.length - 3))
-            continue
+function findCaps(adir) {
+    const path1 = Path.join(CAPDIR, adir)
+    for (const be of Fs.readdirSync(path1)) {
+        const path2 = Path.join(path1, be)
+        if (!Fs.lstatSync(path2).isDirectory()) continue
+        for (const ce of Fs.readdirSync(path2)) {
+            const path3 = Path.join(path2, ce)
+            const about_file = Path.join(path3, 'ABOUT.md')
+            if (!Fs.existsSync(about_file)) continue
+            const about_txt = Fs.readFileSync(about_file, 'utf-8')
+            CAPS.set(`${adir}/${be}/${ce}`, about_txt)
+            TARGS.add(`${be}/${ce}`)
         }
     }
 }
@@ -42,18 +47,18 @@ function findMedals(txt) {
 function genCatalog() {
     let res =
 `<!-- @catalog-begin -->
-| JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
-|---|---|---|
+| &emsp;Capture | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+|---|:---:|:---:|---|
 `
     for (const targ of TARGS) {
-        let line = '| '
+        let line = `| ${BQ}${targ}${BQ} | `
         let desc = undefined
         const re = /<h1\b[^>]*>(.*?)<\/h1>/is
-        for (const suf of ['__J', '__P']) {
-            const cn = `${targ}${suf}`
+        for (const pre of ['js220/', 'ppk2/']) {
+            const cn = `${pre}${targ}`
             let about = CAPS.get(cn)
             if (about) {
-                line += `[${cn}](${CAPDIR}/${cn}/ABOUT.md)` 
+                line += `[**&#8690;**](${CAPDIR}/${cn}/ABOUT.md)` 
                 desc = desc || `&emsp; ${about.match(re)[1]}`
             }
             line += ' | '
@@ -133,13 +138,14 @@ function mkMedal(map, cn) {
     }
 }
 
-findCaps()
+findCaps('js220')
+findCaps('ppk2')
 let txt = Fs.readFileSync('README.md', 'utf-8')
-findMedals(txt)
+// findMedals(txt)
 const catalog = genCatalog()
 const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
 txt = txt.replace(RE_CAT, catalog)
-const scores = genScores()
-const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
-txt = txt.replace(RE_SCO, scores)
+// const scores = genScores()
+// const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
+// txt = txt.replace(RE_SCO, scores)
 Fs.writeFileSync('README.md', txt)

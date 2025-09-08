@@ -50,22 +50,29 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 This repository houses the following curated **EM&bull;Scope** capture directories &ndash; each initially populated using the `emscope grab` command with either its `-J, --js220` or `-P, --ppk2` option:
 
+| Capture | JS220 | PPK2 | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+|---|---|---|---|
+| `adi-m17-evk` | [&#8690;](captures/js220/adi-m17-evk/msdk/ABOUT.md) | [🔗](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
+| `in-100-dk` | [🔗](captures/js220/in-100-dk/none/ABOUT.md) | [🔗](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+
+
+
 <!-- @catalog-begin -->
-| JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
-|---|---|---|
-| [adi-m17-evk__msdk__J](captures/adi-m17-evk__msdk__J/ABOUT.md) | [adi-m17-evk__msdk__P](captures/adi-m17-evk__msdk__P/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
-| [in-100-dk-1V8__none__J](captures/in-100-dk-1V8__none__J/ABOUT.md) | [in-100-dk-1V8__none__P](captures/in-100-dk-1V8__none__P/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| [in-100-dk__none__J](captures/in-100-dk__none__J/ABOUT.md) | [in-100-dk__none__P](captures/in-100-dk__none__P/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| [nrf-52-dk__zephyr__J](captures/nrf-52-dk__zephyr__J/ABOUT.md) | [nrf-52-dk__zephyr__P](captures/nrf-52-dk__zephyr__P/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
-| [nrf-54-dk-1V8__baremetal__J](captures/nrf-54-dk-1V8__baremetal__J/ABOUT.md) | [nrf-54-dk-1V8__baremetal__P](captures/nrf-54-dk-1V8__baremetal__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| [nrf-54-dk-1V8__zephyr__J](captures/nrf-54-dk-1V8__zephyr__J/ABOUT.md) | [nrf-54-dk-1V8__zephyr__P](captures/nrf-54-dk-1V8__zephyr__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| [nrf-54-dk__baremetal__J](captures/nrf-54-dk__baremetal__J/ABOUT.md) | [nrf-54-dk__baremetal__P](captures/nrf-54-dk__baremetal__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| [nrf-54-dk__zephyr__J](captures/nrf-54-dk__zephyr__J/ABOUT.md) | [nrf-54-dk__zephyr__P](captures/nrf-54-dk__zephyr__P/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| [sil-g22e-ehk__simplicity__J](captures/sil-g22e-ehk__simplicity__J/ABOUT.md) | [sil-g22e-ehk__simplicity__P](captures/sil-g22e-ehk__simplicity__P/ABOUT.md) | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
-| [ti-23-lp-2V2__emscript__J](captures/ti-23-lp-2V2__emscript__J/ABOUT.md) | [ti-23-lp-2V2__emscript__P](captures/ti-23-lp-2V2__emscript__P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| [ti-23-lp-2V2__simplelink__J](captures/ti-23-lp-2V2__simplelink__J/ABOUT.md) | [ti-23-lp-2V2__simplelink__P](captures/ti-23-lp-2V2__simplelink__P/ABOUT.md) | &emsp; Hardware Platform · Software Environment |
-| [ti-23-lp__emscript__J](captures/ti-23-lp__emscript__J/ABOUT.md) | [ti-23-lp__emscript__P](captures/ti-23-lp__emscript__P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| [ti-23-lp__simplelink__J](captures/ti-23-lp__simplelink__J/ABOUT.md) | [ti-23-lp__simplelink__P](captures/ti-23-lp__simplelink__P/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| &emsp;Capture | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+|---|:---:|:---:|---|
+| `adi-m17-evk/msdk` | [**&#8690;**](captures/js220/adi-m17-evk/msdk/ABOUT.md) | [**&#8690;**](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
+| `in-100-dk/none` | [**&#8690;**](captures/js220/in-100-dk/none/ABOUT.md) | [**&#8690;**](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| `in-100-dk/none-1V8` | [**&#8690;**](captures/js220/in-100-dk/none-1V8/ABOUT.md) | [**&#8690;**](captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| `nrf-52-dk/zephyr` | [**&#8690;**](captures/js220/nrf-52-dk/zephyr/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
+| `nrf-54-dk/baremetal` | [**&#8690;**](captures/js220/nrf-54-dk/baremetal/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| `nrf-54-dk/baremetal-1V8` | [**&#8690;**](captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| `nrf-54-dk/zephyr` | [**&#8690;**](captures/js220/nrf-54-dk/zephyr/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| `nrf-54-dk/zephyr-1V8` | [**&#8690;**](captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| `sil-g22e-ehk/rail` | [**&#8690;**](captures/js220/sil-g22e-ehk/rail/ABOUT.md) | [**&#8690;**](captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
+| `ti-23-lp/emscript` | [**&#8690;**](captures/js220/ti-23-lp/emscript/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| `ti-23-lp/emscript-2V2` | [**&#8690;**](captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| `ti-23-lp/simplelink` | [**&#8690;**](captures/js220/ti-23-lp/simplelink/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| `ti-23-lp/simplelink-2V2` | [**&#8690;**](captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Hardware Platform · Software Environment |
 <!-- @catalog-end -->
 
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.
