@@ -47,7 +47,7 @@ function findMedals(txt) {
 function genCatalog() {
     let res =
 `<!-- @catalog-begin -->
-| &emsp;&emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
 `
     for (const targ of TARGS) {
@@ -80,19 +80,20 @@ ${genScoreTab('PPK2')}
 }
 
 function genScoreTab(aname) {
-    const pre = `__${aname[0]}`
+    const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     let res = `<br>
 
-| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} event cycle |
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} period | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} period |
 |---|---|---|
 `
     for (const [k, v] of CAPS) {
-        if (!(k.endsWith(pre))) continue
+        if (!(k.startsWith(pre))) continue
         const [ems1, ems10] = getEmeralds(v)
         const m1 = mkMedal(MEDALS_1, k)
         const m10 = mkMedal(MEDALS_10, k)
-        let line = `| &emsp;[${k}](captures/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ}${m1} | &emsp;${BQ}${ems10}${BQ}${m10} |`
+        const cn = k.slice(pre.length)
+        let line = `| &emsp;[${cn}](captures/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ}${m1} | &emsp;${BQ}${ems10}${BQ}${m10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
@@ -145,7 +146,7 @@ let txt = Fs.readFileSync('README.md', 'utf-8')
 const catalog = genCatalog()
 const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
 txt = txt.replace(RE_CAT, catalog)
-// const scores = genScores()
-// const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
-// txt = txt.replace(RE_SCO, scores)
+const scores = genScores()
+const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
+txt = txt.replace(RE_SCO, scores)
 Fs.writeFileSync('README.md', txt)
