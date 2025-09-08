@@ -47,11 +47,11 @@ function findMedals(txt) {
 function genCatalog() {
     let res =
 `<!-- @catalog-begin -->
-| &emsp;&emsp;&emsp;&emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| &emsp;&emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
 `
     for (const targ of TARGS) {
-        let line = `| ${BQ}${targ}${BQ} | `
+        let line = `| ${BQ}${targ}${BQ}&emsp; | `
         let desc = undefined
         const re = /<h1\b[^>]*>(.*?)<\/h1>/is
         for (const pre of ['js220/', 'ppk2/']) {
