@@ -50,29 +50,22 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 This repository houses the following curated **EM&bull;Scope** capture directories &ndash; each initially populated using the `emscope grab` command with either its `-J, --js220` or `-P, --ppk2` option:
 
-| Capture | JS220 | PPK2 | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
-|---|---|---|---|
-| `adi-m17-evk` | [&#8690;](captures/js220/adi-m17-evk/msdk/ABOUT.md) | [🔗](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
-| `in-100-dk` | [🔗](captures/js220/in-100-dk/none/ABOUT.md) | [🔗](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-
-
-
 <!-- @catalog-begin -->
 | &emsp;Capture | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
-| `adi-m17-evk/msdk` | [**&#8690;**](captures/js220/adi-m17-evk/msdk/ABOUT.md) | [**&#8690;**](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
-| `in-100-dk/none` | [**&#8690;**](captures/js220/in-100-dk/none/ABOUT.md) | [**&#8690;**](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| `in-100-dk/none-1V8` | [**&#8690;**](captures/js220/in-100-dk/none-1V8/ABOUT.md) | [**&#8690;**](captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| `nrf-52-dk/zephyr` | [**&#8690;**](captures/js220/nrf-52-dk/zephyr/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
-| `nrf-54-dk/baremetal` | [**&#8690;**](captures/js220/nrf-54-dk/baremetal/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| `nrf-54-dk/baremetal-1V8` | [**&#8690;**](captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| `nrf-54-dk/zephyr` | [**&#8690;**](captures/js220/nrf-54-dk/zephyr/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| `nrf-54-dk/zephyr-1V8` | [**&#8690;**](captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | [**&#8690;**](captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| `sil-g22e-ehk/rail` | [**&#8690;**](captures/js220/sil-g22e-ehk/rail/ABOUT.md) | [**&#8690;**](captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
-| `ti-23-lp/emscript` | [**&#8690;**](captures/js220/ti-23-lp/emscript/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| `ti-23-lp/emscript-2V2` | [**&#8690;**](captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| `ti-23-lp/simplelink` | [**&#8690;**](captures/js220/ti-23-lp/simplelink/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
-| `ti-23-lp/simplelink-2V2` | [**&#8690;**](captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&#8690;**](captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Hardware Platform · Software Environment |
+| `adi-m17-evk/msdk` | [**&nearr;**](captures/js220/adi-m17-evk/msdk/ABOUT.md) | [**&nearr;**](captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
+| `in-100-dk/none` | [**&nearr;**](captures/js220/in-100-dk/none/ABOUT.md) | [**&nearr;**](captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| `in-100-dk/none-1V8` | [**&nearr;**](captures/js220/in-100-dk/none-1V8/ABOUT.md) | [**&nearr;**](captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| `nrf-52-dk/zephyr` | [**&nearr;**](captures/js220/nrf-52-dk/zephyr/ABOUT.md) | [**&nearr;**](captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
+| `nrf-54-dk/baremetal` | [**&nearr;**](captures/js220/nrf-54-dk/baremetal/ABOUT.md) | [**&nearr;**](captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| `nrf-54-dk/baremetal-1V8` | [**&nearr;**](captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | [**&nearr;**](captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| `nrf-54-dk/zephyr` | [**&nearr;**](captures/js220/nrf-54-dk/zephyr/ABOUT.md) | [**&nearr;**](captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| `nrf-54-dk/zephyr-1V8` | [**&nearr;**](captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | [**&nearr;**](captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| `sil-g22e-ehk/rail` | [**&nearr;**](captures/js220/sil-g22e-ehk/rail/ABOUT.md) | [**&nearr;**](captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
+| `ti-23-lp/emscript` | [**&nearr;**](captures/js220/ti-23-lp/emscript/ABOUT.md) | [**&nearr;**](captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| `ti-23-lp/emscript-2V2` | [**&nearr;**](captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | [**&nearr;**](captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| `ti-23-lp/simplelink` | [**&nearr;**](captures/js220/ti-23-lp/simplelink/ABOUT.md) | [**&nearr;**](captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| `ti-23-lp/simplelink-2V2` | [**&nearr;**](captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&nearr;**](captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Hardware Platform · Software Environment |
 <!-- @catalog-end -->
 
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.
