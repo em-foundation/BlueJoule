@@ -1,5 +1,5 @@
 {
-  "name": "bleadv-captures",
+  "name": "bluejoule",
   "version": "1.0.0",
   "description": "<p align=\"center\">     <img src=\"docs/images/logo.png\" alt=\"Logo\" width=\"400\"> </p> <br> <p align=\"center\">     &emsp;&ensp;<img src=\"docs/images/tagline.png\" alt=\"TagLine\" width=\"750\"> </p>",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node tools/refresh-tables.js"
   },
   "repository": {
     "type": "git",
