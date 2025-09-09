@@ -82,7 +82,7 @@ ${genScoreTab('PPK2')}
 function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
-    const img = '<img src="docs/images/emeralds.svg" width="150" alt="">'
+    const img = '<img src="docs/images/emeralds.svg" width="200" alt="">'
     let res = `
 
 <br>    
