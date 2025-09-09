@@ -59,7 +59,7 @@ function genCatalog() {
             const cn = `${pre}${targ}`
             let about = CAPS.get(cn)
             if (about) {
-                line += `[**&nearr;**](${CAPDIR}/${cn}/ABOUT.md)` 
+                line += `[**&nearr;**](../${CAPDIR}/${cn}/ABOUT.md)` 
                 desc = desc || `&emsp; ${about.match(re)[1]}`
             }
             line += ' | '
@@ -83,7 +83,7 @@ ${genScoreTab('PPK2')}
 function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
-    const img = '<img src="docs/images/emeralds.svg" width="200" alt="">'
+    const img = '<img src="images/emeralds.svg" width="200" alt="">'
     let res = `
 
 <br>    
@@ -103,7 +103,7 @@ function genScoreTab(aname) {
         const x1 = !has_v ? `${ems1}${m1}` : ''
         const x10 = !has_v ? `${ems10}${m10}` : ''
 
-        let line = `| &emsp;[${cn}](captures/${k}/ABOUT.md) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
+        let line = `| &emsp;[${cn}](../${CAPDIR}/${k}/ABOUT.md) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
@@ -140,16 +140,9 @@ function isMedal(s) {
     return s == 'G' || s == 'S' || s == 'B'
 }
 
-// function mkMedal(map, cn) {
-//     const mk = map.get(cn)
-//     const mn = mk == 'G' ? 'gold' : mk == 'S' ? 'silver' : mk == 'B' ? 'bronze' : 'empty'
-//     return `<img src="docs/images/${mn}-medal.svg" width="16" alt="">`
-// }
-
-
 function mkMedal(map, cn) {
     if (cn.search('/emscript') > 0) {
-        return `${SP(2)}<img src="docs/images/em-dot.svg" width="14" alt="">`
+        return `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
     }
     switch (map.get(cn)) {
         case 'G': return `${SP(2)}<b>🥇</b>`
@@ -163,9 +156,11 @@ function SP(n) {
     return '&nbsp;'.repeat(n)
 }
 
+const FILE = 'docs/ReadMore.md'
+
 findCaps('js220')
 findCaps('ppk2')
-let txt = Fs.readFileSync('README.md', 'utf-8')
+let txt = Fs.readFileSync(FILE, 'utf-8')
 findMedals(txt)
 const catalog = genCatalog()
 const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
@@ -173,4 +168,4 @@ txt = txt.replace(RE_CAT, catalog)
 const scores = genScores()
 const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
 txt = txt.replace(RE_SCO, scores)
-Fs.writeFileSync('README.md', txt)
+Fs.writeFileSync(FILE, txt)
