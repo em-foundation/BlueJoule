@@ -83,9 +83,9 @@ function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     const img = '<img src="docs/images/emeralds.svg" width="150" alt="">'
-    let res = `${SP(75)}${img}${SP(40)}${img}
+    let res = `${SP(65)}${img}${SP(30)}${img}
     
-| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 period &emsp; | 00:00:01 period &ndash; 3V3 &emsp; | 00:00:10 period &emsp; | 00:00:10 period &ndash; 3V3 &emsp; |
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 &emsp; | 00:00:01 &ndash; 3V3 &emsp;&emsp;&emsp; | 00:00:10 &emsp; | 00:00:10 &ndash; 3V3 &emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
