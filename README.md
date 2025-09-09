@@ -72,7 +72,9 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 
 ## Scores
 
-We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1&thinsp;s and 10&thinsp;s event period in each case.&thinsp; We've also awarded Gold&thinsp;🥇, Silver&thinsp;🥈, and Bronze&thinsp;🥉 medals when merited.
+We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&thinsp;s and 10&thinsp;s event period in each case.&thinsp; We've also broken out a subset of these scores using a 3V3 reference point, as opposed to a more optimal voltage level for the target configuration.
+
+We've also awarded Gold&thinsp;🥇, Silver&thinsp;🥈, and Bronze&thinsp;🥉 medals when merited.
 
 > [!IMPORTANT]
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
