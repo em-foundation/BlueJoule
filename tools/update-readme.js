@@ -147,6 +147,9 @@ function isMedal(s) {
 
 
 function mkMedal(map, cn) {
+    if (cn.search('/emscript') > 0) {
+        return `${SP(2)}<img src="docs/images/em-dot.svg" width="14" alt="">`
+    }
     switch (map.get(cn)) {
         case 'G': return `${SP(2)}<b>🥇</b>`
         case 'S': return `${SP(2)}<b>🥈</b>`
