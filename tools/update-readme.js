@@ -82,10 +82,11 @@ ${genScoreTab('PPK2')}
 function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
-    let res = `<br>
-
-| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} period | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} period |
-|---|---|---|
+    const img = '<img src="docs/images/emeralds.svg" width="150" alt="">'
+    let res = `${SP(75)}${img}${SP(40)}${img}
+    
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 period &emsp; | 00:00:01 period &ndash; 3V3 &emsp; | 00:00:10 period &emsp; | 00:00:10 period &ndash; 3V3 &emsp; |
+|---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
         if (!(k.startsWith(pre))) continue
@@ -94,11 +95,10 @@ function genScoreTab(aname) {
         const m10 = mkMedal(MEDALS_10, k)
         const cn = k.slice(pre.length)
         const has_v = cn.match(/-\dV\d$/)
-        const tab = has_v ? '&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;' : ''
-        const x1 = !has_v ? `&emsp;&emsp;&emsp;${BQ}${ems1}${BQ}` : ''
-        const x10 = !has_v ? `&emsp;&emsp;&emsp;${BQ}${ems10}${BQ}` : ''
+        const x1 = !has_v ? `${ems1}${m1}` : ''
+        const x10 = !has_v ? `${ems10}${m10}` : ''
 
-        let line = `| &emsp;[${cn}](captures/${k}/ABOUT.md) | ${tab}&emsp;${BQ}${ems1}${BQ}${m1}${x1} | ${tab}&emsp;${BQ}${ems10}${BQ}${m10}${x10} |`
+        let line = `| &emsp;[${cn}](captures/${k}/ABOUT.md) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
@@ -125,7 +125,7 @@ function getEmeralds(about) {
                     break
                 case 2:
                     ems10 = (ln.split('|')[4]).trim()
-                    return [ems1.padStart(7, ' '), ems10.padStart(7, ' ')]
+                    return [`${BQ}${ems1.padStart(6, '\u00A0')}${BQ}`, `${BQ}${ems10.padStart(6, '\u00A0')}${BQ}`]
             }
         }
     }
@@ -135,13 +135,24 @@ function isMedal(s) {
     return s == 'G' || s == 'S' || s == 'B'
 }
 
+// function mkMedal(map, cn) {
+//     const mk = map.get(cn)
+//     const mn = mk == 'G' ? 'gold' : mk == 'S' ? 'silver' : mk == 'B' ? 'bronze' : 'empty'
+//     return `<img src="docs/images/${mn}-medal.svg" width="16" alt="">`
+// }
+
+
 function mkMedal(map, cn) {
     switch (map.get(cn)) {
-        case 'G': return ' &nbsp; 🥇'
-        case 'S': return ' &nbsp; 🥈'
-        case 'B': return ' &nbsp; 🥉'
-        default: return '&nbsp;&nbsp;&nbsp;'
+        case 'G': return `${SP(2)}<b>🥇</b>`
+        case 'S': return `${SP(2)}<b>🥈</b>`
+        case 'B': return `${SP(2)}<b>🥉</b>`
+        default: return `${SP(4)}&thinsp;`
     }
+}
+
+function SP(n) {
+    return '&nbsp;'.repeat(n)
 }
 
 findCaps('js220')
