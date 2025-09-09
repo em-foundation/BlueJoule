@@ -140,16 +140,9 @@ function isMedal(s) {
     return s == 'G' || s == 'S' || s == 'B'
 }
 
-// function mkMedal(map, cn) {
-//     const mk = map.get(cn)
-//     const mn = mk == 'G' ? 'gold' : mk == 'S' ? 'silver' : mk == 'B' ? 'bronze' : 'empty'
-//     return `<img src="docs/images/${mn}-medal.svg" width="16" alt="">`
-// }
-
-
 function mkMedal(map, cn) {
     if (cn.search('/emscript') > 0) {
-        return `${SP(2)}<img src="docs/images/em-dot.svg" width="14" alt="">`
+        return `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
     }
     switch (map.get(cn)) {
         case 'G': return `${SP(2)}<b>🥇</b>`
