@@ -26,7 +26,7 @@
 
 <br>
 
-This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope/blob/main/README.md) project to learn more about the **EM&bull;Scope** tool itself.
+This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope) project to learn more about the **EM&bull;Scope** tool itself.
 
 ## Application
 
@@ -166,6 +166,6 @@ To contribute new captures (or to refine existing captures), fork this repositor
 
 If you plan to submit a new capture, create a directory whose name follows the labeling conventions used throughout this repo.&thinsp; Copy an existing capture's `ABOUT.md` file into your new directory, and then modify this file's contents accordingly.
 
-For any technical questions or roadmap suggestions, create a new thread on our [discussions](https://github.com/em-foundation/bleadv-data/discussions/) page.
+For any technical questions or roadmap suggestions, create a new thread on our [discussions](https://github.com/em-foundation/BlueJoule/discussions/) page.
 
 
