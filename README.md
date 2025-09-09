@@ -87,7 +87,11 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 
 <!-- @scores-begin -->
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/images/emeralds.svg" width="150" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/images/emeralds.svg" width="150" alt="">
+
+
+<br>    
+
+<p align="center"><img src="docs/images/emeralds.svg" width="150" alt=""></p>
     
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 &emsp; | 00:00:01 &ndash; 3V3 &emsp;&emsp;&emsp; | 00:00:10 &emsp; | 00:00:10 &ndash; 3V3 &emsp; |
 |---|---|---|---|---|
@@ -106,7 +110,11 @@ We've compiled a pair of **EM&bull;erald** scores for each capture, assuming a 1
 | &emsp;[ti-23-lp/simplelink-2V2](captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;` 29.73`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`197.07`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/images/emeralds.svg" width="150" alt="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="docs/images/emeralds.svg" width="150" alt="">
+
+
+<br>    
+
+<p align="center"><img src="docs/images/emeralds.svg" width="150" alt=""></p>
     
 | PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 &emsp; | 00:00:01 &ndash; 3V3 &emsp;&emsp;&emsp; | 00:00:10 &emsp; | 00:00:10 &ndash; 3V3 &emsp; |
 |---|---|---|---|---|
