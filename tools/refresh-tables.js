@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // @ts-check
 /// <reference types="node" />
 
@@ -12,13 +13,18 @@ const TARGS = new Set()
 const BQ = '`'
 const CAPDIR = 'captures'
 
-function findCaps() {
-    for (const de of Fs.readdirSync(CAPDIR)) {
-        if (de.endsWith('__J') || de.endsWith('__P')) {
-            const about = Fs.readFileSync(Path.join(CAPDIR, de, 'ABOUT.md'), 'utf-8')
-            CAPS.set(de, about)
-            TARGS.add(de.slice(0, de.length - 3))
-            continue
+function findCaps(adir) {
+    const path1 = Path.join(CAPDIR, adir)
+    for (const be of Fs.readdirSync(path1)) {
+        const path2 = Path.join(path1, be)
+        if (!Fs.lstatSync(path2).isDirectory()) continue
+        for (const ce of Fs.readdirSync(path2)) {
+            const path3 = Path.join(path2, ce)
+            const about_file = Path.join(path3, 'ABOUT.md')
+            if (!Fs.existsSync(about_file)) continue
+            const about_txt = Fs.readFileSync(about_file, 'utf-8')
+            CAPS.set(`${adir}/${be}/${ce}`, about_txt)
+            TARGS.add(`${be}/${ce}`)
         }
     }
 }
@@ -42,18 +48,18 @@ function findMedals(txt) {
 function genCatalog() {
     let res =
 `<!-- @catalog-begin -->
-| JS220 Capture | PPK2 Capture | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
-|---|---|---|
+| &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+|---|:---:|:---:|---|
 `
     for (const targ of TARGS) {
-        let line = '| '
+        let line = `| ${BQ}${targ}${BQ}&emsp; | `
         let desc = undefined
         const re = /<h1\b[^>]*>(.*?)<\/h1>/is
-        for (const suf of ['__J', '__P']) {
-            const cn = `${targ}${suf}`
+        for (const pre of ['js220/', 'ppk2/']) {
+            const cn = `${pre}${targ}`
             let about = CAPS.get(cn)
             if (about) {
-                line += `[${cn}](${CAPDIR}/${cn}/ABOUT.md)` 
+                line += `[**&nearr;**](${CAPDIR}/${cn}/ABOUT.md)` 
                 desc = desc || `&emsp; ${about.match(re)[1]}`
             }
             line += ' | '
@@ -75,19 +81,29 @@ ${genScoreTab('PPK2')}
 }
 
 function genScoreTab(aname) {
-    const pre = `__${aname[0]}`
+    const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
-    let res = `<br>
+    const img = '<img src="docs/images/emeralds.svg" width="200" alt="">'
+    let res = `
 
-| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:01${BQ} event cycle | EM&bull;eralds&thinsp; &mdash;&thinsp;${BQ}00:00:10${BQ} event cycle |
-|---|---|---|
+<br>    
+
+<p align="center">${img}</p>
+    
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 &emsp; | 00:00:01 &ndash; 3V3 &emsp;&emsp;&emsp; | 00:00:10 &emsp; | 00:00:10 &ndash; 3V3 &emsp; |
+|---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
-        if (!(k.endsWith(pre))) continue
+        if (!(k.startsWith(pre))) continue
         const [ems1, ems10] = getEmeralds(v)
         const m1 = mkMedal(MEDALS_1, k)
         const m10 = mkMedal(MEDALS_10, k)
-        let line = `| &emsp;[${k}](captures/${k}/ABOUT.md) | &emsp;${BQ}${ems1}${BQ}${m1} | &emsp;${BQ}${ems10}${BQ}${m10} |`
+        const cn = k.slice(pre.length)
+        const has_v = cn.match(/-\dV\d$/)
+        const x1 = !has_v ? `${ems1}${m1}` : ''
+        const x10 = !has_v ? `${ems10}${m10}` : ''
+
+        let line = `| &emsp;[${cn}](captures/${k}/ABOUT.md) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
@@ -114,7 +130,7 @@ function getEmeralds(about) {
                     break
                 case 2:
                     ems10 = (ln.split('|')[4]).trim()
-                    return [ems1.padStart(7, ' '), ems10.padStart(7, ' ')]
+                    return [`${BQ}${ems1.padStart(6, '\u00A0')}${BQ}`, `${BQ}${ems10.padStart(6, '\u00A0')}${BQ}`]
             }
         }
     }
@@ -124,16 +140,31 @@ function isMedal(s) {
     return s == 'G' || s == 'S' || s == 'B'
 }
 
+// function mkMedal(map, cn) {
+//     const mk = map.get(cn)
+//     const mn = mk == 'G' ? 'gold' : mk == 'S' ? 'silver' : mk == 'B' ? 'bronze' : 'empty'
+//     return `<img src="docs/images/${mn}-medal.svg" width="16" alt="">`
+// }
+
+
 function mkMedal(map, cn) {
+    if (cn.search('/emscript') > 0) {
+        return `${SP(2)}<img src="docs/images/em-dot.svg" width="14" alt="">`
+    }
     switch (map.get(cn)) {
-        case 'G': return ' &emsp; 🥇'
-        case 'S': return ' &emsp; 🥈'
-        case 'B': return ' &emsp; 🥉'
-        default: return ''
+        case 'G': return `${SP(2)}<b>🥇</b>`
+        case 'S': return `${SP(2)}<b>🥈</b>`
+        case 'B': return `${SP(2)}<b>🥉</b>`
+        default: return `${SP(4)}&thinsp;`
     }
 }
 
-findCaps()
+function SP(n) {
+    return '&nbsp;'.repeat(n)
+}
+
+findCaps('js220')
+findCaps('ppk2')
 let txt = Fs.readFileSync('README.md', 'utf-8')
 findMedals(txt)
 const catalog = genCatalog()
