@@ -6,8 +6,7 @@ const Fs = require('node:fs')
 const Path = require('node:path')
 
 const CAPS = new Map()
-const MEDALS_1 = new Map()
-const MEDALS_10 = new Map()
+const MEDALS = new Map()
 const TARGS = new Set()
 
 const BQ = '`'
@@ -34,14 +33,8 @@ function findMedals(txt) {
         if (!ln.startsWith('<!-- @medal|')) continue
         const flds = ln.split('|')
         const cn = flds[1].trim()
-        const m1 = flds[2]
         const m10 = flds[3]
-        if (isMedal(m1)) {
-            MEDALS_1.set(cn, m1)
-        }
-        if (isMedal(m10)) {
-            MEDALS_10.set(cn, m10)
-        }
+        MEDALS.set(cn, flds.slice(2, 6))
     }
 }
 
@@ -96,13 +89,11 @@ function genScoreTab(aname) {
     for (const [k, v] of CAPS) {
         if (!(k.startsWith(pre))) continue
         const [ems1, ems10] = getEmeralds(v)
-        const m1 = mkMedal(MEDALS_1, k)
-        const m10 = mkMedal(MEDALS_10, k)
+        const [m1, m1_X, m10, m10_X] = getMedals(k)
         const cn = k.slice(pre.length)
         const has_v = cn.match(/-\dV\d$/)
-        const x1 = !has_v ? `${ems1}${m1}` : ''
-        const x10 = !has_v ? `${ems10}${m10}` : ''
-
+        const x1 = !has_v ? `${ems1}${m1_X}` : ''
+        const x10 = !has_v ? `${ems10}${m10_X}` : ''
         let line = `| &emsp;[${cn}](../${CAPDIR}/${k}/ABOUT.md) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
         getEmeralds(v)
         res += `${line}\n`
@@ -136,15 +127,17 @@ function getEmeralds(about) {
     }
 }
 
-function isMedal(s) {
-    return s == 'G' || s == 'S' || s == 'B'
+function getMedals(cn) {
+    const E = `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
+    if (cn.search('/emscript') > 0) {
+        return [E, E, E, E]
+    }
+    const N = mkMedal('-')
+    return MEDALS.has(cn) ? MEDALS.get(cn).map(m => mkMedal(m)) : [N, N, N, N]
 }
 
-function mkMedal(map, cn) {
-    if (cn.search('/emscript') > 0) {
-        return `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
-    }
-    switch (map.get(cn)) {
+function mkMedal(s) {
+    switch (s) {
         case 'G': return `${SP(2)}<b>🥇</b>`
         case 'S': return `${SP(2)}<b>🥈</b>`
         case 'B': return `${SP(2)}<b>🥉</b>`

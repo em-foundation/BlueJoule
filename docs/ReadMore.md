@@ -70,13 +70,26 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 > [!IMPORTANT]
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
 
-<!-- @medal|js220/in-100-dk/none            |S|G| -->
-<!-- @medal|js220/nrf-54-dk/zephyr          |S|N| -->
-<!-- @medal|js220/ti-23-lp/simplelink       |N|B| -->
+<!-- @medal|js220/in-100-dk/none                    |-|-|-|S| -->
+<!-- @medal|js220/in-100-dk/none-1V8                |S|-|G|-| -->
+<!-- @medal|js220/nrf-52-dk/zephyr                  |-|-|-|B| -->
+<!-- @medal|js220/nrf-54-dk/baremetal-1V8           |B|-|-|-| -->
+<!-- @medal|js220/nrf-54-dk/zephyr                  |-|S|-|-| -->
+<!-- @medal|js220/nrf-54-dk/zephyr-1V8              |S|-|S|-| -->
+<!-- @medal|js220/sil-g22e-ehk/rail                 |-|S|-|-| -->
+<!-- @medal|js220/ti-23-lp/simplelink               |-|B|-|G| -->
+<!-- @medal|js220/ti-23-lp/simplelink-2V2           |-|-|B|-| -->
 
-<!-- @medal|ppk2/in-100-dk/none             |S|G| -->
-<!-- @medal|ppk2/nrf-54-dk/zephyr           |G|B| -->
-<!-- @medal|ppk2/ti-23-lp/simplelink        |N|S| -->
+<!-- @medal|ppk2/in-100-dk/none                     |-|-|-|S| -->
+<!-- @medal|ppk2/in-100-dk/none-1V8                 |S|-|G|-| -->
+<!-- @medal|ppk2/nrf-52-dk/zephyr                   |-|-|-|B| -->
+<!-- @medal|ppk2/nrf-54-dk/baremetal-1V8            |B|-|-|-| -->
+<!-- @medal|ppk2/nrf-54-dk/zephyr                   |-|S|-|-| -->
+<!-- @medal|ppk2/nrf-54-dk/zephyr-1V8               |G|-|-|-| -->
+<!-- @medal|ppk2/sil-g22e-ehk/rail                  |-|S|-|-| -->
+<!-- @medal|ppk2/ti-23-lp/simplelink                |-|-|B|G| -->
+<!-- @medal|ppk2/ti-23-lp/simplelink-2V2            |-|-|S|-| -->
+
 
 <!-- @scores-begin -->
 
@@ -89,20 +102,20 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 &emsp; | 00:00:01 &ndash; 3V3 &emsp;&emsp;&emsp; | 00:00:10 &emsp; | 00:00:10 &ndash; 3V3 &emsp; |
 |---|---|---|---|---|
 | &emsp;[adi-m17-evk/msdk](../captures/js220/adi-m17-evk/msdk/ABOUT.md) | &emsp;` 14.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 14.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 47.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 47.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &emsp;[in-100-dk/none](../captures/js220/in-100-dk/none/ABOUT.md) | &emsp;` 22.85`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 22.85`&nbsp;&nbsp;<b>🥈</b> | &emsp;`155.14`&nbsp;&nbsp;<b>🥇</b> | &emsp;`155.14`&nbsp;&nbsp;<b>🥇</b> |
-| &emsp;[in-100-dk/none-1V8](../captures/js220/in-100-dk/none-1V8/ABOUT.md) | &emsp;` 41.92`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`306.84`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
-| &emsp;[nrf-52-dk/zephyr](../captures/js220/nrf-52-dk/zephyr/ABOUT.md) | &emsp;` 27.72`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.72`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`122.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`122.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;[in-100-dk/none](../captures/js220/in-100-dk/none/ABOUT.md) | &emsp;` 22.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 22.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`155.14`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`155.14`&nbsp;&nbsp;<b>🥈</b> |
+| &emsp;[in-100-dk/none-1V8](../captures/js220/in-100-dk/none-1V8/ABOUT.md) | &emsp;` 41.92`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`306.84`&nbsp;&nbsp;<b>🥇</b> | &emsp; |
+| &emsp;[nrf-52-dk/zephyr](../captures/js220/nrf-52-dk/zephyr/ABOUT.md) | &emsp;` 27.72`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.72`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`122.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`122.85`&nbsp;&nbsp;<b>🥉</b> |
 | &emsp;[nrf-54-dk/baremetal](../captures/js220/nrf-54-dk/baremetal/ABOUT.md) | &emsp;` 27.09`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.09`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 64.82`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 64.82`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &emsp;[nrf-54-dk/baremetal-1V8](../captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;` 33.64`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;` 89.74`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
+| &emsp;[nrf-54-dk/baremetal-1V8](../captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;` 33.64`&nbsp;&nbsp;<b>🥉</b> | &emsp; | &emsp;` 89.74`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
 | &emsp;[nrf-54-dk/emscript](../captures/js220/nrf-54-dk/emscript/ABOUT.md) | &emsp;` 37.01`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 37.01`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 84.65`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 84.65`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
 | &emsp;[nrf-54-dk/emscript-1V8](../captures/js220/nrf-54-dk/emscript-1V8/ABOUT.md) | &emsp;` 44.67`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`118.67`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
-| &emsp;[nrf-54-dk/zephyr](../captures/js220/nrf-54-dk/zephyr/ABOUT.md) | &emsp;` 31.07`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 31.07`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 71.43`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 71.43`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &emsp;[nrf-54-dk/zephyr-1V8](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;` 41.93`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`121.06`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
-| &emsp;[sil-g22e-ehk/rail](../captures/js220/sil-g22e-ehk/rail/ABOUT.md) | &emsp;` 31.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 31.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 99.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 99.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;[nrf-54-dk/zephyr](../captures/js220/nrf-54-dk/zephyr/ABOUT.md) | &emsp;` 31.07`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 31.07`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 71.43`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 71.43`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;[nrf-54-dk/zephyr-1V8](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;` 41.93`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`121.06`&nbsp;&nbsp;<b>🥈</b> | &emsp; |
+| &emsp;[sil-g22e-ehk/rail](../captures/js220/sil-g22e-ehk/rail/ABOUT.md) | &emsp;` 31.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 31.85`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 99.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 99.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
 | &emsp;[ti-23-lp/emscript](../captures/js220/ti-23-lp/emscript/ABOUT.md) | &emsp;` 48.62`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 48.62`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`249.88`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`249.88`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
 | &emsp;[ti-23-lp/emscript-2V2](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;` 72.21`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`379.34`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
-| &emsp;[ti-23-lp/simplelink](../captures/js220/ti-23-lp/simplelink/ABOUT.md) | &emsp;` 28.13`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 28.13`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`183.76`&nbsp;&nbsp;<b>🥉</b> | &emsp;`183.76`&nbsp;&nbsp;<b>🥉</b> |
-| &emsp;[ti-23-lp/simplelink-2V2](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;` 29.73`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`197.07`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
+| &emsp;[ti-23-lp/simplelink](../captures/js220/ti-23-lp/simplelink/ABOUT.md) | &emsp;` 28.13`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 28.13`&nbsp;&nbsp;<b>🥉</b> | &emsp;`183.76`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`183.76`&nbsp;&nbsp;<b>🥇</b> |
+| &emsp;[ti-23-lp/simplelink-2V2](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;` 29.73`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`197.07`&nbsp;&nbsp;<b>🥉</b> | &emsp; |
 
 
 
@@ -114,20 +127,20 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 | PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 &emsp; | 00:00:01 &ndash; 3V3 &emsp;&emsp;&emsp; | 00:00:10 &emsp; | 00:00:10 &ndash; 3V3 &emsp; |
 |---|---|---|---|---|
 | &emsp;[adi-m17-evk/msdk](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp;` 14.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 14.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 47.36`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 47.36`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &emsp;[in-100-dk/none](../captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp;` 22.95`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 22.95`&nbsp;&nbsp;<b>🥈</b> | &emsp;`148.92`&nbsp;&nbsp;<b>🥇</b> | &emsp;`148.92`&nbsp;&nbsp;<b>🥇</b> |
-| &emsp;[in-100-dk/none-1V8](../captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp;` 43.11`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`301.01`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
-| &emsp;[nrf-52-dk/zephyr](../captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp;` 27.30`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.30`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`113.68`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`113.68`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;[in-100-dk/none](../captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp;` 22.95`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 22.95`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`148.92`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`148.92`&nbsp;&nbsp;<b>🥈</b> |
+| &emsp;[in-100-dk/none-1V8](../captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp;` 43.11`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`301.01`&nbsp;&nbsp;<b>🥇</b> | &emsp; |
+| &emsp;[nrf-52-dk/zephyr](../captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp;` 27.30`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.30`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`113.68`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`113.68`&nbsp;&nbsp;<b>🥉</b> |
 | &emsp;[nrf-54-dk/baremetal](../captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp;` 27.35`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.35`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 64.54`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 64.54`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &emsp;[nrf-54-dk/baremetal-1V8](../captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;` 35.09`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;` 86.91`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
+| &emsp;[nrf-54-dk/baremetal-1V8](../captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp;` 35.09`&nbsp;&nbsp;<b>🥉</b> | &emsp; | &emsp;` 86.91`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
 | &emsp;[nrf-54-dk/emscript](../captures/ppk2/nrf-54-dk/emscript/ABOUT.md) | &emsp;` 35.75`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 35.75`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 81.83`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 81.83`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
 | &emsp;[nrf-54-dk/emscript-1V8](../captures/ppk2/nrf-54-dk/emscript-1V8/ABOUT.md) | &emsp;` 46.07`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`117.95`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
-| &emsp;[nrf-54-dk/zephyr](../captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp;` 31.94`&nbsp;&nbsp;<b>🥇</b> | &emsp;` 31.94`&nbsp;&nbsp;<b>🥇</b> | &emsp;` 71.26`&nbsp;&nbsp;<b>🥉</b> | &emsp;` 71.26`&nbsp;&nbsp;<b>🥉</b> |
-| &emsp;[nrf-54-dk/zephyr-1V8](../captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;` 57.21`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`153.61`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
-| &emsp;[sil-g22e-ehk/rail](../captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp;` 31.92`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 31.92`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 92.80`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 92.80`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;[nrf-54-dk/zephyr](../captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp;` 31.94`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 31.94`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 71.26`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 71.26`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;[nrf-54-dk/zephyr-1V8](../captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp;` 57.21`&nbsp;&nbsp;<b>🥇</b> | &emsp; | &emsp;`153.61`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
+| &emsp;[sil-g22e-ehk/rail](../captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp;` 31.92`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 31.92`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 92.80`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 92.80`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
 | &emsp;[ti-23-lp/emscript](../captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp;` 39.95`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 39.95`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`228.08`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`228.08`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
 | &emsp;[ti-23-lp/emscript-2V2](../captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp;` 42.09`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`228.65`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
-| &emsp;[ti-23-lp/simplelink](../captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp;` 27.37`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.37`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`173.87`&nbsp;&nbsp;<b>🥈</b> | &emsp;`173.87`&nbsp;&nbsp;<b>🥈</b> |
-| &emsp;[ti-23-lp/simplelink-2V2](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;` 29.62`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`182.12`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
+| &emsp;[ti-23-lp/simplelink](../captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp;` 27.37`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 27.37`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`173.87`&nbsp;&nbsp;<b>🥉</b> | &emsp;`173.87`&nbsp;&nbsp;<b>🥇</b> |
+| &emsp;[ti-23-lp/simplelink-2V2](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp;` 29.62`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`182.12`&nbsp;&nbsp;<b>🥈</b> | &emsp; |
 
 
 <!-- @scores-end -->
