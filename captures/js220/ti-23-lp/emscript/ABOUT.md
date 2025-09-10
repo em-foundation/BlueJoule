@@ -12,22 +12,22 @@
 
 | supply voltage | &emsp;current (avg)&emsp; | &emsp;current (std)&emsp; | &emsp;average power&emsp;
 |:---:|:---:|:---:|:---:|
-| 3.30 V | 607.320 nA |  14.927 µA |   2.001 µW |
+| 3.30 V | 381.136 nA |  10.959 µA |   1.256 µW |
 
-### 🟠&ensp;1&thinsp;s event cycle
+### 🟠&ensp;1&thinsp;s event period
 
-| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per cycle&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  17.043 µJ |  19.044 µJ |   1.645 J | 48.62 |
+|  22.092 µJ |  23.348 µJ |   2.017 J | 39.66 |
 
-### 🟠&ensp;10&thinsp;s event cycle
+### 🟠&ensp;10&thinsp;s event period
 
-| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per cycle&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  17.043 µJ |  37.055 µJ | 320.156 mJ | 249.88 |
+|  22.092 µJ |  34.652 µJ | 299.391 mJ | 267.21 |
 
 <br>
-<p align="right"><sub>generated at 2025-08-31T14:28:24.542Z</sub></p>
+<p align="right"><sub>generated at 2025-09-10T22:31:37.565Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
@@ -35,7 +35,7 @@
 ## Typical event
 
 <p align="center">
-    <img src="ti-23-lp-emsdk-J-event-ID.png" alt="Event" width="900">
+    <img src="event-B.png" alt="Event" width="900">
 </p>
 
 ## Observations
