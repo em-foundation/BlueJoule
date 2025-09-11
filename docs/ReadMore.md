@@ -72,6 +72,9 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 > [!IMPORTANT]
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While results generally seem consistent, anomalies can sometimes occur.
 
+> [!TIP]
+> Hovering over an individual capture link within the following tables provides an unabbreviated description of the target configuration.
+
 <!-- @medal|js220/in-100-dk/none                    |-|-|-|S| -->
 <!-- @medal|js220/in-100-dk/none-1V8                |S|-|G|-| -->
 <!-- @medal|js220/nrf-52-dk/zephyr                  |-|-|-|B| -->
