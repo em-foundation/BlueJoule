@@ -11,6 +11,7 @@ const TARGS = new Set()
 
 const BQ = '`'
 const CAPDIR = 'captures'
+const DESC_RE = /<h1\b[^>]*>(.*?)<\/h1>/is
 
 function findCaps(adir) {
     const path1 = Path.join(CAPDIR, adir)
@@ -47,13 +48,12 @@ function genCatalog() {
     for (const targ of TARGS) {
         let line = `| ${BQ}${targ}${BQ}&emsp; | `
         let desc = undefined
-        const re = /<h1\b[^>]*>(.*?)<\/h1>/is
         for (const pre of ['js220/', 'ppk2/']) {
             const cn = `${pre}${targ}`
             let about = CAPS.get(cn)
             if (about) {
                 line += `[**&nearr;**](../${CAPDIR}/${cn}/ABOUT.md)` 
-                desc = desc || `&emsp; ${about.match(re)[1]}`
+                desc = desc || `&emsp; ${about.match(DESC_RE)[1]}`
             }
             line += ' | '
         }
@@ -91,10 +91,15 @@ function genScoreTab(aname) {
         const [ems1, ems10] = getEmeralds(v)
         const [m1, m1_X, m10, m10_X] = getMedals(k)
         const cn = k.slice(pre.length)
+        let desc = ''
+        let about = CAPS.get(k)
+        if (about) {
+            desc = `"${about.match(DESC_RE)[1]}"`
+        }
         const has_v = cn.match(/-\dV\d$/)
         const x1 = !has_v ? `${ems1}${m1_X}` : ''
         const x10 = !has_v ? `${ems10}${m10_X}` : ''
-        let line = `| &emsp;[${cn}](../${CAPDIR}/${k}/ABOUT.md) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
+        let line = `| &emsp;[${cn}](../${CAPDIR}/${k}/ABOUT.md ${desc}) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
