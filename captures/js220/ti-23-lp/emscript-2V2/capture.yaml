@@ -1,7 +1,7 @@
 capture:
-    creation_date: 2025-08-26T01:45:38.135Z
+    creation_date: 2025-09-16T01:20:01.515Z
     device: JS220
-    duration: 3
+    duration: 12
     sampling_rate: 1000000
-    sample_count: 3000000
+    sample_count: 12000000
     voltage: -1
