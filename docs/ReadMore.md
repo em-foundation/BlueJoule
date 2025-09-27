@@ -120,7 +120,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 | &emsp;[nrf-54-dk/zephyr-1V8](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md "Nordic nRF54L15 · Zephyr OS") | &emsp;` 41.93`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`121.06`&nbsp;&nbsp;<b>🥈</b> | &emsp; |
 | &emsp;[sil-g22e-ehk/rail](../captures/js220/sil-g22e-ehk/rail/ABOUT.md "SiLabs EFR32xG22E · Simplicity (RAIL)") | &emsp;` 31.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 31.85`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 99.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 99.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
 | &emsp;[ti-23-lp/emscript](../captures/js220/ti-23-lp/emscript/ABOUT.md "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp;` 39.66`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 39.66`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`267.21`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`267.21`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
-| &emsp;[ti-23-lp/emscript-2V2](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp;` 72.21`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`379.34`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
+| &emsp;[ti-23-lp/emscript-2V2](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp;` 42.63`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`255.16`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
 | &emsp;[ti-23-lp/simplelink](../captures/js220/ti-23-lp/simplelink/ABOUT.md "Texas Instruments CC2340R5 · SimpleLink SDK") | &emsp;` 28.13`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 28.13`&nbsp;&nbsp;<b>🥉</b> | &emsp;`183.76`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`183.76`&nbsp;&nbsp;<b>🥇</b> |
 | &emsp;[ti-23-lp/simplelink-2V2](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md "Hardware Platform · Software Environment") | &emsp;` 29.73`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`197.07`&nbsp;&nbsp;<b>🥉</b> | &emsp; |
 
@@ -155,7 +155,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 > [!NOTE]
 > By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per period:
 >
-><p align="left"><b><sup>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;EM•eralds = 2400 / (<i>Joules per day</i> * 30) = 800 / <i>Joules per day</i><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CR2032 energy:&nbsp; 225 mAh × 3.6 × 3.0 V ≈ 2.43 kJ<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1 EM•erald ≈ 1 CR2032-month</sup></b></p>
+><p align="left"><b><sup>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;EM•eralds = 2400 / (<i>Joules per day</i> × 30) = 80 / <i>Joules per day</i><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CR2032 energy:&nbsp; 225 mAh × 3.6 × 3.0 V ≈ 2.43 kJ<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1 EM•erald ≈ 1 CR2032-month</sup></b></p>
 
 Consider installing the [open-source](https://github.com/em-foundation/emscope) **EM&bull;Scope** tool.&thinsp; You can then query _other_ event period scenarios, as well as interactively view individual data captures raw using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
 
