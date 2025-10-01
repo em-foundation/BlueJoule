@@ -58,7 +58,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | `ti-23-lp/emscript`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/emscript/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
 | `ti-23-lp/emscript-2V2`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
 | `ti-23-lp/simplelink`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/simplelink/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
-| `ti-23-lp/simplelink-2V2`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Hardware Platform · Software Environment |
+| `ti-23-lp/simplelink-2V2`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.
@@ -122,7 +122,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 | &emsp;[ti-23-lp/emscript](../captures/js220/ti-23-lp/emscript/ABOUT.md "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp;` 39.63`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 39.63`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`226.71`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`226.71`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
 | &emsp;[ti-23-lp/emscript-2V2](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp;` 42.06`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`260.25`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
 | &emsp;[ti-23-lp/simplelink](../captures/js220/ti-23-lp/simplelink/ABOUT.md "Texas Instruments CC2340R5 · SimpleLink SDK") | &emsp;` 28.13`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 28.13`&nbsp;&nbsp;<b>🥉</b> | &emsp;`183.76`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`183.76`&nbsp;&nbsp;<b>🥇</b> |
-| &emsp;[ti-23-lp/simplelink-2V2](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md "Hardware Platform · Software Environment") | &emsp;` 29.73`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`197.07`&nbsp;&nbsp;<b>🥉</b> | &emsp; |
+| &emsp;[ti-23-lp/simplelink-2V2](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md "Texas Instruments CC2340R5 · SimpleLink SDK") | &emsp;` 29.73`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`197.07`&nbsp;&nbsp;<b>🥉</b> | &emsp; |
 
 
 

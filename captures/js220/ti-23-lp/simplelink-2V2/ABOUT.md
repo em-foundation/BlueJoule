@@ -1,5 +1,5 @@
 
-<h1 align="center">Hardware Platform · Software Environment</h1>
+<h1 align="center">Texas Instruments CC2340R5 · SimpleLink SDK</h1>
 
 ## HW/SW configuration
 
