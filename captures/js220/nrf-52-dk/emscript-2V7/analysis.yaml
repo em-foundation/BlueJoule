@@ -39,3 +39,4 @@ sleep:
     'off': 40000
 options:
     - '--trim 10'
+version: 25.2.0
