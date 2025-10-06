@@ -1,42 +1,42 @@
 span:
-    offset: 1065250
+    offset: 55250
     width: 10000000
 events:
     -
-        offset: 1565250
+        offset: 555250
+        width: 9250
+    -
+        offset: 1561000
         width: 3500
     -
-        offset: 2567500
+        offset: 2564250
+        width: 8000
+    -
+        offset: 3571250
+        width: 9750
+    -
+        offset: 4580000
+        width: 7250
+    -
+        offset: 5582000
         width: 3250
     -
-        offset: 3576250
-        width: 250
+        offset: 6589250
+        width: 10750
     -
-        offset: 3576750
-        width: 4750
-    -
-        offset: 4585250
-        width: 5000
-    -
-        offset: 5592500
+        offset: 7589750
         width: 3250
     -
-        offset: 6598250
-        width: 5000
+        offset: 8594500
+        width: 10000
     -
-        offset: 7600250
-        width: 5250
-    -
-        offset: 8601750
-        width: 4500
-    -
-        offset: 9609500
-        width: 5750
+        offset: 9601000
+        width: 6750
 sleep:
-    avg: 0.000003947689966366852
-    std: 6.473234298761538e-7
-    p95: 1.7076763469958678e-7
-    'off': 44000
+    avg: 0.000003627916014920629
+    std: 4.242219779553606e-7
+    p95: 6.801262770750327e-7
+    'off': 39000
 options:
     - '--trim 10'
 version: 25.2.0
