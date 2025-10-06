@@ -39,4 +39,5 @@ sleep:
     'off': 33000
 options:
     - '--gap 5'
-    - '--trim'
+    - '--trim 10'
+version: 25.2.0

@@ -1,5 +1,5 @@
 
-<h1 align="center">Hardware Platform · Software Environment</h1>
+<h1 align="center">Texas Instruments CC2340R5 · SimpleLink SDK</h1>
 
 ## HW/SW configuration
 
@@ -27,7 +27,7 @@
 |  29.381 µJ |  46.985 µJ | 405.950 mJ | 197.07 |
 
 <br>
-<p align="right"><sub>generated at 2025-09-07T16:12:35.069Z</sub></p>
+<p align="right"><sub>generated at 2025-10-06T15:20:47.791Z</sub></p>
     
 
 <!-- @emscope-pack:end -->

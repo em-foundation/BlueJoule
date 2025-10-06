@@ -38,4 +38,5 @@ sleep:
     p95: 4.376470741362937e-8
     'off': 30000
 options:
-    - '--trim'
+    - '--trim 10'
+version: 25.2.0

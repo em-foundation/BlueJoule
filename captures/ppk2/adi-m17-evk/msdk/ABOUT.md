@@ -14,20 +14,20 @@
 |:---:|:---:|:---:|:---:|
 | 3.30 V |   4.359 µA | 961.633 nA |  14.384 µW |
 
-### 🟠&ensp;1&thinsp;s event cycle
+### 🟠&ensp;1&thinsp;s event period
 
-| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per cycle&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
 |  51.675 µJ |  66.060 µJ |   5.708 J | 14.02 |
 
-### 🟠&ensp;10&thinsp;s event cycle
+### 🟠&ensp;10&thinsp;s event period
 
-| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per cycle&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
 |  51.675 µJ | 195.517 µJ |   1.689 J | 47.36 |
 
 <br>
-<p align="right"><sub>generated at 2025-08-31T15:39:38.475Z</sub></p>
+<p align="right"><sub>generated at 2025-10-06T15:20:47.800Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
