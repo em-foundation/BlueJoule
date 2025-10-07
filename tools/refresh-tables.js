@@ -83,7 +83,7 @@ function genScoreTab(aname) {
 
 <p align="center">${img}</p>
     
-| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 &emsp; | 00:00:01 &ndash; 3V3 &emsp;&emsp;&emsp; | 00:00:10 &emsp; | 00:00:10 &ndash; 3V3 &emsp; |
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 · <var>d</var>V<var>d</var> &emsp; | 00:00:01 · 3V3 &emsp;&emsp;&emsp; | 00:00:10 · <var>d</var>V<var>d</var> &emsp; | 00:00:10 · 3V3 &emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
@@ -99,7 +99,9 @@ function genScoreTab(aname) {
         const has_v = cn.match(/-\dV\d$/)
         const x1 = !has_v ? `${ems1}${m1_X}` : ''
         const x10 = !has_v ? `${ems10}${m10_X}` : ''
-        let line = `| &emsp;[${cn}](../${CAPDIR}/${k}/ABOUT.md ${desc}) | &emsp;${ems1}${m1} | &emsp;${x1} | &emsp;${ems10}${m10} | &emsp;${x10} |`
+        const x1_v = has_v ? `${ems1}${m1}` : ''
+        const x10_v = has_v ? `${ems10}${m10}` : ''
+        let line = `| &emsp;[${cn}](../${CAPDIR}/${k}/ABOUT.md ${desc}) | &emsp;${x1_v} | &emsp;${x1} | &emsp;${x10_v} | &emsp;${x10} |`
         getEmeralds(v)
         res += `${line}\n`
     }
