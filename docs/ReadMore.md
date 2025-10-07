@@ -62,7 +62,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | `ti-23-lp/simplelink-2V2`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
-An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.&thinsp; This file also contains a screen shot of a typical advertising event, prepared using the `emscope view` command.
+An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
 
 > [!TIP]
 > We recommend opening these links in a new **Tab** or **Window** within your browser
@@ -77,7 +77,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 > Because of their different signal acquisition and power analysis capabilities, we've presented the **Joulescope JS220** and **Nordic PPK2** scores separately.&thinsp; While their respective results will generally align, anomalies can sometimes occur.
 
 > [!TIP]
-> Hovering over an individual capture link within the following tables provides an unabbreviated description of the target configuration.
+> Hovering over individual capture links within the following tables provides an unabbreviated description of the target HW/SW configu&shy;ration.&thinsp; Each of these links takes you to a screen-shot of typical advertising event.
 
 <!-- @medal|js220/in-100-dk/none                    |-|-|-|S| -->
 <!-- @medal|js220/in-100-dk/none-1V8                |S|-|G|-| -->
