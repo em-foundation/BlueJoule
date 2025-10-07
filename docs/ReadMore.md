@@ -62,7 +62,10 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | `ti-23-lp/simplelink-2V2`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
-An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.
+An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.&thinsp; This file also contains a screen shot of a typical advertising event, prepared using the `emscope view` command.
+
+> [!TIP]
+> We recommend opening these links in a new **Tab** or **Window** within your browser
 
 ## Scores
 
