@@ -65,7 +65,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
 
 > [!TIP]
-> We recommend opening these links in a new **Tab** or **Window** within your browser
+> We recommend opening any links marked with a &thinsp;&nearr;&thinsp; in a new **Tab** or **Window** within your browser
 
 ## Scores
 
