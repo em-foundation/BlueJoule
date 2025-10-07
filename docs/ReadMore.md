@@ -42,24 +42,24 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 <!-- @catalog-begin -->
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
-| `adi-m17-evk/msdk`&emsp; | [**&nearr;**](../captures/js220/adi-m17-evk/msdk/ABOUT.md) | [**&nearr;**](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
-| `in-100-dk/none`&emsp; | [**&nearr;**](../captures/js220/in-100-dk/none/ABOUT.md) | [**&nearr;**](../captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| `in-100-dk/none-1V8`&emsp; | [**&nearr;**](../captures/js220/in-100-dk/none-1V8/ABOUT.md) | [**&nearr;**](../captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
-| `nrf-52-dk/emscript`&emsp; | [**&nearr;**](../captures/js220/nrf-52-dk/emscript/ABOUT.md) |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK |
-| `nrf-52-dk/emscript-2V7`&emsp; | [**&nearr;**](../captures/js220/nrf-52-dk/emscript-2V7/ABOUT.md) |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK |
-| `nrf-52-dk/zephyr`&emsp; | [**&nearr;**](../captures/js220/nrf-52-dk/zephyr/ABOUT.md) | [**&nearr;**](../captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
-| `nrf-54-dk/baremetal`&emsp; | [**&nearr;**](../captures/js220/nrf-54-dk/baremetal/ABOUT.md) | [**&nearr;**](../captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| `nrf-54-dk/baremetal-1V8`&emsp; | [**&nearr;**](../captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | [**&nearr;**](../captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
-| `nrf-54-dk/emscript`&emsp; | [**&nearr;**](../captures/js220/nrf-54-dk/emscript/ABOUT.md) | [**&nearr;**](../captures/ppk2/nrf-54-dk/emscript/ABOUT.md) | &emsp; Nordic nRF54L15 · EM&bull;Script SDK |
-| `nrf-54-dk/emscript-1V8`&emsp; | [**&nearr;**](../captures/js220/nrf-54-dk/emscript-1V8/ABOUT.md) | [**&nearr;**](../captures/ppk2/nrf-54-dk/emscript-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · EM&bull;Script SDK |
-| `nrf-54-dk/zephyr`&emsp; | [**&nearr;**](../captures/js220/nrf-54-dk/zephyr/ABOUT.md) | [**&nearr;**](../captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| `nrf-54-dk/zephyr-1V8`&emsp; | [**&nearr;**](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | [**&nearr;**](../captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
-| `sil-g22e-ehk/rail`&emsp; | [**&nearr;**](../captures/js220/sil-g22e-ehk/rail/ABOUT.md) | [**&nearr;**](../captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
-| `sil-g22e-ehk/rail-1V8`&emsp; | [**&nearr;**](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md) |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
-| `ti-23-lp/emscript`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/emscript/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| `ti-23-lp/emscript-2V2`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
-| `ti-23-lp/simplelink`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/simplelink/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
-| `ti-23-lp/simplelink-2V2`&emsp; | [**&nearr;**](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | [**&nearr;**](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| `adi-m17-evk/msdk`&emsp; | 📄&ensp;[&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
+| `in-100-dk/none`&emsp; | 📄&ensp;[&nearr;](../captures/js220/in-100-dk/none/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| `in-100-dk/none-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/in-100-dk/none-1V8/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
+| `nrf-52-dk/emscript`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-52-dk/emscript/ABOUT.md) |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK |
+| `nrf-52-dk/emscript-2V7`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-52-dk/emscript-2V7/ABOUT.md) |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK |
+| `nrf-52-dk/zephyr`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-52-dk/zephyr/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/nrf-52-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF52832 · Zephyr OS |
+| `nrf-54-dk/baremetal`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-54-dk/baremetal/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/nrf-54-dk/baremetal/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| `nrf-54-dk/baremetal-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-54-dk/baremetal-1V8/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/nrf-54-dk/baremetal-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Bare-Metal SDK |
+| `nrf-54-dk/emscript`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-54-dk/emscript/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/nrf-54-dk/emscript/ABOUT.md) | &emsp; Nordic nRF54L15 · EM&bull;Script SDK |
+| `nrf-54-dk/emscript-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-54-dk/emscript-1V8/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/nrf-54-dk/emscript-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · EM&bull;Script SDK |
+| `nrf-54-dk/zephyr`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-54-dk/zephyr/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/nrf-54-dk/zephyr/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| `nrf-54-dk/zephyr-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md) | &emsp; Nordic nRF54L15 · Zephyr OS |
+| `sil-g22e-ehk/rail`&emsp; | 📄&ensp;[&nearr;](../captures/js220/sil-g22e-ehk/rail/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/sil-g22e-ehk/rail/ABOUT.md) | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
+| `sil-g22e-ehk/rail-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md) |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) |
+| `ti-23-lp/emscript`&emsp; | 📄&ensp;[&nearr;](../captures/js220/ti-23-lp/emscript/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/ti-23-lp/emscript/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| `ti-23-lp/emscript-2V2`&emsp; | 📄&ensp;[&nearr;](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK |
+| `ti-23-lp/simplelink`&emsp; | 📄&ensp;[&nearr;](../captures/js220/ti-23-lp/simplelink/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/ti-23-lp/simplelink/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
+| `ti-23-lp/simplelink-2V2`&emsp; | 📄&ensp;[&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md) | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK |
 <!-- @catalog-end -->
 
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.

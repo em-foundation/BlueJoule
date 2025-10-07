@@ -52,7 +52,7 @@ function genCatalog() {
             const cn = `${pre}${targ}`
             let about = CAPS.get(cn)
             if (about) {
-                line += `[**&nearr;**](../${CAPDIR}/${cn}/ABOUT.md)` 
+                line += `📄&ensp;[&nearr;](../${CAPDIR}/${cn}/ABOUT.md)` 
                 desc = desc || `&emsp; ${about.match(DESC_RE)[1]}`
             }
             line += ' | '
