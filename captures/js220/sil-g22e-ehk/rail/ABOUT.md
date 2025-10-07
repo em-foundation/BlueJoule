@@ -12,22 +12,22 @@
 
 | supply voltage | &emsp;current (avg)&emsp; | &emsp;current (std)&emsp; | &emsp;average power&emsp;
 |:---:|:---:|:---:|:---:|
-| 1.80 V |   3.974 µA |   3.420 µA |   7.159 µW |
+| 3.28 V |   1.454 µA | 882.127 nA |   4.775 µW |
 
 ### 🟠&ensp;1&thinsp;s event period
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  21.910 µJ |  29.070 µJ |   2.512 J | 31.85 |
+|  24.223 µJ |  28.998 µJ |   2.505 J | 31.93 |
 
 ### 🟠&ensp;10&thinsp;s event period
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  21.910 µJ |  93.505 µJ | 807.882 mJ | 99.02 |
+|  24.223 µJ |  71.977 µJ | 621.885 mJ | 128.64 |
 
 <br>
-<p align="right"><sub>generated at 2025-10-06T15:20:46.672Z</sub></p>
+<p align="right"><sub>generated at 2025-10-07T01:23:19.702Z</sub></p>
     
 
 <!-- @emscope-pack:end -->
@@ -35,7 +35,7 @@
 ## Typical event
 
 <p align="center">
-    <img src="event-B.png" alt="Event" width="900">
+    <img src="event-C.png" alt="Event" width="900">
 </p>
 
 ## Observations
