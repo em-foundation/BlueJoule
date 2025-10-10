@@ -84,9 +84,9 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 <!-- @medal|js220/nrf-52-dk/zephyr                  |-|-|-|B| -->
 <!-- @medal|js220/nrf-54-dk/baremetal-1V8           |-|-|-|-| -->
 <!-- @medal|js220/nrf-54-dk/zephyr                  |-|S|-|-| -->
-<!-- @medal|js220/nrf-54-dk/zephyr-1V8              |S|-|B|-| -->
+<!-- @medal|js220/nrf-54-dk/zephyr-1V8              |S|-|-|-| -->
 <!-- @medal|js220/sil-g22e-ehk/rail                 |-|S|-|B| -->
-<!-- @medal|js220/sil-g22e-ehk/rail-1V8             |B|S|-|-| -->
+<!-- @medal|js220/sil-g22e-ehk/rail-1V8             |B|-|B|-| -->
 <!-- @medal|js220/ti-23-lp/simplelink               |-|B|-|G| -->
 <!-- @medal|js220/ti-23-lp/simplelink-2V2           |-|-|S|-| -->
 
@@ -122,9 +122,9 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 | &emsp;📈&ensp;[nrf-54-dk/emscript&thinsp;&nearr;](../captures/js220/nrf-54-dk/emscript/ABOUT.md#typical-event "Nordic nRF54L15 · EM&bull;Script SDK") | &emsp; | &emsp;` 37.01`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;` 84.65`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
 | &emsp;📈&ensp;[nrf-54-dk/emscript-1V8&thinsp;&nearr;](../captures/js220/nrf-54-dk/emscript-1V8/ABOUT.md#typical-event "Nordic nRF54L15 · EM&bull;Script SDK") | &emsp;` 44.67`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`118.67`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
 | &emsp;📈&ensp;[nrf-54-dk/zephyr&thinsp;&nearr;](../captures/js220/nrf-54-dk/zephyr/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS") | &emsp; | &emsp;` 31.07`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;` 71.43`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &emsp;📈&ensp;[nrf-54-dk/zephyr-1V8&thinsp;&nearr;](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS") | &emsp;` 41.93`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`121.06`&nbsp;&nbsp;<b>🥉</b> | &emsp; |
+| &emsp;📈&ensp;[nrf-54-dk/zephyr-1V8&thinsp;&nearr;](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS") | &emsp;` 41.93`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`121.06`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
 | &emsp;📈&ensp;[sil-g22e-ehk/rail&thinsp;&nearr;](../captures/js220/sil-g22e-ehk/rail/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL)") | &emsp; | &emsp;` 31.93`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`128.64`&nbsp;&nbsp;<b>🥉</b> |
-| &emsp;📈&ensp;[sil-g22e-ehk/rail-1V8&thinsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL)") | &emsp;` 35.28`&nbsp;&nbsp;<b>🥉</b> | &emsp; | &emsp;`140.22`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
+| &emsp;📈&ensp;[sil-g22e-ehk/rail-1V8&thinsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL)") | &emsp;` 35.28`&nbsp;&nbsp;<b>🥉</b> | &emsp; | &emsp;`140.22`&nbsp;&nbsp;<b>🥉</b> | &emsp; |
 | &emsp;📈&ensp;[ti-23-lp/emscript&thinsp;&nearr;](../captures/js220/ti-23-lp/emscript/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp; | &emsp;` 40.62`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`263.43`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
 | &emsp;📈&ensp;[ti-23-lp/emscript-2V2&thinsp;&nearr;](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp;` 43.05`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;`260.67`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; |
 | &emsp;📈&ensp;[ti-23-lp/simplelink&thinsp;&nearr;](../captures/js220/ti-23-lp/simplelink/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK") | &emsp; | &emsp;` 28.13`&nbsp;&nbsp;<b>🥉</b> | &emsp; | &emsp;`183.76`&nbsp;&nbsp;<b>🥇</b> |
