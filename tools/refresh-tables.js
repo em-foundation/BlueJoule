@@ -7,6 +7,7 @@ const Path = require('node:path')
 
 const CAPS = new Map()
 const MEDALS = new Map()
+const UPDATES = new Array()
 const TARGS = new Set()
 
 const BQ = '`'
@@ -36,6 +37,14 @@ function findMedals(txt) {
         const cn = flds[1].trim()
         const m10 = flds[3]
         MEDALS.set(cn, flds.slice(2, 6))
+    }
+}
+
+function findUpdates(txt) {
+    for (const ln of txt.split('\n')) {
+        if (!ln.startsWith('<!-- @upd|')) continue
+        const flds = ln.split('|')
+        UPDATES.push({date: flds[1], msg: flds[2]})
     }
 }
 
@@ -108,6 +117,47 @@ function genScoreTab(aname) {
     return res
 }
 
+function genUpdates() {
+    let res = `
+<!-- @updates-begin -->
+<details><summary>
+`
+    res += `&thinsp;>${mkDateBadge(UPDATES[0].date)}${UPDATES[0].msg}`
+    res += '</summary><p>\n'
+    let sep = ''
+    for (const upd of UPDATES.slice(1)) {
+        res += `${sep}&emsp;>${mkDateBadge(upd.date)}${upd.msg}`
+        sep = '<br>'
+    }
+    res += `
+</p></details>
+<!-- @updates-end -->
+`
+    return res
+}
+
+// <img src="docs/images/date-2025-10-12.svg" height="16" alt="2025-10-12"></img>
+
+/*
+
+<details>
+  <summary>
+    <img alt="2025-10-12" src="https://img.shields.io/badge/-2025--10--12-2ea043?labelColor=30363d&style=flat-square" height="20">
+    &#8239;New nRF54L15 capture leads by <b>+6%</b>. <i>(expand for more)</i>
+  </summary>
+
+  &emsp;<img alt="2025-10-12"
+       src="https://img.shields.io/badge/-2025--10--12-2ea043?labelColor=30363d&style=flat-square" height="18">
+  &#8239;New EM•Scope capture for nRF54L15 tops the chart by 6%.<br>
+
+  &emsp;<img alt="2025-10-03"
+       src="https://img.shields.io/badge/-2025--10--03-9ca3af?labelColor=30363d&style=flat-square" height="18">
+  &#8239;EM•Script pipeline refinements; faster <code>--pack</code> runs.
+</details>
+
+
+*/
+
 function getEmeralds(about) {
     let state = -1
     let ems1
@@ -152,6 +202,13 @@ function mkMedal(s) {
     }
 }
 
+function mkDateBadge(date) {
+    const src = 'tools/date-badge-master.svg'
+    const dst = `docs/images/badge-${date}.svg`
+    Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date))
+    return `<img src="${dst}" height="16" alt="2025-10-12"></img>`
+}
+
 function SP(n) {
     return '&nbsp;'.repeat(n)
 }
@@ -161,11 +218,19 @@ const FILE = 'docs/ReadMore.md'
 findCaps('js220')
 findCaps('ppk2')
 let txt = Fs.readFileSync(FILE, 'utf-8')
+
+findUpdates(txt)
+const updates = genUpdates()
+const RE_UPD = /<!--\s*@updates-begin\s*-->[\s\S]*?<!--\s*@updates-end\s*-->/m
+txt = txt.replace(RE_UPD, updates)
+
 findMedals(txt)
 const catalog = genCatalog()
 const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
 txt = txt.replace(RE_CAT, catalog)
+
 const scores = genScores()
 const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
 txt = txt.replace(RE_SCO, scores)
+
 Fs.writeFileSync(FILE, txt)

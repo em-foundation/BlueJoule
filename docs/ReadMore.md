@@ -24,12 +24,30 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <!-- @upd|2025-09-09|baseline scores|-->
 
 
+
+
+
+
 <!-- @updates-begin -->
 <details><summary>
-&thinsp;><img alt=“2025-10-17" src=“https://img.shields.io/badge/-2025-10-17-2ea043?labelColor=000000&style=flat-square” height=“16">new emm-9305-dvk/emb* scores</summary><p>
-
+&thinsp;><img src="docs/images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>new emm-9305-dvk/emb* scores</summary><p>
+&emsp;><img src="docs/images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>new nrf-52-dk/emscript* scores<br>&emsp;><img src="docs/images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>baseline scores
 </p></details>
 <!-- @updates-end -->
+
+
+
+
+
+<!--
+
+<details><summary>
+<img alt="2025-10-03" src="https://img.shields.io/badge/-2025--10--03-9ca3af?labelColor=30363d&style=flat-square" height="18"> &#8239;new emm-9305-dvk/emb* scores.
+<!-- &thinsp;<img alt=“2025-10-17" src=“https://img.shields.io/badge/-2025-10-17-2ea043?labelColor=000000&style=flat-square” height=“16"> new emm-9305-dvk/emb* scores -->
+</summary>
+</details>
+
+-->
 
 
 
