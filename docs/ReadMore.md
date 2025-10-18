@@ -23,12 +23,14 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <!-- @upd|2025-09-11|new nrf-52-dk/emscript* scores|-->
 <!-- @upd|2025-09-09|baseline scores|-->
 
+
 <!-- @updates-begin -->
 <details><summary>
 &thinsp;><img alt=“2025-10-17" src=“https://img.shields.io/badge/-2025-10-17-2ea043?labelColor=000000&style=flat-square” height=“16">new emm-9305-dvk/emb* scores</summary><p>
-&emsp;><img alt=“2025-09-11" src=“https://img.shields.io/badge/-2025-09-11-2ea043?labelColor=000000&style=flat-square” height=“16">new nrf-52-dk/emscript* scores<br>&emsp;><img alt=“2025-09-09" src=“https://img.shields.io/badge/-2025-09-09-2ea043?labelColor=000000&style=flat-square” height=“16">baseline scores
+
 </p></details>
 <!-- @updates-end -->
+
 
 
 <!--
