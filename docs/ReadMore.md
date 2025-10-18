@@ -19,57 +19,23 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <h4 align=“left”>Updates</h4>
 
-<!-- @upd|2025-10-17|new emm-9305-dvk/emb* scores|-->
-<!-- @upd|2025-09-11|new nrf-52-dk/emscript* scores|-->
-<!-- @upd|2025-09-09|baseline scores|-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- @upd|2025-10-17|new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK|-->
+<!-- @upd|2025-09-11|new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK|-->
+<!-- @upd|2025-09-09|baseline scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments|-->
 
 <!-- @updates-begin -->
 <details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new emm-9305-dvk/emb* scores</summary><p>
-&emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new nrf-52-dk/emscript* scores<br>
-&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;baseline scores
+&emsp;&thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK</summary><p>
+&emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
+&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;baseline scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
 </p></details>
 <!-- @updates-end -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <p align="right"><sub>
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
   👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a>
   📡 <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
 </sub></p>
-
 
 ----
 
@@ -98,9 +64,9 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 <!-- @catalog-begin -->
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
-| `adi-m17-evk/msdk`&emsp; | 📄&ensp;[&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Device MAX32655 · Maxim SDK |
-| `emm-9305-dvk/emb`&emsp; | 📄&ensp;[&nearr;](../captures/js220/emm-9305-dvk/emb/ABOUT.md) |  | &emsp; EM Microelectronic · EM Bleu |
-| `emm-9305-dvk/emb-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/emm-9305-dvk/emb-1V8/ABOUT.md) |  | &emsp; EM Microelectronic · EM Bleu |
+| `adi-m17-evk/msdk`&emsp; | 📄&ensp;[&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md) | &emsp; Analog Devices MAX32655 · Maxim SDK |
+| `emm-9305-dvk/emb`&emsp; | 📄&ensp;[&nearr;](../captures/js220/emm-9305-dvk/emb/ABOUT.md) |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK |
+| `emm-9305-dvk/emb-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/emm-9305-dvk/emb-1V8/ABOUT.md) |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK |
 | `in-100-dk/none`&emsp; | 📄&ensp;[&nearr;](../captures/js220/in-100-dk/none/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/in-100-dk/none/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
 | `in-100-dk/none-1V8`&emsp; | 📄&ensp;[&nearr;](../captures/js220/in-100-dk/none-1V8/ABOUT.md) | 📄&ensp;[&nearr;](../captures/ppk2/in-100-dk/none-1V8/ABOUT.md) | &emsp; InPlay IN100 · &lt;no software&gt; |
 | `nrf-52-dk/emscript`&emsp; | 📄&ensp;[&nearr;](../captures/js220/nrf-52-dk/emscript/ABOUT.md) |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK |
@@ -171,9 +137,9 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
     
 | JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 · <var>d</var>V<var>d</var> &emsp; | 00:00:01 · 3V3 &emsp;&emsp;&emsp; | 00:00:10 · <var>d</var>V<var>d</var> &emsp; | 00:00:10 · 3V3 &emsp; |
 |---|---|---|---|---|
-| &emsp;📈&ensp;[adi-m17-evk/msdk&thinsp;&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Device MAX32655 · Maxim SDK") | &emsp; | &emsp;` 14.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;` 47.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &emsp;📈&ensp;[emm-9305-dvk/emb&thinsp;&nearr;](../captures/js220/emm-9305-dvk/emb/ABOUT.md#typical-event "EM Microelectronic · EM Bleu") | &emsp; | &emsp;` 25.71`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`148.39`&nbsp;&nbsp;<b>🥉</b> |
-| &emsp;📈&ensp;[emm-9305-dvk/emb-1V8&thinsp;&nearr;](../captures/js220/emm-9305-dvk/emb-1V8/ABOUT.md#typical-event "EM Microelectronic · EM Bleu") | &emsp;` 47.48`&nbsp;&nbsp;<b>🥇</b> | &emsp; | &emsp;`280.05`&nbsp;&nbsp;<b>🥈</b> | &emsp; |
+| &emsp;📈&ensp;[adi-m17-evk/msdk&thinsp;&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK") | &emsp; | &emsp;` 14.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;` 47.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;📈&ensp;[emm-9305-dvk/emb&thinsp;&nearr;](../captures/js220/emm-9305-dvk/emb/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK") | &emsp; | &emsp;` 25.71`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`148.39`&nbsp;&nbsp;<b>🥉</b> |
+| &emsp;📈&ensp;[emm-9305-dvk/emb-1V8&thinsp;&nearr;](../captures/js220/emm-9305-dvk/emb-1V8/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK") | &emsp;` 47.48`&nbsp;&nbsp;<b>🥇</b> | &emsp; | &emsp;`280.05`&nbsp;&nbsp;<b>🥈</b> | &emsp; |
 | &emsp;📈&ensp;[in-100-dk/none&thinsp;&nearr;](../captures/js220/in-100-dk/none/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &emsp; | &emsp;` 22.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`155.14`&nbsp;&nbsp;<b>🥈</b> |
 | &emsp;📈&ensp;[in-100-dk/none-1V8&thinsp;&nearr;](../captures/js220/in-100-dk/none-1V8/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &emsp;` 41.92`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`306.84`&nbsp;&nbsp;<b>🥇</b> | &emsp; |
 | &emsp;📈&ensp;[nrf-52-dk/emscript&thinsp;&nearr;](../captures/js220/nrf-52-dk/emscript/ABOUT.md#typical-event "Nordic nRF52832 · EM&bull;Script SDK") | &emsp; | &emsp;` 28.57`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp; | &emsp;` 88.03`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
@@ -201,7 +167,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
     
 | PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 · <var>d</var>V<var>d</var> &emsp; | 00:00:01 · 3V3 &emsp;&emsp;&emsp; | 00:00:10 · <var>d</var>V<var>d</var> &emsp; | 00:00:10 · 3V3 &emsp; |
 |---|---|---|---|---|
-| &emsp;📈&ensp;[adi-m17-evk/msdk&thinsp;&nearr;](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Device MAX32655 · Maxim SDK") | &emsp; | &emsp;` 14.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;` 47.36`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &emsp;📈&ensp;[adi-m17-evk/msdk&thinsp;&nearr;](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK") | &emsp; | &emsp;` 14.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;` 47.36`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
 | &emsp;📈&ensp;[in-100-dk/none&thinsp;&nearr;](../captures/ppk2/in-100-dk/none/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &emsp; | &emsp;` 22.95`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`148.92`&nbsp;&nbsp;<b>🥈</b> |
 | &emsp;📈&ensp;[in-100-dk/none-1V8&thinsp;&nearr;](../captures/ppk2/in-100-dk/none-1V8/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &emsp;` 43.11`&nbsp;&nbsp;<b>🥈</b> | &emsp; | &emsp;`301.01`&nbsp;&nbsp;<b>🥇</b> | &emsp; |
 | &emsp;📈&ensp;[nrf-52-dk/zephyr&thinsp;&nearr;](../captures/ppk2/nrf-52-dk/zephyr/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS") | &emsp; | &emsp;` 27.30`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &emsp;`113.68`&nbsp;&nbsp;<b>🥉</b> |

@@ -118,8 +118,7 @@ function genScoreTab(aname) {
 }
 
 function genUpdates() {
-    let res = `
-<!-- @updates-begin -->
+    let res = `<!-- @updates-begin -->
 <details><summary>
 `
     res += `&emsp;&thinsp;${mkDateBadge(UPDATES[0].date)}&emsp;${UPDATES[0].msg}`
@@ -131,8 +130,7 @@ function genUpdates() {
     }
     res += `
 </p></details>
-<!-- @updates-end -->
-`
+<!-- @updates-end -->`
     return res
 }
 
