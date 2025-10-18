@@ -35,6 +35,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 
 
+
 <!-- @updates-begin -->
 <details><summary>
 &thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&ensp;new emm-9305-dvk/emb* scores</summary><p>
@@ -42,6 +43,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 &emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&ensp;baseline scores
 </p></details>
 <!-- @updates-end -->
+
 
 
 
