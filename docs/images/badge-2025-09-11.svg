@@ -1,7 +1,6 @@
-<!-- docs/images/date-2025-10-12.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -10 80 30" aria-hidden="true">
-    <!-- background (green); tweak width for more/less padding -->
-    <rect x="0" y="0" width="80" height="20" rx="3" fill="#2ea043"/>
-    <!-- date text; adjust x for padding symmetry -->
-    <text x="40" y="14" text-anchor="middle" font-family="Roboto, sans-serif" font-size="13" fill="#fff">2025-09-11</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 24">
+    <g transform="translate(0,2)">        <!-- provides 2 units of top padding -->
+        <rect x="0" y="0" width="80" height="20" rx="3" fill="#2ea043"/>
+        <text x="40" y="14" text-anchor="middle" font-family="Roboto,sans-serif" font-size="13" fill="#fff">2025-09-11</text>
+    </g>
 </svg>
