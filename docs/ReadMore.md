@@ -26,6 +26,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 
 
+
 <!-- @updates-begin -->
 <details><summary>
 &ensp;&thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new emm-9305-dvk/emb* scores</summary><p>
@@ -35,11 +36,9 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <!-- @updates-end -->
 
 
-
-
 <p align="right"><sub>
-  Follow: :star: Star • :eye: Watch → <em>Releases</em> •
-  <a href=“https://github.com/em-foundation/BlueJoule/commits/main.atom”>RSS</a>
+  Follow: ⭐ Star • 👁️ Watch → <em>Releases</em> •
+  <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
 </sub></p>
 
 ----
