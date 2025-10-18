@@ -136,28 +136,6 @@ function genUpdates() {
     return res
 }
 
-// <img src="docs/images/date-2025-10-12.svg" height="16" alt="2025-10-12"></img>
-
-/*
-
-<details>
-  <summary>
-    <img alt="2025-10-12" src="https://img.shields.io/badge/-2025--10--12-2ea043?labelColor=30363d&style=flat-square" height="20">
-    &#8239;New nRF54L15 capture leads by <b>+6%</b>. <i>(expand for more)</i>
-  </summary>
-
-  &emsp;<img alt="2025-10-12"
-       src="https://img.shields.io/badge/-2025--10--12-2ea043?labelColor=30363d&style=flat-square" height="18">
-  &#8239;New EM•Scope capture for nRF54L15 tops the chart by 6%.<br>
-
-  &emsp;<img alt="2025-10-03"
-       src="https://img.shields.io/badge/-2025--10--03-9ca3af?labelColor=30363d&style=flat-square" height="18">
-  &#8239;EM•Script pipeline refinements; faster <code>--pack</code> runs.
-</details>
-
-
-*/
-
 function getEmeralds(about) {
     let state = -1
     let ems1
@@ -206,7 +184,7 @@ function mkDateBadge(date) {
     const src = 'tools/date-badge-master.svg'
     const dst = `docs/images/badge-${date}.svg`
     Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date))
-    return `<img src="${dst}" height="16" alt="2025-10-12"></img>`
+    return `<img src="images/badge-${date}.svg" height="16" alt="2025-10-12"></img>`
 }
 
 function SP(n) {
