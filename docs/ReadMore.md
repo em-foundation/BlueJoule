@@ -17,13 +17,13 @@
 
 This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) project to learn more about the **EM&bull;Scope** tool itself.
 
-<h4 align=“left”>Updates</h4>
-
 <p align="right"><sub>
-  ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a> •
-  👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a> →
-  <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
+  ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
+  👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a>
+  📡 <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
 </sub></p>
+
+<h4 align=“left”>Updates</h4>
 
 <!-- @upd|2025-10-17|new emm-9305-dvk/emb* scores|-->
 <!-- @upd|2025-09-11|new nrf-52-dk/emscript* scores|-->
