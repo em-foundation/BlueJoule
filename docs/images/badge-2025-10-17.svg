@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 24">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 20">
     <g transform="translate(0,2)">        <!-- provides 2 units of top padding -->
         <rect x="0" y="0" width="80" height="20" rx="3" fill="#2ea043"/>
         <text x="40" y="14" text-anchor="middle" font-family="Roboto,sans-serif" font-size="13" fill="#fff">2025-10-17</text>
