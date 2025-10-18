@@ -26,13 +26,16 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 
 
+
 <!-- @updates-begin -->
 <details><summary>
 &thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>new emm-9305-dvk/emb* scores</summary><p>
-&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>new nrf-52-dk/emscript* scores<br>
-&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>baseline scores
+&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&ensp;new emm-9305-dvk/emb* scores<br>
+&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&ensp;new nrf-52-dk/emscript* scores<br>
+&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&ensp;baseline scores
 </p></details>
 <!-- @updates-end -->
+
 
 
 

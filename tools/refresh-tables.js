@@ -125,8 +125,8 @@ function genUpdates() {
     res += `&thinsp;${mkDateBadge(UPDATES[0].date)}${UPDATES[0].msg}`
     res += '</summary><p>\n'
     let sep = ''
-    for (const upd of UPDATES.slice(1)) {
-        res += `${sep}&emsp;${mkDateBadge(upd.date)}${upd.msg}`
+    for (const upd of UPDATES) {
+        res += `${sep}&emsp;${mkDateBadge(upd.date)}&ensp;${upd.msg}`
         sep = '<br>\n'
     }
     res += `
