@@ -21,13 +21,13 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @upd|2025-10-17|new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK|-->
 <!-- @upd|2025-09-11|new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK|-->
-<!-- @upd|2025-09-09|baseline scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments|-->
+<!-- @upd|2025-09-09|inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments|-->
 
 <!-- @updates-begin -->
 <details><summary>
 &emsp;&thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK</summary><p>
 &emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
-&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;baseline scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
+&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
 </p></details>
 <!-- @updates-end -->
 
