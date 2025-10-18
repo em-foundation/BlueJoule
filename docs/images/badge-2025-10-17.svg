@@ -1,0 +1,7 @@
+<!-- docs/images/date-2025-10-12.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 20" aria-hidden="true">
+    <!-- background (green); tweak width for more/less padding -->
+    <rect x="0" y="0" width="120" height="20" rx="3" fill="#2ea043"/>
+    <!-- date text; adjust x for padding symmetry -->
+    <text x="60" y="14" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="11" fill="#fff">2025-10-17</text>
+</svg>
