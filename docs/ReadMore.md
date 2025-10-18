@@ -19,14 +19,15 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <h4 align=“left”>Updates</h4>
 
+<p align="right"><sub>
+  ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a> •
+  👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a> →
+  <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
+</sub></p>
+
 <!-- @upd|2025-10-17|new emm-9305-dvk/emb* scores|-->
 <!-- @upd|2025-09-11|new nrf-52-dk/emscript* scores|-->
 <!-- @upd|2025-09-09|baseline scores|-->
-
-
-
-
-
 
 <!-- @updates-begin -->
 <details><summary>
@@ -36,13 +37,6 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 </p></details>
 <!-- @updates-end -->
 
-
-<p align="right"><sub>
-  Follow:
-  ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a> •
-  👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a> →
-  <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
-</sub></p>
 
 ----
 
