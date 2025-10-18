@@ -121,11 +121,11 @@ function genUpdates() {
     let res = `<!-- @updates-begin -->
 <details><summary>
 `
-    res += `&emsp;&thinsp;${mkDateBadge(UPDATES[0].date)}&emsp;${UPDATES[0].msg}`
+    res += `&emsp;&thinsp;${mkDateBadge(UPDATES[0].date, 'hsl(156, 80%, 50%)')}&emsp;${UPDATES[0].msg}`
     res += '</summary><p>\n'
     let sep = ''
     for (const upd of UPDATES.slice(1)) {
-        res += `${sep}&emsp;&emsp;${mkDateBadge(upd.date)}&emsp;${upd.msg}`
+        res += `${sep}&emsp;&emsp;${mkDateBadge(upd.date, 'hsl(156, 0%, 50%)')}&emsp;${upd.msg}`
         sep = '<br>\n'
     }
     res += `
@@ -178,10 +178,10 @@ function mkMedal(s) {
     }
 }
 
-function mkDateBadge(date) {
+function mkDateBadge(date, color) {
     const src = 'tools/date-badge-master.svg'
     const dst = `docs/images/badge-${date}.svg`
-    Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date))
+    Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date).replace('#fff', color))
     return `<img src="images/badge-${date}.svg" height="16" alt="2025-10-12"></img>`
 }
 
