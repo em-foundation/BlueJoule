@@ -122,12 +122,12 @@ function genUpdates() {
 <!-- @updates-begin -->
 <details><summary>
 `
-    res += `&thinsp;>${mkDateBadge(UPDATES[0].date)}${UPDATES[0].msg}`
+    res += `&thinsp;${mkDateBadge(UPDATES[0].date)}${UPDATES[0].msg}`
     res += '</summary><p>\n'
     let sep = ''
     for (const upd of UPDATES.slice(1)) {
-        res += `${sep}&emsp;>${mkDateBadge(upd.date)}${upd.msg}`
-        sep = '<br>'
+        res += `${sep}&emsp;${mkDateBadge(upd.date)}${upd.msg}`
+        sep = '<br>\n'
     }
     res += `
 </p></details>
