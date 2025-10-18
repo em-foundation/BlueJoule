@@ -38,25 +38,13 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @updates-begin -->
 <details><summary>
-&thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&ensp;new emm-9305-dvk/emb* scores</summary><p>
-&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&ensp;new nrf-52-dk/emscript* scores<br>
-&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&ensp;baseline scores
+&ensp;&thinsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new emm-9305-dvk/emb* scores</summary><p>
+&ensp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new nrf-52-dk/emscript* scores<br>
+&ensp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;baseline scores
 </p></details>
 <!-- @updates-end -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-<p align=“right”><sub>
+<p align="right"><sub>
   Follow: :star: Star • :eye: Watch → <em>Releases</em> •
   <a href=“https://github.com/USER/BlueJoule/commits/main.atom”>RSS</a>
 </sub></p>
