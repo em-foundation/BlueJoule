@@ -17,6 +17,50 @@
 
 This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) project to learn more about the **EM&bull;Scope** tool itself.
 
+<h4 align=“left”>Updates</h4>
+
+<!-- @upd|2025-10-17|new emm-9305-dvk/emb* scores|-->
+<!-- @upd|2025-09-11|new nrf-52-dk/emscript* scores|-->
+<!-- @upd|2025-09-09|baseline scores|-->
+
+<!-- @updates-begin -->
+<details><summary>
+&thinsp;><img alt=“2025-10-17" src=“https://img.shields.io/badge/-2025-10-17-2ea043?labelColor=000000&style=flat-square” height=“16">new emm-9305-dvk/emb* scores</summary><p>
+&emsp;><img alt=“2025-09-11" src=“https://img.shields.io/badge/-2025-09-11-2ea043?labelColor=000000&style=flat-square” height=“16">new nrf-52-dk/emscript* scores<br>&emsp;><img alt=“2025-09-09" src=“https://img.shields.io/badge/-2025-09-09-2ea043?labelColor=000000&style=flat-square” height=“16">baseline scores
+</p></details>
+<!-- @updates-end -->
+
+
+<!--
+
+
+<details>
+  <summary>
+    &thinsp;<img alt=“2025-10-12"
+         src=“https://img.shields.io/badge/-2025--10--12-2ea043?labelColor=000000&style=flat-square”
+         height=“16">
+    &nbsp;New nRF54L15 capture leads by <b>+6%</b>. <i>(expand for more)</i>
+  </summary>
+
+  <p>
+    &emsp;<img alt=“2025-10-12”
+         src=“https://img.shields.io/badge/-2025--10--12-2ea043?labelColor=000000&style=flat-square”
+         height=“16”> &nbsp;New EM•Scope capture for nRF54L15 tops the chart by 6%.<br>
+    &emsp;<img alt=“2025-10-03"
+         src=“https://img.shields.io/badge/-2025--10--03-9ca3af?labelColor=000000&style=flat-square”
+         height=“16"> &nbsp;EM•Script pipeline refinements; faster <code>--pack</code> runs.
+  </p>
+</details>
+
+-->
+
+<p align=“right”><sub>
+  Follow: :star: Star • :eye: Watch → <em>Releases</em> •
+  <a href=“https://github.com/USER/BlueJoule/commits/main.atom”>RSS</a>
+</sub></p>
+
+----
+
 ## Application
 
 Repetitve advertising serves as a fundamental capability of any Bluetooth Low Energy application.&thinsp; Because of its inherent simplicity, programs illustrating the [BLE broadcaster role](https://novelbits.io/bluetooth-low-energy-advertisements-part-1/) often serve as the "Hello World" within this space.
