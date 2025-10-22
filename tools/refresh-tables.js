@@ -112,7 +112,7 @@ function genScoreTab(aname) {
         const x10 = !has_v ? `${ems10}${m10_X}` : ''
         const x1_v = has_v ? `${ems1}${m1}` : ''
         const x10_v = has_v ? `${ems10}${m10}` : ''
-        let line = `| &emsp;📈&ensp;${BQ}${cn}${BQ}[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | ${fill} | &emsp;${x1} | &emsp;${x1_v} | ${fill} | &emsp;${x10} | &emsp;${x10_v} |`
+        let line = `| &ensp;${BQ}${cn}${BQ}&ensp;📈&ensp;[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | ${fill} | &emsp;${x1} | &emsp;${x1_v} | ${fill} | &emsp;${x10} | &emsp;${x10_v} |`
         getEmeralds(v)
         res += `${line}\n`
     }
