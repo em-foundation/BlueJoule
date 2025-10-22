@@ -93,7 +93,7 @@ function genScoreTab(aname) {
 
 <p align="center">${img}</p>
     
-| &ensp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | ${fill} | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | ${fill} | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
+| &emsp;&emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp; | ${fill} | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | ${fill} | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
 |---|---|---|---|---|---|---|
 |${fill}|${fill}|${fill}|${fill}|${fill}|${fill}|
 `
