@@ -164,7 +164,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 
 <br>    
 
-<p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
+<a name="ppk2-scores"></a><p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
     
 | &emsp;&emsp;PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | &ensp; | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | &ensp; | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
 |---|---|---|---|---|---|---|
