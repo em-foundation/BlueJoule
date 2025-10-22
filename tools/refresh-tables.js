@@ -92,7 +92,7 @@ function genScoreTab(aname) {
 
 <p align="center">${img}</p>
     
-| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | &emsp; | 00:00:01 · 3V3 &emsp; | 00:00:01 · <var>d</var>V<var>d</var> &emsp; | &emsp; | 00:00:10 · 3V3 &emsp; | 00:00:10 · <var>d</var>V<var>d</var> &emsp; |
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | &emsp; | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | &emsp; | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
 |---|---|---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
