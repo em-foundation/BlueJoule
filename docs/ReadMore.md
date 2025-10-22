@@ -135,7 +135,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 
 <p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
     
-| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | &ensp; | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | &ensp; | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
+| JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | &ensp; | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | &ensp; | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
 |---|---|---|---|---|---|---|
 | &emsp;📈&ensp;[adi-m17-evk/msdk&thinsp;&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK") | &ensp; | &emsp;` 14.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &ensp; | &emsp;` 47.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
 | &emsp;📈&ensp;[emm-9305-dvk/emb&thinsp;&nearr;](../captures/js220/emm-9305-dvk/emb/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK") | &ensp; | &emsp;` 25.71`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &ensp; | &emsp;`148.39`&nbsp;&nbsp;<b>🥉</b> | &emsp; |
@@ -165,7 +165,7 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 
 <p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
     
-| PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | &ensp; | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | &ensp; | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
+| PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | &ensp; | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | &ensp; | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
 |---|---|---|---|---|---|---|
 | &emsp;📈&ensp;[adi-m17-evk/msdk&thinsp;&nearr;](../captures/ppk2/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK") | &ensp; | &emsp;` 14.02`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &ensp; | &emsp;` 47.36`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; |
 | &emsp;📈&ensp;[in-100-dk/none&thinsp;&nearr;](../captures/ppk2/in-100-dk/none/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &ensp; | &emsp;` 22.95`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp; | &ensp; | &emsp;`148.92`&nbsp;&nbsp;<b>🥈</b> | &emsp; |
