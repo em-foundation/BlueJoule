@@ -92,7 +92,7 @@ function genScoreTab(aname) {
 
 <p align="center">${img}</p>
     
-| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 · <var>d</var>V<var>d</var> &emsp; | 00:00:01 · 3V3 &emsp;&emsp;&emsp; | 00:00:10 · <var>d</var>V<var>d</var> &emsp; | 00:00:10 · 3V3 &emsp; |
+| ${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | 00:00:01 · 3V3 &emsp; | 00:00:01 · <var>d</var>V<var>d</var> &emsp;&emsp;&emsp; | 00:00:10 · 3V3 &emsp; | 00:00:10 · <var>d</var>V<var>d</var> &emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
@@ -110,7 +110,7 @@ function genScoreTab(aname) {
         const x10 = !has_v ? `${ems10}${m10_X}` : ''
         const x1_v = has_v ? `${ems1}${m1}` : ''
         const x10_v = has_v ? `${ems10}${m10}` : ''
-        let line = `| &emsp;📈&ensp;[${cn}&thinsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;${x1_v} | &emsp;${x1} | &emsp;${x10_v} | &emsp;${x10} |`
+        let line = `| &emsp;📈&ensp;[${cn}&thinsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;${x1} | &emsp;${x1_v} | &emsp;${x10} | &emsp;${x10_v} |`
         getEmeralds(v)
         res += `${line}\n`
     }
