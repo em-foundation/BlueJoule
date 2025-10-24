@@ -3,28 +3,36 @@
 <!-- @upd|2025-09-11|new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK|-->
 <!-- @upd|2025-09-09|inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments|-->
 
-<!-- @medal|js220/emm-9305-dvk/emb                  |-|-|-|B| -->
-<!-- @medal|js220/emm-9305-dvk/emb-1V8              |G|-|S|-| -->
-<!-- @medal|js220/in-100-dk/none                    |-|-|-|S| -->
-<!-- @medal|js220/in-100-dk/none-1V8                |S|-|G|-| -->
-<!-- @medal|js220/nrf-52-dk/zephyr                  |-|-|-|-| -->
-<!-- @medal|js220/nrf-54-dk/baremetal-1V8           |-|-|-|-| -->
-<!-- @medal|js220/nrf-54-dk/zephyr                  |-|S|-|-| -->
-<!-- @medal|js220/nrf-54-dk/zephyr-1V8              |S|-|-|-| -->
-<!-- @medal|js220/sil-g22e-ehk/rail                 |-|S|-|-| -->
-<!-- @medal|js220/sil-g22e-ehk/rail-1V8             |B|-|-|-| -->
-<!-- @medal|js220/ti-23-lp/simplelink               |-|B|-|G| -->
-<!-- @medal|js220/ti-23-lp/simplelink-2V2           |-|-|B|-| -->
+<!-- @entry|js220/adi-m17-evk/msdk-3V3| -->
+<!-- @entry|js220/emm-9305-dvk/emb-1V8| -->
+<!-- @entry|js220/in-100-dk/none-1V8| -->
+<!-- @entry|js220/nrf-52-dk/zephyr-3V3| -->
+<!-- @entry|js220/nrf-54-dk/zephyr-1V8| -->
+<!-- @entry|js220/sil-g22e-ehk/rail-1V8| -->
+<!-- @entry|js220/ti-23-lp/simplelink-2V2| -->
 
-<!-- @medal|ppk2/in-100-dk/none                     |-|-|-|S| -->
-<!-- @medal|ppk2/in-100-dk/none-1V8                 |S|-|G|-| -->
-<!-- @medal|ppk2/nrf-52-dk/zephyr                   |-|-|-|B| -->
-<!-- @medal|ppk2/nrf-54-dk/baremetal-1V8            |B|-|-|-| -->
-<!-- @medal|ppk2/nrf-54-dk/zephyr                   |-|S|-|-| -->
-<!-- @medal|ppk2/nrf-54-dk/zephyr-1V8               |G|-|-|-| -->
-<!-- @medal|ppk2/sil-g22e-ehk/rail                  |-|S|-|-| -->
-<!-- @medal|ppk2/ti-23-lp/simplelink                |-|-|B|G| -->
-<!-- @medal|ppk2/ti-23-lp/simplelink-2V2            |-|-|S|-| -->
+<!-- @_medal|js220/emm-9305-dvk/emb                  |-|-|-|B| -->
+<!-- @_medal|js220/emm-9305-dvk/emb-1V8              |G|-|S|-| -->
+<!-- @_medal|js220/in-100-dk/none                    |-|-|-|S| -->
+<!-- @_medal|js220/in-100-dk/none-1V8                |S|-|G|-| -->
+<!-- @_medal|js220/nrf-52-dk/zephyr                  |-|-|-|-| -->
+<!-- @_medal|js220/nrf-54-dk/baremetal-1V8           |-|-|-|-| -->
+<!-- @_medal|js220/nrf-54-dk/zephyr                  |-|S|-|-| -->
+<!-- @_medal|js220/nrf-54-dk/zephyr-1V8              |S|-|-|-| -->
+<!-- @_medal|js220/sil-g22e-ehk/rail                 |-|S|-|-| -->
+<!-- @_medal|js220/sil-g22e-ehk/rail-1V8             |B|-|-|-| -->
+<!-- @_medal|js220/ti-23-lp/simplelink               |-|B|-|G| -->
+<!-- @_medal|js220/ti-23-lp/simplelink-2V2           |-|-|B|-| -->
+
+<!-- @_medal|ppk2/in-100-dk/none                     |-|-|-|S| -->
+<!-- @_medal|ppk2/in-100-dk/none-1V8                 |S|-|G|-| -->
+<!-- @_medal|ppk2/nrf-52-dk/zephyr                   |-|-|-|B| -->
+<!-- @_medal|ppk2/nrf-54-dk/baremetal-1V8            |B|-|-|-| -->
+<!-- @_medal|ppk2/nrf-54-dk/zephyr                   |-|S|-|-| -->
+<!-- @_medal|ppk2/nrf-54-dk/zephyr-1V8               |G|-|-|-| -->
+<!-- @_medal|ppk2/sil-g22e-ehk/rail                  |-|S|-|-| -->
+<!-- @_medal|ppk2/ti-23-lp/simplelink                |-|-|B|G| -->
+<!-- @_medal|ppk2/ti-23-lp/simplelink-2V2            |-|-|S|-| -->
 
 <p align="center">
     <img src="images/logo.png" alt="Logo" width="680">
@@ -129,26 +137,16 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 <!-- @scores-begin -->
 <br><a name="js220-scores"></a><p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
 
-| &emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current (&mu;A) &emsp; | event energy (&mu;J) &emsp; | 1&thinsp;s event period &emsp; | 10&thinsp;s event period &emsp; |
+
+| &emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current (&mu;A) &emsp; | event energy (&mu;J) &emsp; | 1&thinsp;s period &nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> &emsp; | 10&thinsp;s period &nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> &emsp; |
 |---|---|---|---|---|
-| &nbsp;📈&nbsp;`adi-m17-evk/msdk-3V3`[&nbsp;&nearr;](../captures/js220/adi-m17-evk/msdk-3V3/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK") | &emsp; | &emsp; | &emsp;` 14.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 47.75`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`emm-9305-dvk/emb-1V8`[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/emb-1V8/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK") | &emsp; | &emsp; | &emsp;` 47.48`&nbsp;&nbsp;<b>🥇</b> | &emsp;`280.05`&nbsp;&nbsp;<b>🥈</b> |
-| &nbsp;📈&nbsp;`emm-9305-dvk/emb-3V3`[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/emb-3V3/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK") | &emsp; | &emsp; | &emsp;` 25.71`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`148.39`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`in-100-dk/none-1V8`[&nbsp;&nearr;](../captures/js220/in-100-dk/none-1V8/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &emsp; | &emsp; | &emsp;` 41.92`&nbsp;&nbsp;<b>🥈</b> | &emsp;`306.84`&nbsp;&nbsp;<b>🥇</b> |
-| &nbsp;📈&nbsp;`in-100-dk/none-3V3`[&nbsp;&nearr;](../captures/js220/in-100-dk/none-3V3/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &emsp; | &emsp; | &emsp;` 22.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`155.14`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`nrf-52-dk/emscript-2V7`[&nbsp;&nearr;](../captures/js220/nrf-52-dk/emscript-2V7/ABOUT.md#typical-event "Nordic nRF52832 · EM&bull;Script SDK") | &emsp; | &emsp; | &emsp;` 32.40`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`109.14`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
-| &nbsp;📈&nbsp;`nrf-52-dk/emscript-3V3`[&nbsp;&nearr;](../captures/js220/nrf-52-dk/emscript-3V3/ABOUT.md#typical-event "Nordic nRF52832 · EM&bull;Script SDK") | &emsp; | &emsp; | &emsp;` 28.57`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 88.03`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
-| &nbsp;📈&nbsp;`nrf-52-dk/zephyr-3V3`[&nbsp;&nearr;](../captures/js220/nrf-52-dk/zephyr-3V3/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS") | &emsp; | &emsp; | &emsp;` 27.72`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`122.85`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`nrf-54-dk/emscript-1V8`[&nbsp;&nearr;](../captures/js220/nrf-54-dk/emscript-1V8/ABOUT.md#typical-event "Nordic nRF54L15 · EM&bull;Script SDK") | &emsp; | &emsp; | &emsp;` 43.60`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`119.13`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
-| &nbsp;📈&nbsp;`nrf-54-dk/emscript-3V3`[&nbsp;&nearr;](../captures/js220/nrf-54-dk/emscript-3V3/ABOUT.md#typical-event "Nordic nRF54L15 · EM&bull;Script SDK") | &emsp; | &emsp; | &emsp;` 35.64`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;` 82.98`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
-| &nbsp;📈&nbsp;`nrf-54-dk/zephyr-1V8`[&nbsp;&nearr;](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS") | &emsp; | &emsp; | &emsp;` 39.61`&nbsp;&nbsp;<b>🥈</b> | &emsp;` 93.59`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`nrf-54-dk/zephyr-3V3`[&nbsp;&nearr;](../captures/js220/nrf-54-dk/zephyr-3V3/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS") | &emsp; | &emsp; | &emsp;` 30.96`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;` 69.34`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`sil-g22e-ehk/rail-1V8`[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL)") | &emsp; | &emsp; | &emsp;` 35.28`&nbsp;&nbsp;<b>🥉</b> | &emsp;`140.22`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`sil-g22e-ehk/rail-3V3`[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-3V3/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL)") | &emsp; | &emsp; | &emsp;` 31.93`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`128.64`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
-| &nbsp;📈&nbsp;`ti-23-lp/emscript-2V2`[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp; | &emsp; | &emsp;` 43.05`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`260.67`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
-| &nbsp;📈&nbsp;`ti-23-lp/emscript-3V3`[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK") | &emsp; | &emsp; | &emsp;` 40.62`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> | &emsp;`263.43`&nbsp;&nbsp;<img src="images/em-dot.svg" width="14" alt=""> |
-| &nbsp;📈&nbsp;`ti-23-lp/simplelink-2V2`[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK") | &emsp; | &emsp; | &emsp;` 29.73`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`197.07`&nbsp;&nbsp;<b>🥉</b> |
-| &nbsp;📈&nbsp;`ti-23-lp/simplelink-3V3`[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-3V3/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK") | &emsp; | &emsp; | &emsp;` 28.13`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; | &emsp;`183.76`&nbsp;&nbsp;&nbsp;&nbsp;&thinsp; |
+| &nbsp;📈&nbsp;`adi-m17-evk/msdk-3V3`[&nbsp;&nearr;](../captures/js220/adi-m17-evk/msdk-3V3/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK") | &emsp;` 4.422` | &emsp;`48.216` | &emsp;` 14.75` | &emsp;` 47.75` |
+| &nbsp;📈&nbsp;`emm-9305-dvk/emb-1V8`[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/emb-1V8/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK") | &emsp;` 0.840` | &emsp;`17.996` | &emsp;` 47.48` | &emsp;`280.05` |
+| &nbsp;📈&nbsp;`in-100-dk/none-1V8`[&nbsp;&nearr;](../captures/js220/in-100-dk/none-1V8/ABOUT.md#typical-event "InPlay IN100 · &lt;no software&gt;") | &emsp;` 0.494` | &emsp;`21.189` | &emsp;` 41.92` | &emsp;`306.84` |
+| &nbsp;📈&nbsp;`nrf-52-dk/zephyr-3V3`[&nbsp;&nearr;](../captures/js220/nrf-52-dk/zephyr-3V3/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS") | &emsp;` 1.416` | &emsp;`28.736` | &emsp;` 27.72` | &emsp;`122.85` |
+| &nbsp;📈&nbsp;`nrf-54-dk/zephyr-1V8`[&nbsp;&nearr;](../captures/js220/nrf-54-dk/zephyr-1V8/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS") | &emsp;` 4.684` | &emsp;`14.984` | &emsp;` 39.61` | &emsp;` 93.59` |
+| &nbsp;📈&nbsp;`sil-g22e-ehk/rail-1V8`[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL)") | &emsp;` 2.468` | &emsp;`21.821` | &emsp;` 35.28` | &emsp;`140.22` |
+| &nbsp;📈&nbsp;`ti-23-lp/simplelink-2V2`[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK") | &emsp;` 0.793` | &emsp;`29.381` | &emsp;` 29.73` | &emsp;`197.07` |
 
 <!-- @scores-end -->
 

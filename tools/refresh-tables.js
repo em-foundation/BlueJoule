@@ -6,6 +6,7 @@ const Fs = require('node:fs')
 const Path = require('node:path')
 
 const CAPS = new Map()
+const ENTRIES = new Set()
 const MEDALS = new Map()
 const UPDATES = new Array()
 const TARGS = new Set()
@@ -27,6 +28,15 @@ function findCaps(adir) {
             CAPS.set(`${adir}/${be}/${ce}`, about_txt)
             TARGS.add(`${be}/${ce}`)
         }
+    }
+}
+
+function findEntries(txt) {
+    for (const ln of txt.split('\n')) {
+        if (!ln.startsWith('<!-- @entry|')) continue
+        const flds = ln.split('|')
+        const cn = flds[1].trim()
+        ENTRIES.add(cn)
     }
 }
 
@@ -82,28 +92,25 @@ function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     const img = '<img src="images/emeralds.svg" width="200" alt="">'
+    const ems = `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
     let res = `<br><a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
 
-| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current (&mu;A) &emsp; | event energy (&mu;J) &emsp; | 1&thinsp;s event period &emsp; | 10&thinsp;s event period &emsp; |
+
+| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current (&mu;A) &emsp; | event energy (&mu;J) &emsp; | 1&thinsp;s period ${ems} &emsp; | 10&thinsp;s period ${ems} &emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
-        if (!(k.startsWith(pre))) continue
-        const [ems1, ems10] = getEmeralds(v)
-        const [m1, m1_X, m10, m10_X] = getMedals(k)
+        if (!k.startsWith(pre)) continue
+        if (!ENTRIES.has(k)) continue
+        const [sleep, eveng, ems1, ems10] = getResults(v)
         const cn = k.slice(pre.length)
         let desc = ''
         let about = CAPS.get(k)
         if (about) {
             desc = `"${about.match(DESC_RE)[1]}"`
         }
-        const has_v = cn.match(/-\dV\d$/)
-        const x1 = !has_v ? `${ems1}${m1_X}` : ''
-        const x10 = !has_v ? `${ems10}${m10_X}` : ''
-        const x1_v = has_v ? `${ems1}${m1}` : ''
-        const x10_v = has_v ? `${ems10}${m10}` : ''
-        let line = `| &nbsp;📈&nbsp;${BQ}${cn}${BQ}[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp; | &emsp; | &emsp;${x1_v} | &emsp;${x10_v} |`
-        getEmeralds(v)
+        let line = `| &nbsp;📈&nbsp;${BQ}${cn}${BQ}[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;${sleep} | &emsp;${eveng} | &emsp;${ems1} | &emsp;${ems10} |`
+        getResults(v)
         res += `${line}\n`
     }
     return res
@@ -126,8 +133,10 @@ function genUpdates() {
     return res
 }
 
-function getEmeralds(about) {
+function getResults(about) {
     let state = -1
+    let sleep
+    let eveng
     let ems1
     let ems10
     for (const ln of about.split('\n')) {
@@ -136,29 +145,39 @@ function getEmeralds(about) {
             continue
         }
         if (ln.match(/^\|\s*\d/)) {
+            const segs = ln.split('|')
             switch (state) {
                 case 0:
                     state = 1
+                    sleep = segs[2].trim()
                     break
                 case 1:
                     state = 2
-                    ems1 = (ln.split('|')[4]).trim()
+                    eveng = segs[1].trim()
+                    ems1 = segs[4].trim()
                     break
                 case 2:
-                    ems10 = (ln.split('|')[4]).trim()
-                    return [`${BQ}${ems1.padStart(6, '\u00A0')}${BQ}`, `${BQ}${ems10.padStart(6, '\u00A0')}${BQ}`]
+                    ems10 = segs[4].trim()
+                    return [`${mkNum(sleep)}`, `${mkNum(eveng)}`, `${mkNum(ems1)}`, `${mkNum(ems10)}`]
             }
         }
     }
 }
 
-function getMedals(cn) {
-    const E = `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
-    if (cn.search('/emscript') > 0) {
-        return [E, E, E, E]
-    }
-    const N = mkMedal('-')
-    return MEDALS.has(cn) ? MEDALS.get(cn).map(m => mkMedal(m)) : [N, N, N, N]
+// function getMedals(cn) {
+//     const E = `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
+//     if (cn.search('/emscript') > 0) {
+//         return [E, E, E, E]
+//     }
+//     const N = mkMedal('-')
+//     return MEDALS.has(cn) ? MEDALS.get(cn).map(m => mkMedal(m)) : [N, N, N, N]
+// }
+
+function mkDateBadge(date, color) {
+    const src = 'tools/date-badge-master.svg'
+    const dst = `docs/images/badge-${date}.svg`
+    Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date).replace('#fff', color))
+    return `<img src="images/badge-${date}.svg" height="16" alt="2025-10-12"></img>`
 }
 
 function mkMedal(s) {
@@ -170,11 +189,16 @@ function mkMedal(s) {
     }
 }
 
-function mkDateBadge(date, color) {
-    const src = 'tools/date-badge-master.svg'
-    const dst = `docs/images/badge-${date}.svg`
-    Fs.writeFileSync(dst, Fs.readFileSync(src, 'utf8').replace('1970-01-01', date).replace('#fff', color))
-    return `<img src="images/badge-${date}.svg" height="16" alt="2025-10-12"></img>`
+function mkNum(ns) {
+    const segs = ns.split(' ')
+    if (segs.length == 1) {
+        return `${BQ}${ns.padStart(6, '\u00A0')}${BQ}`
+    }
+    if (segs[1] != 'nA') {
+        return `${BQ}${segs[0].padStart(6, '\u00A0')}${BQ}`
+    }
+    const uA = `0.${segs[0].slice(0, 3)}`
+    return `${BQ}${uA.padStart(6, '\u00A0')}${BQ}`
 }
 
 function SP(n) {
@@ -186,8 +210,11 @@ const FILE = 'docs/ReadMore.md'
 findCaps('js220')
 findCaps('ppk2')
 let txt = Fs.readFileSync(FILE, 'utf-8')
+findEntries(txt)
 findMedals(txt)
 findUpdates(txt)
+
+console.log(ENTRIES)
 
 const updates = genUpdates()
 const RE_UPD = /<!--\s*@updates-begin\s*-->[\s\S]*?<!--\s*@updates-end\s*-->/m
