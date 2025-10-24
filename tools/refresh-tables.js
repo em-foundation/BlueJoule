@@ -74,11 +74,7 @@ function genCatalog() {
 
 function genScores() {
     return `<!-- @scores-begin -->
-
 ${genScoreTab('JS220')}
-
-${genScoreTab('PPK2')}
-
 <!-- @scores-end -->`
 }
 
@@ -87,12 +83,8 @@ function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     const img = '<img src="images/emeralds.svg" width="200" alt="">'
-    let res = `
+    let res = `<br><a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
 
-<br>    
-
-<a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
-    
 | &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | ${fill} | &nbsp;00:00:01 · 3V3 &emsp; | &nbsp;00:00:01 · <var>d</var>V<var>d</var> &emsp; | ${fill} | &nbsp;00:00:10 · 3V3 &emsp; | &nbsp;00:00:10 · <var>d</var>V<var>d</var> &emsp; |
 |---|---|---|---|---|---|---|
 |${fill}|${fill}|${fill}|${fill}|${fill}|${fill}|
@@ -196,13 +188,13 @@ const FILE = 'docs/ReadMore.md'
 findCaps('js220')
 findCaps('ppk2')
 let txt = Fs.readFileSync(FILE, 'utf-8')
-
+findMedals(txt)
 findUpdates(txt)
+
 const updates = genUpdates()
 const RE_UPD = /<!--\s*@updates-begin\s*-->[\s\S]*?<!--\s*@updates-end\s*-->/m
 txt = txt.replace(RE_UPD, updates)
 
-findMedals(txt)
 const catalog = genCatalog()
 const RE_CAT = /<!--\s*@catalog-begin\s*-->[\s\S]*?<!--\s*@catalog-end\s*-->/m
 txt = txt.replace(RE_CAT, catalog)
