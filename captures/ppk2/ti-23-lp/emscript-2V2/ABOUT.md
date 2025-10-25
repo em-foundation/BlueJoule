@@ -1,5 +1,5 @@
 
-<h1 align="center">Texas Instruments CC2340R5 · EM&bull;Script SDK</h1>
+<h1 align="center">Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2</h1>
 
 ## HW/SW configuration
 

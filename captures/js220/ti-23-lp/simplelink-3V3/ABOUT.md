@@ -1,5 +1,5 @@
 
-<h1 align="center">Texas Instruments CC2340R5 · SimpleLink SDK</h1>
+<h1 align="center">Texas Instruments CC2340R5 · SimpleLink SDK · 3V3</h1>
 
 ## HW/SW configuration
 

@@ -1,5 +1,5 @@
 
-<h1 align="center">SiLabs EFR32xG22E · Simplicity (RAIL)</h1>
+<h1 align="center">SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3</h1>
 
 ## HW/SW configuration
 

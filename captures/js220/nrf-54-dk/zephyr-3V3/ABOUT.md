@@ -1,5 +1,5 @@
 
-<h1 align="center">Nordic nRF54L15 · Zephyr OS</h1>
+<h1 align="center">Nordic nRF54L15 · Zephyr OS · 3V3</h1>
 
 ## HW/SW configuration
 

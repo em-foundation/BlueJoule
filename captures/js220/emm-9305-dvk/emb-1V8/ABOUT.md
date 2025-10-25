@@ -1,5 +1,5 @@
 
-<h1 align="center">EM Microelectronic EM9305 · EM Bleu SDK</h1>
+<h1 align="center">EM Microelectronic EM9305 · EM Bleu SDK · 1V8</h1>
 
 ## HW/SW configuration
 
