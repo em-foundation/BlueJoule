@@ -7,13 +7,14 @@ const Path = require('node:path')
 
 const CAPS = new Map()
 const ENTRIES = new Set()
-const MEDALS = new Map()
+const MEDALS = new Array()
 const UPDATES = new Array()
 const TARGS = new Set()
 
 const BQ = '`'
 const CAPDIR = 'captures'
 const DESC_RE = /<h1\b[^>]*>(.*?)<\/h1>/is
+const EMS = `<img src="images/em-dot.svg" width="12" alt="">`
 
 function findCaps(adir) {
     const path1 = Path.join(CAPDIR, adir)
@@ -44,9 +45,7 @@ function findMedals(txt) {
     for (const ln of txt.split('\n')) {
         if (!ln.startsWith('<!-- @medal|')) continue
         const flds = ln.split('|')
-        const cn = flds[1].trim()
-        const m10 = flds[3]
-        MEDALS.set(cn, flds.slice(2, 6))
+        MEDALS.push(flds.slice(1, 4))
     }
 }
 
@@ -72,7 +71,7 @@ function genCatalog() {
             let about = CAPS.get(cn)
             if (about) {
                 line += `📄&ensp;[&nearr;](../${CAPDIR}/${cn}/ABOUT.md)` 
-                desc = desc || `&emsp; ${about.match(DESC_RE)[1]}`
+                desc = desc || `&emsp; ${getDescription(about)}`
             }
             line += ' | '
         }
@@ -80,6 +79,32 @@ function genCatalog() {
         res += line
     }
     return `${res}<!-- @catalog-end -->`
+}
+
+function genMedals() {
+    return `<!-- @medals-begin -->
+${genMedalTab('1s')}
+${genMedalTab('10s')}
+<!-- @medals-end -->
+`
+}
+
+function genMedalTab(ps) {
+   let res = `<details><summary>&emsp;${ps}&thinsp;s event period [${EMS}]</summary><p>
+`
+    for (const flds of MEDALS) {
+        if (flds[0] != ps) continue
+        const cn = flds[1].trim()
+        const about = CAPS.get(cn)
+        const [ , , ems1, ems10] = getResults(about)
+        const score = (ps == '1s') ? ems1 : ems10
+        const desc = getDescription(about)
+        const m = mkMedal(flds[2])
+        res += `&emsp;${m}&emsp;${score}&emsp;${desc}<br>`
+    }
+     res += `
+</p></details>`
+    return res
 }
 
 function genScores() {
@@ -92,10 +117,9 @@ function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     const img = '<img src="images/emeralds.svg" width="200" alt="">'
-    const ems = `<img src="images/em-dot.svg" width="12" alt="">`
     let res = `<br><a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
 
-| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${ems}] &emsp;&emsp; | 10&thinsp;s period [${ems}] &emsp;&emsp; |
+| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${EMS}] &emsp;&emsp; | 10&thinsp;s period [${EMS}] &emsp;&emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
@@ -130,6 +154,10 @@ function genUpdates() {
 </p></details>
 <!-- @updates-end -->`
     return res
+}
+
+function getDescription(about) {
+    return about.match(DESC_RE)[1]
 }
 
 function getResults(about) {
@@ -169,15 +197,6 @@ function getResults(about) {
     }
 }
 
-// function getMedals(cn) {
-//     const E = `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
-//     if (cn.search('/emscript') > 0) {
-//         return [E, E, E, E]
-//     }
-//     const N = mkMedal('-')
-//     return MEDALS.has(cn) ? MEDALS.get(cn).map(m => mkMedal(m)) : [N, N, N, N]
-// }
-
 function mkDateBadge(date, color) {
     const src = 'tools/date-badge-master.svg'
     const dst = `docs/images/badge-${date}.svg`
@@ -197,13 +216,13 @@ function mkMedal(s) {
 function mkNum(ns) {
     const segs = ns.split(' ')
     if (segs.length == 1) {
-        return `${BQ}${ns.padStart(6, '\u00A0')}${BQ}`
+        return `<code>${ns.padStart(6, '\u00A0')}</code>`
     }
     if (segs[1] != 'nA') {
-        return `${BQ}${segs[0].padStart(6, '\u00A0')}${BQ}`
+        return `<code>${segs[0].padStart(6, '\u00A0')}</code>`
     }
     const uA = `0.${segs[0].slice(0, 3)}`
-    return `${BQ}${uA.padStart(6, '\u00A0')}${BQ}`
+    return `<code>${uA.padStart(6, '\u00A0')}</code>`
 }
 
 function SP(n) {
@@ -218,6 +237,10 @@ let txt = Fs.readFileSync(FILE, 'utf-8')
 findEntries(txt)
 findMedals(txt)
 findUpdates(txt)
+
+const medals = genMedals()
+const RE_MED = /<!--\s*@medals-begin\s*-->[\s\S]*?<!--\s*@medals-end\s*-->/m
+txt = txt.replace(RE_MED, medals)
 
 const updates = genUpdates()
 const RE_UPD = /<!--\s*@updates-begin\s*-->[\s\S]*?<!--\s*@updates-end\s*-->/m
