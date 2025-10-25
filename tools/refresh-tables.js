@@ -89,8 +89,7 @@ function genMedals() {
     return `<!-- @medals-begin -->
 ${genMedalTab('1')}
 ${genMedalTab('10')}
-<!-- @medals-end -->
-`
+<!-- @medals-end -->`
 }
 
 function genMedalTab(ps) {
