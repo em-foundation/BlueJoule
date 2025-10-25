@@ -74,7 +74,7 @@ function genCatalog() {
             const cn = `${pre}${targ}`
             let about = CAPS.get(cn)
             if (about) {
-                line += `📄&ensp;[&nearr;](../${CAPDIR}/${cn}/ABOUT.md)` 
+                line += mkLink(cn) 
                 desc = desc || `&emsp; ${getDescription(about)}`
             }
             line += ' | '
@@ -103,9 +103,10 @@ function genMedalTab(ps) {
         const about = CAPS.get(cn)
         const [ , , ems1, ems10] = getResults(about)
         const score = (ps == '1') ? ems1 : ems10
+        const link = mkLink(cn)
         const desc = getDescription(about)
         const m = mkMedal(flds[2])
-        res += `${SP(22)}${m}&emsp;${score}${SP(10)}${desc}<br>\n`
+        res += `${SP(22)}${m}&emsp;${score}${SP(10)}${link}&emsp;${desc}<br>\n`
     }
      res += `
 </p></details>`
@@ -200,6 +201,10 @@ function getResults(about) {
             }
         }
     }
+}
+
+function mkLink(cn) {
+    return `📄&ensp;<a href="../${CAPDIR}/${cn}/ABOUT.md">&nearr;</a>`    
 }
 
 function mkDateBadge(date, color) {
