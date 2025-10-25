@@ -94,7 +94,8 @@ ${genMedalTab('10')}
 }
 
 function genMedalTab(ps) {
-   let res = `<details><summary>&emsp;${ps}&thinsp;s event period [${EMS}]</summary><p>
+    const sp = (ps == '1') ? 'nbsp;' : ''
+    let res = `<details><summary>&emsp;${sp}${ps}&thinsp;s event period [${EMS}]</summary><p>
 `
     for (const flds of MEDALS) {
         if (flds[0] != ps) continue
@@ -104,7 +105,7 @@ function genMedalTab(ps) {
         const score = (ps == '1') ? ems1 : ems10
         const desc = getDescription(about)
         const m = mkMedal(flds[2])
-        res += `${SP(20)}${m}&emsp;${score}${SP(10)}${desc}<br>\n`
+        res += `${SP(40)}${m}&emsp;${score}${SP(10)}${desc}<br>\n`
     }
      res += `
 </p></details>`
