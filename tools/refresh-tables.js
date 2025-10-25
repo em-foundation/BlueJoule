@@ -16,6 +16,10 @@ const CAPDIR = 'captures'
 const DESC_RE = /<h1\b[^>]*>(.*?)<\/h1>/is
 const EMS = `<img src="images/em-dot.svg" width="12" alt="">`
 
+function SP(n) {
+    return '&emsp;'.repeat(n)
+}
+
 function findCaps(adir) {
     const path1 = Path.join(CAPDIR, adir)
     for (const be of Fs.readdirSync(path1)) {
@@ -100,7 +104,7 @@ function genMedalTab(ps) {
         const score = (ps == '1') ? ems1 : ems10
         const desc = getDescription(about)
         const m = mkMedal(flds[2])
-        res += `&emsp;&emsp;&emsp;${m}&emsp;${score}&emsp;&emsp;&emsp;&emsp;&emsp;${desc}<br>\n`
+        res += `${SP(3)}${m}&emsp;${score}${SP(10)}${desc}<br>\n`
     }
      res += `
 </p></details>`
