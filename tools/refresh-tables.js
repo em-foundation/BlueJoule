@@ -106,7 +106,7 @@ function genMedalTab(ps) {
         const link = mkLink(cn)
         const desc = getDescription(about)
         const m = mkMedal(flds[2])
-        res += `${SP(22)}${m}&emsp;${score}${SP(10)}${link}&emsp;${desc}<br>\n`
+        res += `${SP(22)}${m}&emsp;${score}${SP(11)}${link}${SP(2)}${desc}<br>\n`
     }
      res += `
 </p></details>`
