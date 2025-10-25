@@ -95,7 +95,7 @@ function genScoreTab(aname) {
     const ems = `<img src="images/em-dot.svg" width="12" alt="">`
     let res = `<br><a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
 
-| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${ems}] &emsp; | 10&thinsp;s period [${ems}] &emsp; |
+| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${ems}] &emsp;&emsp; | 10&thinsp;s period [${ems}] &emsp;&emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
@@ -148,7 +148,13 @@ function getResults(about) {
             switch (state) {
                 case 0:
                     state = 1
-                    sleep = segs[2].trim()
+                    const v = parseFloat(segs[1])
+                    let a = parseFloat(segs[2])
+                    if (segs[2].indexOf('nA') != -1) {
+                        a /= 1000
+                    }
+                    const ws = (v * a).toFixed(3)
+                    sleep = ws
                     break
                 case 1:
                     state = 2
