@@ -92,11 +92,10 @@ function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     const img = '<img src="images/emeralds.svg" width="200" alt="">'
-    const ems = `${SP(2)}<img src="images/em-dot.svg" width="14" alt="">`
+    const ems = `<img src="images/em-dot.svg" width="12" alt="">`
     let res = `<br><a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
 
-
-| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current (&mu;A) &emsp; | event energy (&mu;J) &emsp; | 1&thinsp;s period ${ems} &emsp; | 10&thinsp;s period ${ems} &emsp; |
+| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${ems}] &emsp; | 10&thinsp;s period [${ems}] &emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
@@ -213,8 +212,6 @@ let txt = Fs.readFileSync(FILE, 'utf-8')
 findEntries(txt)
 findMedals(txt)
 findUpdates(txt)
-
-console.log(ENTRIES)
 
 const updates = genUpdates()
 const RE_UPD = /<!--\s*@updates-begin\s*-->[\s\S]*?<!--\s*@updates-end\s*-->/m

@@ -137,7 +137,6 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 <!-- @scores-begin -->
 <br><a name="js220-scores"></a><p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
 
-
 | &emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp; | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp; |
 |---|---|---|---|---|
 | &nbsp;📈&nbsp;`adi-m17-evk/msdk-3V3`[&nbsp;&nearr;](../captures/js220/adi-m17-evk/msdk-3V3/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK") | &emsp;` 4.422` | &emsp;`48.216` | &emsp;` 14.75` | &emsp;` 47.75` |
