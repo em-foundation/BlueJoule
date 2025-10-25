@@ -11,13 +11,13 @@
 <!-- @entry|js220/sil-g22e-ehk/rail-1V8| -->
 <!-- @entry|js220/ti-23-lp/simplelink-2V2| -->
 
-<!-- @medal|1s|js220/emm-9305-dvk/emb-1V8           |G| -->
-<!-- @medal|1s|js220/in-100-dk/none-1V8             |S| -->
-<!-- @medal|1s|js220/nrf-54-dk/zephyr-1V8           |B| -->
+<!-- @medal|1|js220/emm-9305-dvk/emb-1V8           |G| -->
+<!-- @medal|1|js220/in-100-dk/none-1V8             |S| -->
+<!-- @medal|1|js220/nrf-54-dk/zephyr-1V8           |B| -->
 
-<!-- @medal|10s|js220/in-100-dk/none-1V8            |G| -->
-<!-- @medal|10s|js220/emm-9305-dvk/emb-1V8          |S| -->
-<!-- @medal|10s|js220/ti-23-lp/simplelink-2V2       |B| -->
+<!-- @medal|10|js220/in-100-dk/none-1V8            |G| -->
+<!-- @medal|10|js220/emm-9305-dvk/emb-1V8          |S| -->
+<!-- @medal|10|js220/ti-23-lp/simplelink-2V2       |B| -->
 
 
 <p align="center">
@@ -50,16 +50,17 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 </p></details>
 <!-- @updates-end -->
 
-<h4 align=“left”>Medals&emsp;&emsp;🥇 · 🥈 · 🥉</h4>
+<h4 align=“left”>Medals&emsp;🥇 · 🥈 · 🥉</h4>
 
 <!-- @medals-begin -->
-<details><summary>&emsp;1s&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
+<details><summary>&emsp;1&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
 &emsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code> 47.48</code>&emsp;EM Microelectronic EM9305 · EM Bleu SDK<br>&emsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code> 41.92</code>&emsp;InPlay IN100 · &lt;no software&gt;<br>&emsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code> 39.61</code>&emsp;Nordic nRF54L15 · Zephyr OS<br>
 </p></details>
-<details><summary>&emsp;10s&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
+<details><summary>&emsp;10&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
 &emsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code>306.84</code>&emsp;InPlay IN100 · &lt;no software&gt;<br>&emsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code>280.05</code>&emsp;EM Microelectronic EM9305 · EM Bleu SDK<br>&emsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code>197.07</code>&emsp;Texas Instruments CC2340R5 · SimpleLink SDK<br>
 </p></details>
 <!-- @medals-end -->
+
 
 
 

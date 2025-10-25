@@ -83,8 +83,8 @@ function genCatalog() {
 
 function genMedals() {
     return `<!-- @medals-begin -->
-${genMedalTab('1s')}
-${genMedalTab('10s')}
+${genMedalTab('1')}
+${genMedalTab('10')}
 <!-- @medals-end -->
 `
 }
@@ -97,7 +97,7 @@ function genMedalTab(ps) {
         const cn = flds[1].trim()
         const about = CAPS.get(cn)
         const [ , , ems1, ems10] = getResults(about)
-        const score = (ps == '1s') ? ems1 : ems10
+        const score = (ps == '1') ? ems1 : ems10
         const desc = getDescription(about)
         const m = mkMedal(flds[2])
         res += `&emsp;${m}&emsp;${score}&emsp;${desc}<br>`
