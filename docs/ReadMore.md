@@ -54,12 +54,19 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @medals-begin -->
 <details><summary>&emsp;1&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
-&emsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code> 47.48</code>&emsp;EM Microelectronic EM9305 · EM Bleu SDK<br>&emsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code> 41.92</code>&emsp;InPlay IN100 · &lt;no software&gt;<br>&emsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code> 39.61</code>&emsp;Nordic nRF54L15 · Zephyr OS<br>
+&emsp;&emsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code> 47.48</code>&emsp;&emsp;EM Microelectronic EM9305 · EM Bleu SDK<br>
+&emsp;&emsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code> 41.92</code>&emsp;&emsp;InPlay IN100 · &lt;no software&gt;<br>
+&emsp;&emsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code> 39.61</code>&emsp;&emsp;Nordic nRF54L15 · Zephyr OS<br>
+
 </p></details>
 <details><summary>&emsp;10&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
-&emsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code>306.84</code>&emsp;InPlay IN100 · &lt;no software&gt;<br>&emsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code>280.05</code>&emsp;EM Microelectronic EM9305 · EM Bleu SDK<br>&emsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code>197.07</code>&emsp;Texas Instruments CC2340R5 · SimpleLink SDK<br>
+&emsp;&emsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code>306.84</code>&emsp;&emsp;InPlay IN100 · &lt;no software&gt;<br>
+&emsp;&emsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code>280.05</code>&emsp;&emsp;EM Microelectronic EM9305 · EM Bleu SDK<br>
+&emsp;&emsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code>197.07</code>&emsp;&emsp;Texas Instruments CC2340R5 · SimpleLink SDK<br>
+
 </p></details>
 <!-- @medals-end -->
+
 
 
 

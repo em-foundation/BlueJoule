@@ -100,7 +100,7 @@ function genMedalTab(ps) {
         const score = (ps == '1') ? ems1 : ems10
         const desc = getDescription(about)
         const m = mkMedal(flds[2])
-        res += `&emsp;${m}&emsp;${score}&emsp;${desc}<br>`
+        res += `&emsp;&emsp;${m}&emsp;${score}&emsp;&emsp;${desc}<br>\n`
     }
      res += `
 </p></details>`
