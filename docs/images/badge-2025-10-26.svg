@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" aria-hidden="true">
+    <g transform="translate(0,1)">
+        <rect x="0" y="0" width="80" height="19" rx="3" ry="3" fill="hsl(156, 80%, 50%)"/>
+        <text x="39" y="14" text-anchor="middle" font-family="Roboto,sans-serif" font-size="13" fill="#000">2025-10-26</text>
+    </g>
+</svg>

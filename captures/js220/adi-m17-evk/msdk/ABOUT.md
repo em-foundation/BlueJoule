@@ -1,5 +1,5 @@
 
-<h1 align="center">Analog Devices MAX32655 · Maxim SDK</h1>
+<h1 align="center">Analog Devices MAX32655 · Maxim SDK · 3V3</h1>
 
 ## HW/SW configuration
 
