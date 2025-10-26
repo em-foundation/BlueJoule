@@ -122,7 +122,7 @@ function genScoreTab(aname) {
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
     const img = '<img src="images/emeralds.svg" width="200" alt="">'
-    let res = `<br><a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
+    let res = `<a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
 
 | &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${EMS}] &emsp;&emsp; | 10&thinsp;s period [${EMS}] &emsp;&emsp; |
 |---|---|---|---|---|
