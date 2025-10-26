@@ -1,4 +1,4 @@
-<!-- @upd|2025-10-26|improved reporting of scores using a selected set of captures|-->
+<!-- @upd|2025-10-26|improved score reporting; new 1V5 captures from EM Microelectronic and InPlay |-->
 <!-- @upd|2025-10-22|refreshed captures and screenshots for Nordic nRF52832|-->
 <!-- @upd|2025-10-17|new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK|-->
 <!-- @upd|2025-09-11|new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK|-->
@@ -44,7 +44,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @updates-begin -->
 <details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved reporting of scores using a selected set of captures</summary><p>
+&emsp;&thinsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay </summary><p>
 &emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
 &emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
 &emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
@@ -111,6 +111,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | `in-100-dk/nocode-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/in-100-dk/nocode-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/in-100-dk/nocode-3V3/ABOUT.md">&nearr;</a> | &emsp; InPlay IN100 · &lt;no code&gt; · 3V3 |
 | `nrf-52-dk/emscript-2V7`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-52-dk/emscript-2V7/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK · 2V7 |
 | `nrf-52-dk/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-52-dk/emscript-3V3/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK · 3V3 |
+| `nrf-52-dk/zephyr`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-52-dk/zephyr/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF52832 · Zephyr OS · 2V7 |
 | `nrf-52-dk/zephyr-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-52-dk/zephyr-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/nrf-52-dk/zephyr-3V3/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF52832 · Zephyr OS · 3V3 |
 | `nrf-54-dk/emscript-1V8`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-54-dk/emscript-1V8/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/nrf-54-dk/emscript-1V8/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · EM&bull;Script SDK · 1V8 |
 | `nrf-54-dk/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-54-dk/emscript-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/nrf-54-dk/emscript-3V3/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · EM&bull;Script SDK · 3V3 |
@@ -158,6 +159,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 | &nbsp;📈&nbsp;`adi-m17-evk/msdk`[&nbsp;&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | &emsp;<code>14.593</code> | &emsp;<code>48.216</code> | &emsp;<code> 14.75</code> | &emsp;<code> 47.75</code> |
 | &nbsp;📈&nbsp;`emm-9305-dvk/embleu`[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/embleu/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | &emsp;<code> 1.031</code> | &emsp;<code>15.261</code> | &emsp;<code> 56.82</code> | &emsp;<code>361.76</code> |
 | &nbsp;📈&nbsp;`in-100-dk/nocode`[&nbsp;&nearr;](../captures/js220/in-100-dk/nocode/ABOUT.md#typical-event "InPlay IN100 · &lt;no code&gt; · 1V5") | &emsp;<code> 0.663</code> | &emsp;<code>17.295</code> | &emsp;<code> 51.56</code> | &emsp;<code>386.73</code> |
+| &nbsp;📈&nbsp;`nrf-52-dk/zephyr`[&nbsp;&nearr;](../captures/js220/nrf-52-dk/zephyr/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS · 2V7") | &emsp;<code> 3.524</code> | &emsp;<code>26.951</code> | &emsp;<code> 30.39</code> | &emsp;<code>148.96</code> |
 | &nbsp;📈&nbsp;`nrf-54-dk/zephyr`[&nbsp;&nearr;](../captures/js220/nrf-54-dk/zephyr/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | &emsp;<code> 8.384</code> | &emsp;<code>14.984</code> | &emsp;<code> 39.61</code> | &emsp;<code> 93.59</code> |
 | &nbsp;📈&nbsp;`sil-g22e-ehk/rail`[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | &emsp;<code> 4.418</code> | &emsp;<code>21.821</code> | &emsp;<code> 35.28</code> | &emsp;<code>140.22</code> |
 | &nbsp;📈&nbsp;`ti-23-lp/simplelink`[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | &emsp;<code> 1.761</code> | &emsp;<code>29.381</code> | &emsp;<code> 29.73</code> | &emsp;<code>197.07</code> |
