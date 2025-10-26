@@ -1,3 +1,4 @@
+<!-- @upd|2025-10-26|improved reporting of scores using a selected set of captures|-->
 <!-- @upd|2025-10-22|refreshed captures and screenshots for Nordic nRF52832|-->
 <!-- @upd|2025-10-17|new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK|-->
 <!-- @upd|2025-09-11|new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK|-->
@@ -43,7 +44,8 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @updates-begin -->
 <details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832</summary><p>
+&emsp;&thinsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved reporting of scores using a selected set of captures</summary><p>
+&emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
 &emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
 &emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
 &emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
