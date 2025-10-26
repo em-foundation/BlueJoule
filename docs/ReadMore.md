@@ -127,20 +127,24 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 
 ## Scores
 
-The following table presents a curated collection of capture results &ndash; summarizing _sleep power_&thinsp;, _event energy_&thinsp;, and a pair of **EM&bull;erald** scores for a subset of HW/SW configurations selected from the repository's catalog.
-
-We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&thinsp;s and 10&thinsp;s event period in each case.&thinsp; We've also broken out a subset of these scores which supplied 3V3 during the capture &ndash; as opposed to a more optimal voltage for the target configuration.
+The following table presents a curated collection of capture results from the **BlueJoule** catalog &ndash; summarizing _sleep power_&thinsp;, _event energy_&thinsp;, and a pair of **EM&bull;erald** scores for each entry.&thinsp;
 
 > [!NOTE]
 > By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per period:
 >
 ><p align="left"><b><sup>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;EM•eralds = 2400 / (<i>Joules per day</i> × 30) = 80 / <i>Joules per day</i><br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CR2032 energy:&nbsp; 225 mAh × 3.6 × 3.0 V ≈ 2.43 kJ<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;1 EM•erald ≈ 1 CR2032-month</sup></b></p>
 
+To keep the table manageable in size, we've applied the following filter criteria when selecting individual entries:
+
+🟠 &ensp; recorded with a JouleScope JS220 high-precision energy analyzer<br>
+🟠 &ensp; features vendor-supported SW running on off-the-shelf HW<br>
+🟠 &ensp; powered at an optimal voltage for the underlying silicon
+
 > [!TIP]
-> Hovering over individual capture links within the following table provides an unabbreviated description of the target HW/SW configu&shy;ration.&thinsp; Each of these links takes you to a screen-shot of typical advertising event.
+> Hovering over individual capture links within the following table provides an unabbreviated description of the target HW/SW configu&shy;ration.&thinsp; Each of these links will then take you to a screen-shot of typical advertising event.
 
 <!-- @scores-begin -->
-<br><a name="js220-scores"></a><p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
+<a name="js220-scores"></a><p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
 
 | &emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; |
 |---|---|---|---|---|
@@ -154,7 +158,10 @@ We've compiled a set of **EM&bull;erald** scores for each capture, assuming a 1&
 
 <!-- @scores-end -->
 
-Consider installing the [open-source](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) **EM&bull;Scope** tool.&thinsp; You can then query _other_ event period scenarios, as well as interactively view individual data captures using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads).
+> [!TIP]
+> Consider installing the [open-source](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) **EM&bull;Scope** tool, whose `emscope view --what-if` command allows you to query _other_ event period durations more relevant to your particular application.
+>
+> The `emscope view --jls-file` command also allows you to interactively explore any of the data captures in the **BlueJoule** catalog using the [**Joulescope File Viewer**](https://www.joulescope.com/pages/downloads) &ndash; without requiring a power analyzer.
 
 ## Contributing
 
