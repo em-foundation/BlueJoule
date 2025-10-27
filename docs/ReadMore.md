@@ -116,12 +116,16 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | `nrf-54-dk/emscript-1V8`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-54-dk/emscript-1V8/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/nrf-54-dk/emscript-1V8/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · EM&bull;Script SDK · 1V8 |
 | `nrf-54-dk/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-54-dk/emscript-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/nrf-54-dk/emscript-3V3/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · EM&bull;Script SDK · 3V3 |
 | `nrf-54-dk/zephyr`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-54-dk/zephyr/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF54L15 · Zephyr OS · 1V8 |
+| `nrf-54-dk/zephyr-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-54-dk/zephyr-3V0/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF54L15 · Zephyr OS · 3V0 |
 | `nrf-54-dk/zephyr-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/nrf-54-dk/zephyr-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/nrf-54-dk/zephyr-3V3/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 3V3 |
 | `sil-g22e-ehk/rail`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g22e-ehk/rail/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8 |
+| `sil-g22e-ehk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g22e-ehk/rail-3V0/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0 |
 | `sil-g22e-ehk/rail-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g22e-ehk/rail-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/sil-g22e-ehk/rail-3V3/ABOUT.md">&nearr;</a> | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3 |
 | `ti-23-lp/emscript-2V2`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2 |
 | `ti-23-lp/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3 |
 | `ti-23-lp/simplelink`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 2V2 |
+| `ti-23-lp/simplelink-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V0/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V0 |
+| `ti-23-lp/simplelink-3V0-B`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V0-B/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V0 · battery |
 | `ti-23-lp/simplelink-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/simplelink-3V3/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V3 |
 | `adi-m17-evk/msdk-3V3`&emsp; |  | 📄&ensp;<a href="../captures/ppk2/adi-m17-evk/msdk-3V3/ABOUT.md">&nearr;</a> | &emsp; Analog Devices MAX32655 · Maxim SDK · 3V3 |
 | `nrf-54-dk/zephyr-1V8`&emsp; |  | 📄&ensp;<a href="../captures/ppk2/nrf-54-dk/zephyr-1V8/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 1V8 |
