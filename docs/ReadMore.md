@@ -145,7 +145,7 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 
 ## Scores
 
-The following table presents a curated collection of capture results drawn from the **BlueJoule** catalog &ndash; summarizing _sleep power_&thinsp;, _event energy_&thinsp;, and a pair of **EM&bull;erald** scores for each entry.&thinsp;
+The following table presents a curated collection of capture results drawn from the **BlueJoule** catalog &ndash; summarizing _sleep current_&thinsp;, _event energy_&thinsp;, and a pair of **EM&bull;erald** scores for each entry.&thinsp;
 
 > [!NOTE]
 > By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per period:
