@@ -165,7 +165,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 <a name="entry-scores"></a><p align="center"><img src="images/emeralds.svg" width="200" alt=""></p>
     
 | &emsp;&emsp;Entry Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; |
-|---|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | `adi-m17-evk/msdk-3V3        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/adi-m17-evk/msdk-3V3/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | <code> 4.4</code> | <code> 48.2</code> | <code> 14.75</code> | <code> 47.75</code> |
 | `emm-9305-dvk/embleu-1V5     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/embleu-1V5/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | <code> 0.5</code> | <code> 15.1</code> | <code> 58.54</code> | <code>408.41</code> |
 | `in-100-dk/nocode-1V5        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/in-100-dk/nocode-1V5/ABOUT.md#typical-event "InPlay IN100 · &lt;no code&gt; · 1V5") | <code> 0.4</code> | <code> 17.3</code> | <code> 51.56</code> | <code>386.73</code> |
@@ -181,7 +181,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 
     
 | &emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; |
-|---|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | `adi-m17-evk/msdk-3V3        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/adi-m17-evk/msdk-3V3/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | <code> 4.4</code> | <code> 48.2</code> | <code> 14.75</code> | <code> 47.75</code> |
 | `emm-9305-dvk/embleu-1V5     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/embleu-1V5/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | <code> 0.5</code> | <code> 15.1</code> | <code> 58.54</code> | <code>408.41</code> |
 | `emm-9305-dvk/embleu-1V5-lfo `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/embleu-1V5-lfo/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | <code> 0.7</code> | <code> 15.3</code> | <code> 56.82</code> | <code>361.76</code> |
@@ -217,7 +217,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 
     
 | &emsp;&emsp;PPK2 Capture&ensp;&thinsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; |
-|---|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|
 | `adi-m17-evk/msdk-3V3        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ppk2/adi-m17-evk/msdk-3V3/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | <code> 4.4</code> | <code> 51.7</code> | <code> 14.02</code> | <code> 47.36</code> |
 | `in-100-dk/nocode-1V8        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ppk2/in-100-dk/nocode-1V8/ABOUT.md#typical-event "InPlay IN100 · &lt;no code&gt; · 1V8") | <code> 0.6</code> | <code> 20.4</code> | <code> 43.11</code> | <code>301.01</code> |
 | `in-100-dk/nocode-3V3        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ppk2/in-100-dk/nocode-3V3/ABOUT.md#typical-event "InPlay IN100 · &lt;no code&gt; · 3V3") | <code> 0.7</code> | <code> 37.9</code> | <code> 22.95</code> | <code>148.92</code> |
