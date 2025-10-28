@@ -125,7 +125,7 @@ function genScoreTab(aname) {
     const img = '<img src="images/emeralds.svg" width="200" alt="">'
     let res = `<a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
 
-| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${EMS}] &emsp;&emsp; | 10&thinsp;s period [${EMS}] &emsp;&emsp; |
+| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${EMS}] &emsp;&emsp; | 10&thinsp;s period [${EMS}] &emsp;&emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
@@ -182,13 +182,11 @@ function getResults(about) {
             switch (state) {
                 case 0:
                     state = 1
-                    const v = parseFloat(segs[1])
                     let a = parseFloat(segs[2])
                     if (segs[2].indexOf('nA') != -1) {
                         a /= 1000
                     }
-                    const ws = (v * a).toFixed(1)
-                    sleep = ws
+                    sleep = a.toFixed(1)
                     break
                 case 1:
                     state = 2
