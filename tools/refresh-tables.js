@@ -141,7 +141,7 @@ function genScoreTab(aname) {
     }
     res += `
     
-| Capture&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [${EMS}] | 10&thinsp;s period [${EMS}] |
+| &emsp;Capture&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [${EMS}] | 10&thinsp;s period [${EMS}] |
 |---|:---:|:---:|:---:|:---:|
 `
     for (const [k, v] of CAPS) {
