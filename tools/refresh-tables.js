@@ -151,13 +151,13 @@ function genScoreTab(aname) {
             if (!k.startsWith(pre)) continue
         }
         const [sleep, eveng, ems1, ems10] = getResults(v)
-        const cn = k.slice(pre.length).padEnd(30, '\u00A0')
+        const cn = k.slice(pre.length).padEnd(28, '\u00A0')
         let desc = ''
         let about = CAPS.get(k)
         if (about) {
             desc = `"${about.match(DESC_RE)[1]}"`
         }
-        let line = `| &nbsp;📈&nbsp;${BQ}${cn}${BQ}[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;${sleep} | &emsp;${eveng} | &emsp;${ems1} | &emsp;${ems10} |`
+        let line = `| ${BQ}${cn}${BQ}&nbsp;📈&nbsp;[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;${sleep} | &emsp;${eveng} | &emsp;${ems1} | &emsp;${ems10} |`
         getResults(v)
         res += `${line}\n`
     }
