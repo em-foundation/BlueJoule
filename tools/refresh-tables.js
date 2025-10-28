@@ -151,7 +151,7 @@ function genScoreTab(aname) {
             if (!k.startsWith(pre)) continue
         }
         const [sleep, eveng, ems1, ems10] = getResults(v)
-        const cn = k.slice(pre.length)
+        const cn = k.slice(pre.length).padEnd(30, '\u00A0')
         let desc = ''
         let about = CAPS.get(k)
         if (about) {
