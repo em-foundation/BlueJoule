@@ -187,17 +187,17 @@ function getResults(about) {
                     if (segs[2].indexOf('nA') != -1) {
                         a /= 1000
                     }
-                    const ws = (v * a).toFixed(3)
+                    const ws = (v * a).toFixed(1)
                     sleep = ws
                     break
                 case 1:
                     state = 2
-                    eveng = segs[1].trim()
+                    eveng = parseFloat(segs[1].trim()).toFixed(1)
                     ems1 = segs[4].trim()
                     break
                 case 2:
                     ems10 = segs[4].trim()
-                    return [`${mkNum(sleep)}`, `${mkNum(eveng)}`, `${mkNum(ems1)}`, `${mkNum(ems10)}`]
+                    return [`${mkNum(sleep, 4)}`, `${mkNum(eveng, 5)}`, `${mkNum(ems1, 6)}`, `${mkNum(ems10, 6)}`]
             }
         }
     }
@@ -223,16 +223,16 @@ function mkMedal(s) {
     }
 }
 
-function mkNum(ns) {
+function mkNum(ns, pad) {
     const segs = ns.split(' ')
     if (segs.length == 1) {
-        return `<code>${ns.padStart(6, '\u00A0')}</code>`
+        return `<code>${ns.padStart(pad, '\u00A0')}</code>`
     }
     if (segs[1] != 'nA') {
-        return `<code>${segs[0].padStart(6, '\u00A0')}</code>`
+        return `<code>${segs[0].padStart(pad, '\u00A0')}</code>`
     }
     const uA = `0.${segs[0].slice(0, 3)}`
-    return `<code>${uA.padStart(6, '\u00A0')}</code>`
+    return `<code>${uA.padStart(pad, '\u00A0')}</code>`
 }
 
 function SP(n) {
