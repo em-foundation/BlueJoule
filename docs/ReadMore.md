@@ -1,3 +1,4 @@
+<!-- @upd|2025-10-28|latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark|-->
 <!-- @upd|2025-10-26|improved score reporting; new 1V5 captures from EM Microelectronic and InPlay |-->
 <!-- @upd|2025-10-22|refreshed captures and screenshots for Nordic nRF52832|-->
 <!-- @upd|2025-10-17|new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK|-->
@@ -16,8 +17,8 @@
 <!-- @medal|1|js220/in-100-dk/nocode               |S| -->
 <!-- @medal|1|js220/nrf-54-dk/zephyr               |B| -->
 
-<!-- @medal|10|js220/in-100-dk/nocode              |G| -->
-<!-- @medal|10|js220/emm-9305-dvk/embleu           |S| -->
+<!-- @medal|10|js220/emm-9305-dvk/embleu           |G| -->
+<!-- @medal|10|js220/in-100-dk/nocode              |S| -->
 <!-- @medal|10|js220/ti-23-lp/simplelink           |B| -->
 
 
@@ -44,7 +45,8 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @updates-begin -->
 <details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay </summary><p>
+&emsp;&thinsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark</summary><p>
+&emsp;&emsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay <br>
 &emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
 &emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
 &emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
@@ -56,14 +58,14 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @medals-begin -->
 <details><summary>&emsp;&ensp;1&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code> 56.82</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code> 58.54</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code> 51.56</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/in-100-dk/nocode/ABOUT.md">&nearr;</a>&nbsp;&nbsp;InPlay IN100 · &lt;no code&gt; · 1V5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code> 39.61</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/nrf-54-dk/zephyr/ABOUT.md">&nearr;</a>&nbsp;&nbsp;Nordic nRF54L15 · Zephyr OS · 1V8<br>
 
 </p></details>
 <details><summary>&emsp;10&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code>386.73</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/in-100-dk/nocode/ABOUT.md">&nearr;</a>&nbsp;&nbsp;InPlay IN100 · &lt;no code&gt; · 1V5<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code>361.76</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code>408.41</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code>386.73</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/in-100-dk/nocode/ABOUT.md">&nearr;</a>&nbsp;&nbsp;InPlay IN100 · &lt;no code&gt; · 1V5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code>197.07</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink/ABOUT.md">&nearr;</a>&nbsp;&nbsp;Texas Instruments CC2340R5 · SimpleLink SDK · 2V2<br>
 
 </p></details>
@@ -104,6 +106,7 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 |---|:---:|:---:|---|
 | `adi-m17-evk/msdk`&emsp; | 📄&ensp;<a href="../captures/js220/adi-m17-evk/msdk/ABOUT.md">&nearr;</a> |  | &emsp; Analog Devices MAX32655 · Maxim SDK · 3V3 |
 | `emm-9305-dvk/embleu`&emsp; | 📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 1V5 |
+| `emm-9305-dvk/embleu-1V5-lfosc`&emsp; | 📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu-1V5-lfosc/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 1V5 |
 | `emm-9305-dvk/embleu-1V8`&emsp; | 📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu-1V8/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 1V8 |
 | `emm-9305-dvk/embleu-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/emm-9305-dvk/embleu-3V3/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 3V3 |
 | `in-100-dk/nocode`&emsp; | 📄&ensp;<a href="../captures/js220/in-100-dk/nocode/ABOUT.md">&nearr;</a> |  | &emsp; InPlay IN100 · &lt;no code&gt; · 1V5 |
@@ -161,7 +164,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 | &emsp;&emsp;JS220 Capture&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] &emsp;&emsp; |
 |---|---|---|---|---|
 | &nbsp;📈&nbsp;`adi-m17-evk/msdk`[&nbsp;&nearr;](../captures/js220/adi-m17-evk/msdk/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | &emsp;<code>14.593</code> | &emsp;<code>48.216</code> | &emsp;<code> 14.75</code> | &emsp;<code> 47.75</code> |
-| &nbsp;📈&nbsp;`emm-9305-dvk/embleu`[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/embleu/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | &emsp;<code> 1.031</code> | &emsp;<code>15.261</code> | &emsp;<code> 56.82</code> | &emsp;<code>361.76</code> |
+| &nbsp;📈&nbsp;`emm-9305-dvk/embleu`[&nbsp;&nearr;](../captures/js220/emm-9305-dvk/embleu/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | &emsp;<code> 0.760</code> | &emsp;<code>15.055</code> | &emsp;<code> 58.54</code> | &emsp;<code>408.41</code> |
 | &nbsp;📈&nbsp;`in-100-dk/nocode`[&nbsp;&nearr;](../captures/js220/in-100-dk/nocode/ABOUT.md#typical-event "InPlay IN100 · &lt;no code&gt; · 1V5") | &emsp;<code> 0.663</code> | &emsp;<code>17.295</code> | &emsp;<code> 51.56</code> | &emsp;<code>386.73</code> |
 | &nbsp;📈&nbsp;`nrf-52-dk/zephyr`[&nbsp;&nearr;](../captures/js220/nrf-52-dk/zephyr/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS · 2V7") | &emsp;<code> 3.524</code> | &emsp;<code>26.951</code> | &emsp;<code> 30.39</code> | &emsp;<code>148.96</code> |
 | &nbsp;📈&nbsp;`nrf-54-dk/zephyr`[&nbsp;&nearr;](../captures/js220/nrf-54-dk/zephyr/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | &emsp;<code> 8.384</code> | &emsp;<code>14.984</code> | &emsp;<code> 39.61</code> | &emsp;<code> 93.59</code> |
