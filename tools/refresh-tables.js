@@ -114,23 +114,42 @@ function genMedalTab(ps) {
 
 function genScores() {
     return `<!-- @scores-begin -->
+${genScoreTab('Entry')}
+
+<h4 align=“left”>JS220 Scores</h4>
+
+<details><summary>&nbsp;</summary>
 ${genScoreTab('JS220')}
+</details>
+
+<h4 align=“left”>PPK2 Scores</h4>
+
+<details><summary>&nbsp;</summary>
+${genScoreTab('PPK2')}
+</details>
+
 <!-- @scores-end -->`
 }
 
 function genScoreTab(aname) {
-    const fill = '&ensp;'
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
-    const img = '<img src="images/emeralds.svg" width="200" alt="">'
-    let res = `<a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
-
+    let res = ''
+    if (aname == 'Entry') {
+        const img = '<img src="images/emeralds.svg" width="200" alt="">'
+        res += `<a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>`
+    }
+    res += `
+    
 | &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${EMS}] &emsp;&emsp; | 10&thinsp;s period [${EMS}] &emsp;&emsp; |
 |---|---|---|---|---|
 `
     for (const [k, v] of CAPS) {
-        if (!k.startsWith(pre)) continue
-        if (!ENTRIES.has(k)) continue
+        if (aname == 'Entry') {
+            if (!ENTRIES.has(k)) continue
+        } else {
+            if (!k.startsWith(pre)) continue
+        }
         const [sleep, eveng, ems1, ems10] = getResults(v)
         const cn = k.slice(pre.length)
         let desc = ''
