@@ -157,7 +157,7 @@ function genScoreTab(aname) {
         if (about) {
             desc = `"${about.match(DESC_RE)[1]}"`
         }
-        let line = `| ${BQ}${cn}${BQ}&nbsp;📈&nbsp;[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;${sleep} | &emsp;${eveng} | &emsp;${ems1} | &emsp;${ems10} |`
+        let line = `| ${BQ}${cn}${BQ}&nbsp;📈&nbsp;[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;&emsp;${sleep} | &emsp;${eveng} | &emsp;${ems1} | &emsp;${ems10} |`
         getResults(v)
         res += `${line}\n`
     }
