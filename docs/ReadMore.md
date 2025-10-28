@@ -99,7 +99,13 @@ When _not_ actively advertising &ndash; over 99% of the time, in fact, within a 
 
 ## Catalog
 
-This repository houses the following curated **EM&bull;Scope** capture directories &ndash; each populated using the `emscope grab` command with either its `-J, --js220` or its `-P, --ppk2` option while powering the target hardware at a specified voltage:
+This repository catalogs an inventory of **EM&bull;Scope** capture directories &ndash; each populated using the `emscope grab` command with either its `-J, --js220` or its `-P, --ppk2` option while powering the target hardware at a designated voltage.
+
+An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration in greater deetail as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
+
+<h4 align=“left”>Inventory</h4>
+
+<details><summary>&nbsp;</summary>
 
 <!-- @catalog-begin -->
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
@@ -132,14 +138,14 @@ This repository houses the following curated **EM&bull;Scope** capture directori
 | `ti-23-lp/simplelink-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/simplelink-3V3/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V3 |
 <!-- @catalog-end -->
 
-An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
+</details>
 
 > [!TIP]
-> We recommend opening any links marked with &thinsp;&nearr;&thinsp; in a new **Tab** or **Window** within your browser
+> We recommend opening any &thinsp;&nearr;&thinsp; links in this collapsible table through a new **Tab** or **Window** within your browser
 
 ## Scores
 
-The following table presents a curated collection of capture results from the **BlueJoule** catalog &ndash; summarizing _sleep power_&thinsp;, _event energy_&thinsp;, and a pair of **EM&bull;erald** scores for each entry.&thinsp;
+The following table presents a curated collection of capture results drawn from the **BlueJoule** catalog &ndash; summarizing _sleep power_&thinsp;, _event energy_&thinsp;, and a pair of **EM&bull;erald** scores for each entry.&thinsp;
 
 > [!NOTE]
 > By way of review, **EM&bull;eralds** quantify _energy efficiency_ &ndash; with higher scores implying lower energy consumption per period:
