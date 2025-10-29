@@ -64,7 +64,7 @@ function findUpdates(txt) {
 function genCatalog() {
     let res =
 `<!-- @catalog-begin -->
-| &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
+| &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
 `
     for (const targ of TARGS) {
@@ -114,31 +114,50 @@ function genMedalTab(ps) {
 
 function genScores() {
     return `<!-- @scores-begin -->
+${genScoreTab('Entry')}
+
+<h4 align=“left”>JS220 Scores</h4>
+
+<details><summary>&nbsp;</summary>
 ${genScoreTab('JS220')}
+</details>
+
+<h4 align=“left”>PPK2 Scores</h4>
+
+<details><summary>&nbsp;</summary>
+${genScoreTab('PPK2')}
+</details>
+
 <!-- @scores-end -->`
 }
 
 function genScoreTab(aname) {
-    const fill = '&ensp;'
     const pre = `${aname.toLowerCase()}/`
     const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
-    const img = '<img src="images/emeralds.svg" width="200" alt="">'
-    let res = `<a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>
-
-| &emsp;&emsp;${aname} Capture${pad}&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; | sleep power [&thinsp;&mu;W&thinsp;] &ensp; | event energy [&thinsp;&mu;J&thinsp;] &ensp; | 1&thinsp;s period [${EMS}] &emsp;&emsp; | 10&thinsp;s period [${EMS}] &emsp;&emsp; |
-|---|---|---|---|---|
+    let res = ''
+    if (aname == 'Entry') {
+        const img = '<img src="images/emeralds.svg" width="200" alt="">'
+        res += `<a name="${aname.toLowerCase()}-scores"></a><p align="center">${img}</p>`
+    }
+    res += `
+    
+| &emsp;Capture&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [${EMS}] | 10&thinsp;s period [${EMS}] |
+|---|:---:|:---:|:---:|:---:|
 `
     for (const [k, v] of CAPS) {
-        if (!k.startsWith(pre)) continue
-        if (!ENTRIES.has(k)) continue
+        if (aname == 'Entry') {
+            if (!ENTRIES.has(k)) continue
+        } else {
+            if (!k.startsWith(pre)) continue
+        }
         const [sleep, eveng, ems1, ems10] = getResults(v)
-        const cn = k.slice(pre.length)
+        const cn = k.slice(pre.length).padEnd(28, '\u00A0')
         let desc = ''
         let about = CAPS.get(k)
         if (about) {
             desc = `"${about.match(DESC_RE)[1]}"`
         }
-        let line = `| &nbsp;📈&nbsp;${BQ}${cn}${BQ}[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | &emsp;${sleep} | &emsp;${eveng} | &emsp;${ems1} | &emsp;${ems10} |`
+        let line = `| ${BQ}${cn}${BQ}&nbsp;📈&nbsp;[&nbsp;&nearr;](../${CAPDIR}/${k}/ABOUT.md#typical-event ${desc}) | ${sleep} | ${eveng} | ${ems1} | ${ems10} |`
         getResults(v)
         res += `${line}\n`
     }
@@ -182,22 +201,20 @@ function getResults(about) {
             switch (state) {
                 case 0:
                     state = 1
-                    const v = parseFloat(segs[1])
                     let a = parseFloat(segs[2])
                     if (segs[2].indexOf('nA') != -1) {
                         a /= 1000
                     }
-                    const ws = (v * a).toFixed(3)
-                    sleep = ws
+                    sleep = a.toFixed(1)
                     break
                 case 1:
                     state = 2
-                    eveng = segs[1].trim()
+                    eveng = parseFloat(segs[1].trim()).toFixed(1)
                     ems1 = segs[4].trim()
                     break
                 case 2:
                     ems10 = segs[4].trim()
-                    return [`${mkNum(sleep)}`, `${mkNum(eveng)}`, `${mkNum(ems1)}`, `${mkNum(ems10)}`]
+                    return [`${mkNum(sleep, 4)}`, `${mkNum(eveng, 5)}`, `${mkNum(ems1, 6)}`, `${mkNum(ems10, 6)}`]
             }
         }
     }
@@ -223,16 +240,16 @@ function mkMedal(s) {
     }
 }
 
-function mkNum(ns) {
+function mkNum(ns, pad) {
     const segs = ns.split(' ')
     if (segs.length == 1) {
-        return `<code>${ns.padStart(6, '\u00A0')}</code>`
+        return `<code>${ns.padStart(pad, '\u00A0')}</code>`
     }
     if (segs[1] != 'nA') {
-        return `<code>${segs[0].padStart(6, '\u00A0')}</code>`
+        return `<code>${segs[0].padStart(pad, '\u00A0')}</code>`
     }
     const uA = `0.${segs[0].slice(0, 3)}`
-    return `<code>${uA.padStart(6, '\u00A0')}</code>`
+    return `<code>${uA.padStart(pad, '\u00A0')}</code>`
 }
 
 function SP(n) {
