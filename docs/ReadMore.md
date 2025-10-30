@@ -41,7 +41,7 @@
 
 This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) project to learn more about the **EM&bull;Scope** tool itself.
 
-<h4 align=“left”>Updates</h4>
+<h4>LATEST UPDATES &emsp;&emsp;&emsp;&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
 <!-- @updates-begin -->
 <details><summary>
@@ -54,7 +54,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 </p></details>
 <!-- @updates-end -->
 
-<h4 align=“left”>Medals&emsp;🥇 · 🥈 · 🥉</h4>
+<h4 align=“left”>MEDALISTS&emsp;🥇 · 🥈 · 🥉 &emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4></h4>
 
 <!-- @medals-begin -->
 <details><summary>&emsp;&ensp;1&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
@@ -103,7 +103,7 @@ This repository catalogs an inventory of **EM&bull;Scope** capture directories &
 
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration in greater deetail as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
 
-<h4 align=“left”>Inventory</h4>
+<h4 align=“left”>CAPTURE INVENTORY&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
 <details><summary>&nbsp;</summary>
 
@@ -174,8 +174,8 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 
-
-<h4 align=“left”>JS220 Scores</h4>
+<p>&nbsp;</p>
+<h4 align=“left”>ALL JS220 SCORES&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
 <details><summary>&nbsp;</summary>
 
@@ -211,7 +211,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 
 </details>
 
-<h4 align=“left”>PPK2 Scores</h4>
+<h4 align=“left”>ALL PPK2 SCORES&nbsp;&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
 <details><summary>&nbsp;</summary>
 
@@ -235,6 +235,8 @@ To keep the table manageable in size, we've applied the following filter criteri
 </details>
 
 <!-- @scores-end -->
+
+<p>&nbsp;</p>
 
 > [!TIP]
 > Consider installing the [open-source](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) **EM&bull;Scope** tool, whose `emscope view --what-if` command allows you to query _other_ event period durations more relevant to your particular application.
