@@ -72,6 +72,9 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <!-- @medals-end -->
 
 <p align="right"><sub>
+  🕒
+  202511011850 <!-- @timestamp -->
+  &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
   👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a>
   📡 <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
