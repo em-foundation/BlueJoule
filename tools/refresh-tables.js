@@ -164,6 +164,20 @@ function genScoreTab(aname) {
     return res
 }
 
+function genTimestamp() {
+    const d = new Date()
+    const pad = n => String(n).padStart(2, '0')
+    const yy = String(d.getUTCFullYear()).slice(2)
+    const mm = pad(d.getUTCMonth() + 1)
+    const dd = pad(d.getUTCDate())
+    const HH = pad(d.getUTCHours())
+    const MM = pad(d.getUTCMinutes())
+    const SS = pad(d.getUTCSeconds())
+    return `<!-- @timestamp-begin -->
+${yy}${mm}${dd}${HH}${MM}${SS}
+<!-- @timestamp-end -->`
+}
+
 function genUpdates() {
     let res = `<!-- @updates-begin -->
 <details><summary>
@@ -280,5 +294,10 @@ txt = txt.replace(RE_CAT, catalog)
 const scores = genScores()
 const RE_SCO = /<!--\s*@scores-begin\s*-->[\s\S]*?<!--\s*@scores-end\s*-->/m
 txt = txt.replace(RE_SCO, scores)
+
+const timestamp = genTimestamp()
+const RE_TIM = /<!--\s*@timestamp-begin\s*-->[\s\S]*?@timestamp-end\s*-->/m
+txt = txt.replace(RE_TIM, timestamp)
+
 
 Fs.writeFileSync(FILE, txt)

@@ -72,6 +72,11 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <!-- @medals-end -->
 
 <p align="right"><sub>
+  🕒
+<!-- @timestamp-begin -->
+251102023315
+<!-- @timestamp-end -->
+  &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
   👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a>
   📡 <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
@@ -130,6 +135,8 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 | `sil-g22e-ehk/rail-1V8`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8 |
 | `sil-g22e-ehk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g22e-ehk/rail-3V0/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0 |
 | `sil-g22e-ehk/rail-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g22e-ehk/rail-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/sil-g22e-ehk/rail-3V3/ABOUT.md">&nearr;</a> | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3 |
+| `sil-g24-ek/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g24-ek/rail-3V0/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0 |
+| `sil-g27-dk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g27-dk/rail-3V0/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0 |
 | `ti-23-lp/emscript-2V2`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2 |
 | `ti-23-lp/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3 |
 | `ti-23-lp/simplelink-2V2`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 2V2 |
@@ -203,7 +210,9 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-1V8/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
 | `sil-g22e-ehk/rail-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-3V0/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0") | <code> 1.6</code> | <code> 23.1</code> | <code> 33.02</code> | <code>127.88</code> |
 | `sil-g22e-ehk/rail-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g22e-ehk/rail-3V3/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3") | <code> 1.5</code> | <code> 24.2</code> | <code> 31.93</code> | <code>128.64</code> |
-| `ti-23-lp/emscript-2V2       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2") | <code> 0.7</code> | <code> 20.0</code> | <code> 43.05</code> | <code>260.67</code> |
+| `sil-g24-ek/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g24-ek/rail-3V0/ABOUT.md#typical-event "SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0") | <code> 3.9</code> | <code> 37.2</code> | <code> 18.98</code> | <code> 60.49</code> |
+| `sil-g27-dk/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g27-dk/rail-3V0/ABOUT.md#typical-event "SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0") | <code> 2.5</code> | <code> 26.0</code> | <code> 27.61</code> | <code> 91.28</code> |
+| `ti-23-lp/emscript-2V2       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2") | <code> 0.6</code> | <code> 16.2</code> | <code> 52.91</code> | <code>316.70</code> |
 | `ti-23-lp/emscript-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3") | <code> 0.4</code> | <code> 21.4</code> | <code> 40.62</code> | <code>263.43</code> |
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 | `ti-23-lp/simplelink-3V0     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-3V0/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 3V0") | <code> 0.5</code> | <code> 30.6</code> | <code> 28.74</code> | <code>197.01</code> |
