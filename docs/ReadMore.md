@@ -74,7 +74,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251103150217
+251103183132
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
@@ -142,7 +142,6 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 | `ti-23-lp/emscript-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-3V0/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0 |
 | `ti-23-lp/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3 |
 | `ti-23-lp/simplelink-2V2`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 2V2 |
-| `ti-23-lp/simplelink-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V0/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V0 |
 | `ti-23-lp/simplelink-3V0-B`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V0-B/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V0 · battery |
 | `ti-23-lp/simplelink-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/simplelink-3V3/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V3 |
 <!-- @catalog-end -->
@@ -219,7 +218,6 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `ti-23-lp/emscript-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-3V0/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0") | <code> 0.7</code> | <code> 16.4</code> | <code> 50.50</code> | <code>257.96</code> |
 | `ti-23-lp/emscript-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3") | <code> 0.4</code> | <code> 21.4</code> | <code> 40.62</code> | <code>263.43</code> |
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
-| `ti-23-lp/simplelink-3V0     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-3V0/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 3V0") | <code> 0.5</code> | <code> 30.6</code> | <code> 28.74</code> | <code>197.01</code> |
 | `ti-23-lp/simplelink-3V0-B   `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-3V0-B/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 3V0 · battery") | <code> 0.5</code> | <code> 30.6</code> | <code> 28.72</code> | <code>198.23</code> |
 | `ti-23-lp/simplelink-3V3     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-3V3/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 3V3") | <code> 0.6</code> | <code> 31.0</code> | <code> 28.13</code> | <code>183.76</code> |
 
