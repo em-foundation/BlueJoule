@@ -74,7 +74,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251103031713
+251103150217
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
@@ -139,6 +139,7 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 | `sil-g24-ek/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g24-ek/rail-3V0/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0 |
 | `sil-g27-dk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/sil-g27-dk/rail-3V0/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0 |
 | `ti-23-lp/emscript-2V2`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/emscript-2V2/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2 |
+| `ti-23-lp/emscript-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-3V0/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0 |
 | `ti-23-lp/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/emscript-3V3/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3 |
 | `ti-23-lp/simplelink-2V2`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ppk2/ti-23-lp/simplelink-2V2/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 2V2 |
 | `ti-23-lp/simplelink-3V0`&emsp; | 📄&ensp;<a href="../captures/js220/ti-23-lp/simplelink-3V0/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V0 |
@@ -183,10 +184,10 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 
 
-<a id="js220-scores"></a>
 <p>&nbsp;</p>
 <h4 align=“left”>ALL JS220 SCORES&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
+<a id="js220-scores"></a>
 <details><summary>&nbsp;</summary>
 
     
@@ -215,6 +216,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `sil-g24-ek/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g24-ek/rail-3V0/ABOUT.md#typical-event "SiLabs EFR32xG24 · Simplicity (RAIL) · 3V0") | <code> 3.9</code> | <code> 37.2</code> | <code> 18.98</code> | <code> 60.49</code> |
 | `sil-g27-dk/rail-3V0         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/sil-g27-dk/rail-3V0/ABOUT.md#typical-event "SiLabs EFR32xG27 · Simplicity (RAIL) · 3V0") | <code> 2.5</code> | <code> 26.0</code> | <code> 27.61</code> | <code> 91.28</code> |
 | `ti-23-lp/emscript-2V2       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2") | <code> 0.6</code> | <code> 16.2</code> | <code> 52.91</code> | <code>316.70</code> |
+| `ti-23-lp/emscript-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-3V0/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0") | <code> 0.7</code> | <code> 16.4</code> | <code> 50.50</code> | <code>257.96</code> |
 | `ti-23-lp/emscript-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/emscript-3V3/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3") | <code> 0.4</code> | <code> 21.4</code> | <code> 40.62</code> | <code>263.43</code> |
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 | `ti-23-lp/simplelink-3V0     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-3V0/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 3V0") | <code> 0.5</code> | <code> 30.6</code> | <code> 28.74</code> | <code>197.01</code> |
@@ -223,9 +225,9 @@ To keep the table manageable in size, we've applied the following filter criteri
 
 </details>
 
-<a id="ppk2-scores"></a>
 <h4 align=“left”>ALL PPK2 SCORES&nbsp;&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
+<a id="ppk2-scores"></a>
 <details><summary>&nbsp;</summary>
 
     
