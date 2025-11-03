@@ -74,7 +74,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251102023315
+251103031713
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
@@ -110,6 +110,7 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 
 <h4 align=“left”>CAPTURE INVENTORY&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
+<a id="capture-inventory"></a>
 <details><summary>&nbsp;</summary>
 
 <!-- @catalog-begin -->
@@ -182,6 +183,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/js220/ti-23-lp/simplelink-2V2/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 
 
+<a id="js220-scores"></a>
 <p>&nbsp;</p>
 <h4 align=“left”>ALL JS220 SCORES&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
@@ -221,6 +223,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 
 </details>
 
+<a id="ppk2-scores"></a>
 <h4 align=“left”>ALL PPK2 SCORES&nbsp;&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
 <details><summary>&nbsp;</summary>
