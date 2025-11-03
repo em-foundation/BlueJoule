@@ -108,9 +108,9 @@ This repository catalogs an inventory of **EM&bull;Scope** capture directories &
 
 An `ABOUT.md` file found in each directory describes the capture's HW/SW configuration in greater deetail as well as summarizes its benchmark scores.&thinsp; This file also contains a screen-shot of a typical advertising event, prepared using the `emscope view` command.
 
-<a id="capture-inventory"></a>
 <h4 align=“left”>CAPTURE INVENTORY&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
+<a id="capture-inventory"></a>
 <details><summary>&nbsp;</summary>
 
 <!-- @catalog-begin -->

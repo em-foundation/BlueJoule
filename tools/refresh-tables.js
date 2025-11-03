@@ -116,17 +116,17 @@ function genScores() {
     return `<!-- @scores-begin -->
 ${genScoreTab('Entry')}
 
-<a id="js220-scores"></a>
 <p>&nbsp;</p>
 <h4 align=“left”>ALL JS220 SCORES&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
+<a id="js220-scores"></a>
 <details><summary>&nbsp;</summary>
 ${genScoreTab('JS220')}
 </details>
 
-<a id="ppk2-scores"></a>
 <h4 align=“left”>ALL PPK2 SCORES&nbsp;&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
 
+<a id="ppk2-scores"></a>
 <details><summary>&nbsp;</summary>
 ${genScoreTab('PPK2')}
 </details>
