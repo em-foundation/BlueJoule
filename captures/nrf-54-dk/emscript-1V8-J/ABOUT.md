@@ -1,0 +1,47 @@
+
+<h1 align="center">Nordic nRF54L15 · EM&bull;Script SDK · 1V8</h1>
+
+<!-- @emscope-pack:start -->
+
+
+## HW/SW Configuration
+
+* [nRF54L15-DK](https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK) &thinsp;&ratio;&thinsp; **Nordic nRF54L15 Development Kit**
+* [nRF54L15 SoC](https://www.nordicsemi.com/Products/nRF52832) &thinsp;&ratio;&thinsp; 128 MHz ARM Cortex-M33 &thinsp;·&thinsp; 1.5 MB flash &thinsp;·&thinsp; 256 KB SRAM 
+
+* [BOARD PINOUT](https://github.com/em-foundation/emscope/blob/docs-stable/docs/boards/nrf-54-dk.png) &thinsp;⚙️
+* [EM•Script SDK](https://docs.emscript.openem.org/) &ndash; version 26.2.0
+* [BUILD ARTIFACTS](../emscript) &thinsp;⚙️
+
+
+## EM&bull;Scope results · JS220
+
+### 🟠&ensp;sleep
+
+| supply voltage | &emsp;current (avg)&emsp; | &emsp;current (std)&emsp; | &emsp;average power&emsp;
+|:---:|:---:|:---:|:---:|
+| 1.8 V |  3.5 µA |  2.4 µA |  6.3 µW |
+
+### 🟠&ensp;1&thinsp;s event period
+
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+|:---:|:---:|:---:|:---:|
+| 15.0 µJ | 21.2 µJ |  1.8 J | 43.60 |
+
+### 🟠&ensp;10&thinsp;s event period
+
+| &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
+|:---:|:---:|:---:|:---:|
+| 15.0 µJ | 77.7 µJ |  0.7 J | 119.13 |
+
+<br>
+<p align="right"><sub>generated at 2025-11-07T18:41:04.931Z</sub></p>
+
+## Typical Event
+
+<p align="center"><img src="event-C.png" alt="Event" width="900"></p>
+
+## Notes
+
+
+<!-- @emscope-pack:end -->
