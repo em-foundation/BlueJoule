@@ -8,27 +8,41 @@
 <!-- @emscope-pack:start -->
 
 
+
+<p align="right"><sub>captured on 2025-08-16 @ 14:25:12<br>generated on 2025-11-08 @ 17:07:06</sub></p>
+
+## HW/SW Configuration
+
+
+
+
+
+## EM&bull;Scope results · PPK2
+
 ### 🟠&ensp;sleep
 
 | supply voltage | &emsp;current (avg)&emsp; | &emsp;current (std)&emsp; | &emsp;average power&emsp;
 |:---:|:---:|:---:|:---:|
-| 3.30 V |   4.359 µA | 961.633 nA |  14.384 µW |
+| 3.3 V |  4.4 µA |  1.0 µA | 14.4 µW |
 
 ### 🟠&ensp;1&thinsp;s event period
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  51.675 µJ |  66.060 µJ |   5.708 J | 14.02 |
+| 51.7 µJ | 66.1 µJ |  5.7 J | 14.02 |
 
 ### 🟠&ensp;10&thinsp;s event period
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-|  51.675 µJ | 195.517 µJ |   1.689 J | 47.36 |
+| 51.7 µJ | 195.5 µJ |  1.7 J | 47.36 |
 
-<br>
-<p align="right"><sub>generated at 2025-10-06T15:20:47.800Z</sub></p>
-    
+## Typical Event
+
+<p align="center"><img src="event-B.png" alt="Event" width="900"></p>
+
+## Notes
+
 
 <!-- @emscope-pack:end -->
 

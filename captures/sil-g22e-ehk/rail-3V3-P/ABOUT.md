@@ -4,15 +4,20 @@
 <!-- @emscope-pack:start -->
 
 
+
+<p align="right"><sub>captured on 2025-08-30 @ 02:18:10<br>generated on 2025-11-08 @ 17:07:07</sub></p>
+
 ## HW/SW Configuration
 
 * [xG22-EK8200A](https://www.silabs.com/development-tools/wireless/efr32xg22e-energy-harvesting-explorer-kit?tab=overview) &thinsp;&ratio;&thinsp; **Silicon Labs ERF32xSG22E Energy Harvesting Explorer Kit**
 * [EFR32xG22E SoC](https://www.silabs.com/wireless/bluetooth/efr32bg22-series-2-socs) &thinsp;&ratio;&thinsp; 76.8 MHz ARM Cortex-M33 &thinsp;·&thinsp; 512 KB flash &thinsp;·&thinsp; 32 KB SRAM
 
 * [BOARD PINOUT](https://github.com/em-foundation/emscope/blob/docs-stable/docs/boards/sil-g22e-ehk.png) &thinsp;⚙️
+
 * [Simplicity Studio](https://www.silabs.com/software-and-tools/simplicity-studio/simplicity-studio-version-5) &ndash; version 5
 
 * [BUILD ARTIFACTS](../rail) &thinsp;⚙️
+
 
 
 ## EM&bull;Scope results · PPK2
@@ -34,9 +39,6 @@
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
 | 21.1 µJ | 99.8 µJ |  0.9 J | 92.80 |
-
-<br>
-<p align="right"><sub>generated at 2025-11-07T23:15:36.061Z</sub></p>
 
 ## Typical Event
 

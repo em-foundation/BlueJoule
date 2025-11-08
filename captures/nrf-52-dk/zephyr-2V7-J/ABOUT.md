@@ -4,6 +4,9 @@
 <!-- @emscope-pack:start -->
 
 
+
+<p align="right"><sub>captured on 2025-10-26 @ 13:44:26<br>generated on 2025-11-08 @ 17:07:03</sub></p>
+
 ## HW/SW Configuration
 
 * [nRF52-DK](https://www.nordicsemi.com/Products/Development-hardware/nRF52-DK) &thinsp;&ratio;&thinsp; **Nordic nRF52 Development Kit**
@@ -11,10 +14,12 @@
 64 MHz ARM Cortex-M4 &thinsp;·&thinsp; 512 KB flash &thinsp;·&thinsp; 64 KB SRAM
 
 * [BOARD PINOUT](https://github.com/em-foundation/emscope/blob/docs-stable/docs/boards/nrf-52-dk.png) &thinsp;⚙️
+
 * [nRF Connect SDK](https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK) &ndash; version 3.0.2
 * [nRF Connect SDK Toolchain](https://www.nordicsemi.com/Products/Development-software/nRF-Connect-SDK) &ndash; version 3.0.2
 
 * [BUILD ARTIFACTS](../zephyr) &thinsp;⚙️
+
 
 
 ## EM&bull;Scope results · JS220
@@ -36,9 +41,6 @@
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
 | 27.0 µJ | 62.2 µJ |  0.5 J | 148.96 |
-
-<br>
-<p align="right"><sub>generated at 2025-11-07T19:09:18.117Z</sub></p>
 
 ## Typical Event
 

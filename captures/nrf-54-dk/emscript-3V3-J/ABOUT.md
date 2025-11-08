@@ -4,14 +4,19 @@
 <!-- @emscope-pack:start -->
 
 
+
+<p align="right"><sub>captured on 2025-10-22 @ 23:28:23<br>generated on 2025-11-08 @ 17:07:04</sub></p>
+
 ## HW/SW Configuration
 
 * [nRF54L15-DK](https://www.nordicsemi.com/Products/Development-hardware/nRF54L15-DK) &thinsp;&ratio;&thinsp; **Nordic nRF54L15 Development Kit**
 * [nRF54L15 SoC](https://www.nordicsemi.com/Products/nRF52832) &thinsp;&ratio;&thinsp; 128 MHz ARM Cortex-M33 &thinsp;·&thinsp; 1.5 MB flash &thinsp;·&thinsp; 256 KB SRAM 
 
 * [BOARD PINOUT](https://github.com/em-foundation/emscope/blob/docs-stable/docs/boards/nrf-54-dk.png) &thinsp;⚙️
+
 * [EM•Script SDK](https://docs.emscript.openem.org/) &ndash; version 26.2.0
 * [BUILD ARTIFACTS](../emscript) &thinsp;⚙️
+
 
 
 ## EM&bull;Scope results · JS220
@@ -33,9 +38,6 @@
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
 | 16.5 µJ | 111.6 µJ |  1.0 J | 82.98 |
-
-<br>
-<p align="right"><sub>generated at 2025-11-07T18:41:05.411Z</sub></p>
 
 ## Typical Event
 
