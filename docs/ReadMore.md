@@ -54,7 +54,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 </p></details>
 <!-- @updates-end -->
 
-<h4 align=“left”>MEDALISTS&emsp;🥇 · 🥈 · 🥉 &emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4></h4>
+<h4 align=“left”>MEDALISTS&emsp;🥇 · 🥈 · 🥉</h4>
 
 <!-- @medals-begin -->
 <details open><summary>&emsp;&ensp;1&thinsp;s event period [<img src="images/em-dot.svg" width="12" alt="">]</summary><p>
