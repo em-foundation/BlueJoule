@@ -3,7 +3,9 @@
 
 <!-- @emscope-pack:start -->
 
-<p align="right"><sub>captured on 2025-10-17 @ 00:50:58<br>generated on 2025-11-09 @ 00:30:06</sub></p>
+<!-- *** AUTOMATICALLY GENERATED CONTENT – DO NOT EDIT *** -->  
+
+<p align="right"><sub>captured on 2025-10-17 @ 00:50:58<br>generated on 2025-11-09 @ 00:37:58</sub></p>
 
 ## HW/SW Configuration
 
