@@ -44,16 +44,16 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <h4 align=“left”>MEDALISTS&emsp;🥇 · 🥈 · 🥉</h4>
 
 <!-- @medals-begin -->
-<details open><summary>&emsp;&ensp;1&thinsp;s event period [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code> 58.54</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code> 51.56</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;InPlay IN100 · NanoBeacon · 1V5<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code> 39.61</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/nrf-54-dk/zephyr-1V8-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;Nordic nRF54L15 · Zephyr OS · 1V8<br>
+<details open><summary>&emsp;&ensp;1&thinsp;s event period &ensp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code> 58.54</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code> 51.56</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;InPlay IN100 · NanoBeacon · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code> 39.61</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/nrf-54-dk/zephyr-1V8-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;Nordic nRF54L15 · Zephyr OS · 1V8<br>
 
 </p></details>
-<details open><summary>&emsp;10&thinsp;s event period [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code>408.41</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code>386.73</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;InPlay IN100 · NanoBeacon · 1V5<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code>197.07</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;Texas Instruments CC2340R5 · SimpleLink SDK · 2V2<br>
+<details open><summary>&emsp;10&thinsp;s event period &ensp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&emsp;<code>408.41</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&emsp;<code>386.73</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;InPlay IN100 · NanoBeacon · 1V5<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&emsp;<code>197.07</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;Texas Instruments CC2340R5 · SimpleLink SDK · 2V2<br>
 
 </p></details>
 <!-- @medals-end -->
@@ -74,7 +74,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251109031124
+251109031243
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
