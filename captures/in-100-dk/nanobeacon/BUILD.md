@@ -1,0 +1,1 @@
+* [NanoBeacon Config Tool](https://inplay-tech.com/nanobeacon-config-tool) &ndash; version 3.2.29
