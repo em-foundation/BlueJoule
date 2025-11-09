@@ -95,7 +95,7 @@ ${genMedalTab('10')}
 
 function genMedalTab(ps) {
     const sp = (ps == '1') ? '&ensp;' : ''
-    let res = `<details><summary>&emsp;${sp}${ps}&thinsp;s event period [${EMS}]</summary><p>
+    let res = `<details open><summary>&emsp;${sp}${ps}&thinsp;s event period [${EMS}]</summary><p>
 `
     for (const flds of MEDALS) {
         if (flds[0] != ps) continue
