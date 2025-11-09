@@ -41,20 +41,7 @@
 
 This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] application executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope/blob/docs-stable/docs/ReadMore.md) project to learn more about the **EM&bull;Scope** tool itself.
 
-<h4>LATEST UPDATES &emsp;&emsp;&emsp;&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
-
-<!-- @updates-begin -->
-<details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark</summary><p>
-&emsp;&emsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay <br>
-&emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
-&emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
-&emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
-&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
-</p></details>
-<!-- @updates-end -->
-
-<h4 align=“left”>MEDALISTS&emsp;🥇 · 🥈 · 🥉 &emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4></h4>
+<h4 align=“left”>MEDALISTS&emsp;🥇 · 🥈 · 🥉</h4>
 
 <!-- @medals-begin -->
 <details open><summary>&emsp;&ensp;1&thinsp;s event period [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
@@ -70,6 +57,19 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 </p></details>
 <!-- @medals-end -->
+
+<h4>LATEST UPDATES &emsp;&emsp;&emsp;&emsp;<sub><i>click below</i> ▶ <i>to expand</i> ▼</sub></h4>
+
+<!-- @updates-begin -->
+<details><summary>
+&emsp;&thinsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark</summary><p>
+&emsp;&emsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay <br>
+&emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
+&emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
+&emsp;&emsp;<img src="images/badge-2025-09-11.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK<br>
+&emsp;&emsp;<img src="images/badge-2025-09-09.svg" height="16" alt="2025-10-12"></img>&emsp;inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments
+</p></details>
+<!-- @updates-end -->
 
 <p align="right"><sub>
   🕒
