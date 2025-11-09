@@ -74,7 +74,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251109022633
+251109025407
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
@@ -116,46 +116,31 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 <!-- @catalog-begin -->
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | &emsp;JS220&emsp; | &emsp;PPK2&nbsp;&emsp; | &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Description&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; |
 |---|:---:|:---:|---|
-| `adi-m17-ek/msdk-3V3-J`&emsp; |  |  | undefined |
-| `adi-m17-ek/msdk-3V3-P`&emsp; |  |  | undefined |
-| `emm-9305-dvk/embleu-1V5-J`&emsp; |  |  | undefined |
-| `emm-9305-dvk/embleu-1V8-J`&emsp; |  |  | undefined |
-| `emm-9305-dvk/embleu-3V3-J`&emsp; |  |  | undefined |
-| `in-100-dk/nanobeacon-1V5-J`&emsp; |  |  | undefined |
-| `in-100-dk/nanobeacon-1V8-J`&emsp; |  |  | undefined |
-| `in-100-dk/nanobeacon-1V8-P`&emsp; |  |  | undefined |
-| `in-100-dk/nanobeacon-3V3-J`&emsp; |  |  | undefined |
-| `in-100-dk/nanobeacon-3V3-P`&emsp; |  |  | undefined |
-| `nrf-52-dk/emscript-2V7-J`&emsp; |  |  | undefined |
-| `nrf-52-dk/emscript-3V3-J`&emsp; |  |  | undefined |
-| `nrf-52-dk/zephyr-2V7-J`&emsp; |  |  | undefined |
-| `nrf-52-dk/zephyr-3V3-J`&emsp; |  |  | undefined |
-| `nrf-52-dk/zephyr-3V3-P`&emsp; |  |  | undefined |
-| `nrf-54-dk/emscript-1V8-J`&emsp; |  |  | undefined |
-| `nrf-54-dk/emscript-1V8-P`&emsp; |  |  | undefined |
-| `nrf-54-dk/emscript-3V3-J`&emsp; |  |  | undefined |
-| `nrf-54-dk/emscript-3V3-P`&emsp; |  |  | undefined |
-| `nrf-54-dk/zephyr-1V8-J`&emsp; |  |  | undefined |
-| `nrf-54-dk/zephyr-1V8-P`&emsp; |  |  | undefined |
-| `nrf-54-dk/zephyr-3V0-J`&emsp; |  |  | undefined |
-| `nrf-54-dk/zephyr-3V3-J`&emsp; |  |  | undefined |
-| `nrf-54-dk/zephyr-3V3-P`&emsp; |  |  | undefined |
-| `sil-g22e-ehk/rail-1V8-J`&emsp; |  |  | undefined |
-| `sil-g22e-ehk/rail-3V0-J`&emsp; |  |  | undefined |
-| `sil-g22e-ehk/rail-3V3-J`&emsp; |  |  | undefined |
-| `sil-g22e-ehk/rail-3V3-P`&emsp; |  |  | undefined |
-| `sil-g24-ek/rail-3V0`&emsp; |  |  | undefined |
-| `sil-g27-dk/rail-3V0`&emsp; |  |  | undefined |
-| `ti-23-lp/emscript-2V2-J`&emsp; |  |  | undefined |
-| `ti-23-lp/emscript-2V2-P`&emsp; |  |  | undefined |
-| `ti-23-lp/emscript-3V0-J`&emsp; |  |  | undefined |
-| `ti-23-lp/emscript-3V3-J`&emsp; |  |  | undefined |
-| `ti-23-lp/emscript-3V3-P`&emsp; |  |  | undefined |
-| `ti-23-lp/simplelink-2V2-J`&emsp; |  |  | undefined |
-| `ti-23-lp/simplelink-2V2-P`&emsp; |  |  | undefined |
-| `ti-23-lp/simplelink-3V0-J`&emsp; |  |  | undefined |
-| `ti-23-lp/simplelink-3V3-J`&emsp; |  |  | undefined |
-| `ti-23-lp/simplelink-3V3-P`&emsp; |  |  | undefined |
+| `adi-m17-ek/msdk-3V3`&emsp; | 📄&ensp;<a href="../captures/adi-m17-ek/msdk-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/adi-m17-ek/msdk-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Analog Devices MAX32655 · Maxim SDK · 3V3 |
+| `emm-9305-dvk/embleu-1V5`&emsp; | 📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 1V5 |
+| `emm-9305-dvk/embleu-1V8`&emsp; | 📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V8-J/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 1V8 |
+| `emm-9305-dvk/embleu-3V3`&emsp; | 📄&ensp;<a href="../captures/emm-9305-dvk/embleu-3V3-J/ABOUT.md">&nearr;</a> |  | &emsp; EM Microelectronic EM9305 · EM Bleu SDK · 3V3 |
+| `in-100-dk/nanobeacon-1V5`&emsp; | 📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a> |  | &emsp; InPlay IN100 · NanoBeacon · 1V5 |
+| `in-100-dk/nanobeacon-1V8`&emsp; | 📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V8-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V8-P/ABOUT.md">&nearr;</a> | &emsp; InPlay IN100 · NanoBeacon · 1V8 |
+| `in-100-dk/nanobeacon-3V3`&emsp; | 📄&ensp;<a href="../captures/in-100-dk/nanobeacon-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/in-100-dk/nanobeacon-3V3-P/ABOUT.md">&nearr;</a> | &emsp; InPlay IN100 · NanoBeacon · 3V3 |
+| `nrf-52-dk/emscript-2V7`&emsp; | 📄&ensp;<a href="../captures/nrf-52-dk/emscript-2V7-J/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK · 2V7 |
+| `nrf-52-dk/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/nrf-52-dk/emscript-3V3-J/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF52832 · EM&bull;Script SDK · 3V3 |
+| `nrf-52-dk/zephyr-2V7`&emsp; | 📄&ensp;<a href="../captures/nrf-52-dk/zephyr-2V7-J/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF52832 · Zephyr OS · 2V7 |
+| `nrf-52-dk/zephyr-3V3`&emsp; | 📄&ensp;<a href="../captures/nrf-52-dk/zephyr-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/nrf-52-dk/zephyr-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF52832 · Zephyr OS · 3V3 |
+| `nrf-54-dk/emscript-1V8`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/emscript-1V8-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/nrf-54-dk/emscript-1V8-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · EM&bull;Script SDK · 1V8 |
+| `nrf-54-dk/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/emscript-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/nrf-54-dk/emscript-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · EM&bull;Script SDK · 3V3 |
+| `nrf-54-dk/zephyr-1V8`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-1V8-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-1V8-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 1V8 |
+| `nrf-54-dk/zephyr-3V0`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF54L15 · Zephyr OS · 3V0 |
+| `nrf-54-dk/zephyr-3V3`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 3V3 |
+| `sil-g22e-ehk/rail-1V8`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8 |
+| `sil-g22e-ehk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0 |
+| `sil-g22e-ehk/rail-3V3`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V3-P/ABOUT.md">&nearr;</a> | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3 |
+| `ti-23-lp/emscript-2V2`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/emscript-2V2-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ti-23-lp/emscript-2V2-P/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2 |
+| `ti-23-lp/emscript-3V0`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/emscript-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0 |
+| `ti-23-lp/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/emscript-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ti-23-lp/emscript-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3 |
+| `ti-23-lp/simplelink-2V2`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ti-23-lp/simplelink-2V2-P/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 2V2 |
+| `ti-23-lp/simplelink-3V0`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/simplelink-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V0 |
+| `ti-23-lp/simplelink-3V3`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/simplelink-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ti-23-lp/simplelink-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · SimpleLink SDK · 3V3 |
 <!-- @catalog-end -->
 
 </details>

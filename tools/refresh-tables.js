@@ -26,12 +26,13 @@ function findCaps() {
         const path2 = Path.join(path1, be)
         if (!Fs.lstatSync(path2).isDirectory()) continue
         for (const ce of Fs.readdirSync(path2)) {
+            if (!ce.endsWith('-J') && !ce.endsWith('-P')) continue
             const path3 = Path.join(path2, ce)
             const about_file = Path.join(path3, 'ABOUT.md')
             if (!Fs.existsSync(about_file)) continue
             const about_txt = Fs.readFileSync(about_file, 'utf-8')
             CAPS.set(`${be}/${ce}`, about_txt)
-            TARGS.add(`${be}/${ce}`)
+            TARGS.add(`${be}/${ce.slice(0, ce.length-2)}`)
         }
     }
 }
@@ -70,8 +71,8 @@ function genCatalog() {
     for (const targ of TARGS) {
         let line = `| ${BQ}${targ}${BQ}&emsp; | `
         let desc = undefined
-        for (const pre of ['js220/', 'ppk2/']) {
-            const cn = `${pre}${targ}`
+        for (const suf of ['-J', '-P']) {
+            const cn = `${targ}${suf}`
             let about = CAPS.get(cn)
             if (about) {
                 line += mkLink(cn) 
@@ -280,6 +281,7 @@ function SP(n) {
 const FILE = 'docs/ReadMore.md'
 
 findCaps()
+
 let txt = Fs.readFileSync(FILE, 'utf-8')
 findEntries(txt)
 findMedals(txt)
