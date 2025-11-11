@@ -5,7 +5,7 @@
 
 <!-- *** AUTOMATICALLY GENERATED CONTENT – DO NOT EDIT *** -->  
 
-<p align="right"><sub>captured on 2025-10-31 @ 01:16:47<br>generated on 2025-11-09 @ 13:59:40</sub></p>
+<p align="right"><sub>captured on 2025-11-11 @ 18:23:25<br>generated on 2025-11-11 @ 18:25:49</sub></p>
 
 ## HW/SW Configuration
 
@@ -26,19 +26,19 @@
 
 | supply voltage | &emsp;current (avg)&emsp; | &emsp;current (std)&emsp; | &emsp;average power&emsp;
 |:---:|:---:|:---:|:---:|
-| 2.2 V |  0.6 µA |  5.2 µA |  1.3 µW |
+| 2.2 V |  0.8 µA | 20.8 µA |  1.7 µW |
 
 ### 🟠&ensp;1&thinsp;s event period
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-| 20.2 µJ | 21.5 µJ |  1.9 J | 43.12 |
+| 15.8 µJ | 17.5 µJ |  1.5 J | 52.93 |
 
 ### 🟠&ensp;10&thinsp;s event period
 
 | &emsp;&emsp;event energy (avg)&emsp;&emsp; | &emsp;&emsp;energy per period&emsp;&emsp; | &emsp;&emsp;energy per day&emsp;&emsp; | &emsp;&emsp;&emsp;**EM&bull;eralds**&emsp;&emsp;&emsp;
 |:---:|:---:|:---:|:---:|
-| 20.2 µJ | 33.0 µJ |  0.3 J | 280.50 |
+| 15.8 µJ | 33.0 µJ |  0.3 J | 280.77 |
 
 ## Typical Event
 
