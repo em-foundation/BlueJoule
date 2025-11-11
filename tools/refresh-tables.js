@@ -20,18 +20,19 @@ function SP(n) {
     return '&emsp;'.repeat(n)
 }
 
-function findCaps(adir) {
-    const path1 = Path.join(CAPDIR, adir)
+function findCaps() {
+    const path1 = CAPDIR
     for (const be of Fs.readdirSync(path1)) {
         const path2 = Path.join(path1, be)
         if (!Fs.lstatSync(path2).isDirectory()) continue
         for (const ce of Fs.readdirSync(path2)) {
+            if (!ce.endsWith('-J') && !ce.endsWith('-P')) continue
             const path3 = Path.join(path2, ce)
             const about_file = Path.join(path3, 'ABOUT.md')
             if (!Fs.existsSync(about_file)) continue
             const about_txt = Fs.readFileSync(about_file, 'utf-8')
-            CAPS.set(`${adir}/${be}/${ce}`, about_txt)
-            TARGS.add(`${be}/${ce}`)
+            CAPS.set(`${be}/${ce}`, about_txt)
+            TARGS.add(`${be}/${ce.slice(0, ce.length-2)}`)
         }
     }
 }
@@ -70,8 +71,8 @@ function genCatalog() {
     for (const targ of TARGS) {
         let line = `| ${BQ}${targ}${BQ}&emsp; | `
         let desc = undefined
-        for (const pre of ['js220/', 'ppk2/']) {
-            const cn = `${pre}${targ}`
+        for (const suf of ['-J', '-P']) {
+            const cn = `${targ}${suf}`
             let about = CAPS.get(cn)
             if (about) {
                 line += mkLink(cn) 
@@ -94,18 +95,22 @@ ${genMedalTab('10')}
 
 function genMedalTab(ps) {
     const sp = (ps == '1') ? '&ensp;' : ''
-    let res = `<details><summary>&emsp;${sp}${ps}&thinsp;s event period [${EMS}]</summary><p>
+    let res = `<details open><summary>&emsp;${sp}${ps}&thinsp;s event period&thinsp; [<b>EM${EMS}eralds</b>]</summary><p>
 `
     for (const flds of MEDALS) {
         if (flds[0] != ps) continue
         const cn = flds[1].trim()
         const about = CAPS.get(cn)
+        if (!about) {
+            console.log(`*** no capture named '${cn}'`)
+            continue
+        }
         const [ , , ems1, ems10] = getResults(about)
         const score = (ps == '1') ? ems1 : ems10
         const link = mkLink(cn)
         const desc = getDescription(about)
         const m = mkMedal(flds[2])
-        res += `${SP(22)}${m}&emsp;${score}${SP(11)}${link}${SP(2)}${desc}<br>\n`
+        res += `${SP(23)}${m}${SP(12)}${score}${SP(12)}${link}${SP(3)}${desc}<br>\n`
     }
      res += `
 </p></details>`
@@ -134,8 +139,9 @@ ${genScoreTab('PPK2')}
 }
 
 function genScoreTab(aname) {
+    const is_entry = (aname == 'Entry')
     const pre = `${aname.toLowerCase()}/`
-    const pad = aname[0] == 'P' ? '&ensp;&thinsp;' : ''
+    const suf = !is_entry ? `-${aname[0]}` : undefined
     let res = ''
     if (aname == 'Entry') {
         const img = '<img src="images/emeralds.svg" width="200" alt="">'
@@ -147,13 +153,13 @@ function genScoreTab(aname) {
 |---|:---:|:---:|:---:|:---:|
 `
     for (const [k, v] of CAPS) {
-        if (aname == 'Entry') {
+        if (is_entry) {
             if (!ENTRIES.has(k)) continue
         } else {
-            if (!k.startsWith(pre)) continue
+            if (!k.endsWith(suf)) continue
         }
         const [sleep, eveng, ems1, ems10] = getResults(v)
-        const cn = k.slice(pre.length).padEnd(28, '\u00A0')
+        const cn = k.slice(0, k.length - 2).padEnd(28, '\u00A0')
         let desc = ''
         let about = CAPS.get(k)
         if (about) {
@@ -274,8 +280,8 @@ function SP(n) {
 
 const FILE = 'docs/ReadMore.md'
 
-findCaps('js220')
-findCaps('ppk2')
+findCaps()
+
 let txt = Fs.readFileSync(FILE, 'utf-8')
 findEntries(txt)
 findMedals(txt)
