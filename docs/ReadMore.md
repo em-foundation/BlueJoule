@@ -74,7 +74,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251109140039
+251111182919
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
@@ -207,7 +207,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
 | `sil-g22e-ehk/rail-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0") | <code> 1.7</code> | <code> 23.1</code> | <code> 33.02</code> | <code>127.88</code> |
 | `sil-g22e-ehk/rail-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-3V3-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3") | <code> 1.5</code> | <code> 24.2</code> | <code> 31.93</code> | <code>128.64</code> |
-| `ti-23-lp/emscript-2V2       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2") | <code> 0.6</code> | <code> 20.2</code> | <code> 43.12</code> | <code>280.50</code> |
+| `ti-23-lp/emscript-2V2       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2") | <code> 0.8</code> | <code> 15.8</code> | <code> 52.93</code> | <code>280.77</code> |
 | `ti-23-lp/emscript-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-3V0-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0") | <code> 0.7</code> | <code> 16.4</code> | <code> 50.50</code> | <code>257.96</code> |
 | `ti-23-lp/emscript-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-3V3-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3") | <code> 0.4</code> | <code> 21.4</code> | <code> 40.62</code> | <code>263.43</code> |
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
