@@ -74,7 +74,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251111182919
+251127182245
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
@@ -132,6 +132,8 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 | `nrf-54-dk/zephyr-1V8`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-1V8-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-1V8-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 1V8 |
 | `nrf-54-dk/zephyr-3V0`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; Nordic nRF54L15 · Zephyr OS · 3V0 |
 | `nrf-54-dk/zephyr-3V3`&emsp; | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 3V3 |
+| `nrf-54-dk/zephyr2-1V8`&emsp; |  | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr2-1V8-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 1V8 |
+| `nrf-54-dk/zephyr2-3V0`&emsp; |  | 📄&ensp;<a href="../captures/nrf-54-dk/zephyr2-3V0-P/ABOUT.md">&nearr;</a> | &emsp; Nordic nRF54L15 · Zephyr OS · 3V0 |
 | `sil-g22e-ehk/rail-1V8`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8 |
 | `sil-g22e-ehk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0 |
 | `sil-g22e-ehk/rail-3V3`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V3-P/ABOUT.md">&nearr;</a> | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3 |
@@ -232,6 +234,8 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `nrf-54-dk/emscript-3V3      `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/emscript-3V3-P/ABOUT.md#typical-event "Nordic nRF54L15 · EM&bull;Script SDK · 3V3") | <code> 2.9</code> | <code> 16.2</code> | <code> 35.75</code> | <code> 81.83</code> |
 | `nrf-54-dk/zephyr-1V8        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr-1V8-P/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | <code> 2.7</code> | <code> 11.3</code> | <code> 57.21</code> | <code>153.61</code> |
 | `nrf-54-dk/zephyr-3V3        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr-3V3-P/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 3V3") | <code> 3.4</code> | <code> 17.8</code> | <code> 31.94</code> | <code> 71.26</code> |
+| `nrf-54-dk/zephyr2-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr2-1V8-P/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | <code> 1.0</code> | <code> 15.9</code> | <code> 52.17</code> | <code>269.66</code> |
+| `nrf-54-dk/zephyr2-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr2-3V0-P/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 3V0") | <code> 1.0</code> | <code> 17.1</code> | <code> 46.17</code> | <code>196.76</code> |
 | `sil-g22e-ehk/rail-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-3V3-P/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3") | <code> 4.4</code> | <code> 21.1</code> | <code> 31.92</code> | <code> 92.80</code> |
 | `ti-23-lp/emscript-2V2       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-2V2-P/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2") | <code> 0.9</code> | <code> 19.9</code> | <code> 42.09</code> | <code>228.65</code> |
 | `ti-23-lp/emscript-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-3V3-P/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3") | <code> 0.6</code> | <code> 22.1</code> | <code> 38.29</code> | <code>214.10</code> |
