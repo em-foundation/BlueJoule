@@ -94,7 +94,9 @@ The **BlueJoule** benchmark will broadcast the same packet on the three standard
 
 To faciliate "apples-to-apples" comparisons among different platforms, we require the underlying BLE radio to transmit packets at 0&thinsp;dB.&thinsp; A differentiator for HW vendors, TX power consumption in `mW` will often headline their datasheets.
 
-And finally, the advertising packet itself comprises 19 bytes of payload defined with the following BLE data types:
+We further require packet transmission to use _non-connectable · non-scannable_ advertising, designated by the standard `ADV_NONCONN_IND` PDU type code found in the packet's header.
+
+And finally, the advertising data itself comprises 19 bytes of payload defined with the following BLE data types:
 
 | Len | Type | Data (hex)                                   | Notes                                         |
 |----:|-----:|----------------------------------------------|-----------------------------------------------|
