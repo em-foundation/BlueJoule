@@ -1,3 +1,4 @@
+<!-- @upd|2025-11-30|updated Nordic nRF54L15 results with lower sleep current|-->
 <!-- @upd|2025-10-28|latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark|-->
 <!-- @upd|2025-10-26|improved score reporting; new 1V5 captures from EM Microelectronic and InPlay |-->
 <!-- @upd|2025-10-22|refreshed captures and screenshots for Nordic nRF52832|-->
@@ -62,7 +63,8 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 <!-- @updates-begin -->
 <details><summary>
-&emsp;&thinsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark</summary><p>
+&emsp;&thinsp;<img src="images/badge-2025-11-30.svg" height="16" alt="2025-10-12"></img>&emsp;updated Nordic nRF54L15 results with lower sleep current</summary><p>
+&emsp;&emsp;<img src="images/badge-2025-10-28.svg" height="16" alt="2025-10-12"></img>&emsp;latest EM Microelectronic 1V5 capture breaks 400 EM•erald mark<br>
 &emsp;&emsp;<img src="images/badge-2025-10-26.svg" height="16" alt="2025-10-12"></img>&emsp;improved score reporting; new 1V5 captures from EM Microelectronic and InPlay <br>
 &emsp;&emsp;<img src="images/badge-2025-10-22.svg" height="16" alt="2025-10-12"></img>&emsp;refreshed captures and screenshots for Nordic nRF52832<br>
 &emsp;&emsp;<img src="images/badge-2025-10-17.svg" height="16" alt="2025-10-12"></img>&emsp;new scores &ndash; EM Microelectronic EM9305 · EM Bleu SDK<br>
@@ -74,7 +76,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251130005122
+251201124959
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
