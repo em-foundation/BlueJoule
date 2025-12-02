@@ -6,7 +6,7 @@
 <!-- @upd|2025-09-11|new scores &ndash; Nordic nRF52832 · EM&bull;Script SDK|-->
 <!-- @upd|2025-09-09|inaugural scores &ndash; Analog Devices · InPlay · Nordic · Texas Instruments|-->
 
-<!-- @entry|adi-m17-evk/msdk-3V3-J| -->
+<!-- @entry|adi-m17-ek/msdk-3V3-J| -->
 <!-- @entry|emm-9305-dvk/embleu-1V5-J| -->
 <!-- @entry|in-100-dk/nanobeacon-1V5-J| -->
 <!-- @entry|nrf-52-dk/zephyr-2V7-J| -->
@@ -76,7 +76,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251201124959
+251202140816
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
@@ -177,6 +177,7 @@ To keep the table manageable in size, we've applied the following filter criteri
     
 | &emsp;Capture&emsp;&emsp;&emsp;&emsp; | sleep current [&thinsp;&mu;A&thinsp;] | event energy [&thinsp;&mu;J&thinsp;] | 1&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] | 10&thinsp;s period [<img src="images/em-dot.svg" width="12" alt="">] |
 |---|:---:|:---:|:---:|:---:|
+| `adi-m17-ek/msdk-3V3         `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/adi-m17-ek/msdk-3V3-J/ABOUT.md#typical-event "Analog Devices MAX32655 · Maxim SDK · 3V3") | <code> 4.4</code> | <code> 48.2</code> | <code> 14.75</code> | <code> 47.75</code> |
 | `emm-9305-dvk/embleu-1V5     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md#typical-event "EM Microelectronic EM9305 · EM Bleu SDK · 1V5") | <code> 0.5</code> | <code> 15.1</code> | <code> 58.54</code> | <code>408.41</code> |
 | `in-100-dk/nanobeacon-1V5    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md#typical-event "InPlay IN100 · NanoBeacon · 1V5") | <code> 0.4</code> | <code> 17.3</code> | <code> 51.56</code> | <code>386.73</code> |
 | `nrf-52-dk/zephyr-2V7        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-52-dk/zephyr-2V7-J/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS · 2V7") | <code> 1.3</code> | <code> 27.0</code> | <code> 30.39</code> | <code>148.96</code> |
