@@ -79,6 +79,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 251202140816
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
+  💻 <a href="https://vimeo.com/1143876573/ea5b01d4fa?fl=ip&fe=ec__s=h1i6g41pfmvr9sn57rsi&utm_source=drip&utm_medium=email&utm_campaign=BlueJoule+Webinar+Recording&utm_content=BlueJoule+Webinar+Recording+%28Attended%29">Webinar</a>
   ⭐ <a href="https://github.com/em-foundation/BlueJoule">Star</a>
   👁️ <a href="https://github.com/em-foundation/BlueJoule/subscription">Watch</a>
   📡 <a href="https://github.com/em-foundation/BlueJoule/commits/main.atom">RSS</a>
