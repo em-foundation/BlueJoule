@@ -89,15 +89,49 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 
 ## Application
 
-Repetitve advertising serves as a fundamental capability of any Bluetooth Low Energy application.&thinsp; Because of its inherent simplicity, programs illustrating the [BLE broadcaster role](https://novelbits.io/bluetooth-low-energy-advertisements-part-1/) often serve as the "Hello World" within this space.
+Repetitive advertising serves as a fundamental capability of any Bluetooth Low Energy application.&thinsp; Because of its inherent simplicity, programs illustrating the [BLE broadcaster role](https://novelbits.io/bluetooth-low-energy-advertisements-part-1/) often serve as the "Hello World" within this space.
 
-The **BlueJoule** benchmark will broadcast the same packet on the three standard BLE advertising channels.&thinsp; These transmissions occur back-to-back within a single _advertising event_; and these events will unfold at a 1&thinsp;s _advertising interval_. 
+### Benchmark Specification
 
-To faciliate "apples-to-apples" comparisons among different platforms, we require the underlying BLE radio to transmit packets at 0&thinsp;dB.&thinsp; A differentiator for HW vendors, TX power consumption in `mW` will often headline their datasheets.
+The following table summarizes the key parameters of the **BlueJoule** advertising benchmark:
 
-We further require packet transmission to use _non-connectable · non-scannable_ advertising, designated by the standard `ADV_NONCONN_IND` PDU type code found in the packet's header.
+| Parameter | Value | Notes |
+|-----------|-------|-------|
+| TX Power | 0&thinsp;dBm | Standard reference power for fair comparison |
+| PHY | LE 1M | Legacy advertising uses 1&thinsp;Mbps uncoded PHY |
+| Advertising Type | Non-connectable, non-scannable | `ADV_NONCONN_IND` PDU type |
+| Advertising Interval | 1&thinsp;s (1000&thinsp;ms) | Time between advertising events |
+| Advertising Channels | 37, 38, 39 | All three primary advertising channels |
+| Payload Size | 19 bytes | See payload breakdown below |
 
-And finally, the advertising data itself comprises 19 bytes of payload defined with the following BLE data types:
+### Advertising Channels
+
+The **BlueJoule** benchmark transmits on all three primary Bluetooth LE advertising channels:
+
+| Channel | Frequency | Purpose |
+|:-------:|-----------|---------|
+| 37 | 2402&thinsp;MHz | Primary advertising channel |
+| 38 | 2426&thinsp;MHz | Primary advertising channel |
+| 39 | 2480&thinsp;MHz | Primary advertising channel |
+
+These transmissions occur back-to-back within a single _advertising event_; and these events will unfold at a 1&thinsp;s _advertising interval_.
+
+### TX Power
+
+To facilitate "apples-to-apples" comparisons among different platforms, we require the underlying BLE radio to transmit packets at 0&thinsp;dBm.&thinsp; A differentiator for HW vendors, TX power consumption in `mW` will often headline their datasheets.
+
+### Advertising Type
+
+We require packet transmission to use _non-connectable · non-scannable_ advertising, designated by the standard `ADV_NONCONN_IND` PDU type code found in the packet's header.&thinsp; This advertising type:
+
+- Does not allow connections from central devices
+- Does not respond to scan requests
+- Minimizes energy consumption per advertising event
+- Represents a pure broadcast scenario
+
+### Advertising Payload
+
+The advertising data comprises 19 bytes of payload defined with the following BLE data types:
 
 | Len | Type | Data (hex)                                   | Notes                                         |
 |----:|-----:|----------------------------------------------|-----------------------------------------------|
