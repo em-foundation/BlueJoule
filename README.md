@@ -6,6 +6,8 @@
 
 This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a representative **Bluetooth Low Energy** [BLE] appli&shy;cation executing on a wide-range of HW/SW platforms.&thinsp; Visit the [em-foundation/emscope](https://github.com/em-foundation/emscope) project to learn more about the **EM&bull;Scope** tool itself.
 
+**➡️ [Download BlueJoule](https://github.com/em-foundation/BlueJoule/releases)**
+
 Cloning (or downloading) this repository gives you access to raw signal captures as well as executable program images used in generating the current set of **BlueJoule** scores for a range of BLE HW/SW platforms.
 
 > [!IMPORTANT]
