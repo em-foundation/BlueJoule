@@ -10,6 +10,17 @@
 
 
 
+* [NUCLEO-WBA25CE1](https://www.st.com/en/evaluation-tools/nucleo-wba25ce1.html) &thinsp;&ratio;&thinsp; **STM32WBA25 Nucleo-64 Development Board**
+* [STM32WBA25CEU7 SoC](https://www.st.com/en/microcontrollers-microprocessors/stm32wba25ce.html) &thinsp;&ratio;&thinsp; 64 MHz ARM Cortex-M33 &thinsp;·&thinsp; 512 KB flash &thinsp;·&thinsp; 96 KB SRAM
+
+* [BOARD PINOUT](https://www.st.com/en/evaluation-tools/nucleo-wba25ce1.html#cad-resources) &thinsp;⚙️
+
+* [STM32CubeWBA](https://www.st.com/en/embedded-software/stm32cubewba.html) &ndash; version 1.9.0
+
+* [BUILD ARTIFACTS]() - Standby mode enabled, debug/terminal disabled &thinsp;⚙️
+
+
+
 
 
 ## EM&bull;Scope results · JS220
