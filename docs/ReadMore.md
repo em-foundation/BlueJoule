@@ -12,6 +12,7 @@
 <!-- @entry|nrf-52-dk/zephyr-2V7-J| -->
 <!-- @entry|nrf-54-dk/zephyr2-1V8-J| -->
 <!-- @entry|sil-g22e-ehk/rail-1V8-J| -->
+<!-- @entry|stm-wba2-nuc/cubewba-1V8-J| -->
 <!-- @entry|ti-23-lp/simplelink-2V2-J| -->
 
 <!-- @medal|1|emm-9305-dvk/embleu-1V5-J      |G| -->
@@ -20,7 +21,7 @@
 
 <!-- @medal|10|emm-9305-dvk/embleu-1V5-J     |G| -->
 <!-- @medal|10|in-100-dk/nanobeacon-1V5-J    |S| -->
-<!-- @medal|10|ti-23-lp/simplelink-2V2-J     |B| -->
+<!-- @medal|10|stm-wba2-nuc/cubewba-1V8-J    |B| -->
 
 
 <p align="center">
@@ -54,7 +55,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <details open><summary>&emsp;10&thinsp;s event period&thinsp; [<b>EM<img src="images/em-dot.svg" width="12" alt="">eralds</b>]</summary><p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥇</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>408.41</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/emm-9305-dvk/embleu-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;EM Microelectronic EM9305 · EM Bleu SDK · 1V5<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥈</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>386.73</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/in-100-dk/nanobeacon-1V5-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;InPlay IN100 · NanoBeacon · 1V5<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>197.07</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;Texas Instruments CC2340R5 · SimpleLink SDK · 2V2<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>🥉</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>262.64</code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📄&ensp;<a href="../captures/stm-wba2-nuc/cubewba-1V8-J/ABOUT.md">&nearr;</a>&nbsp;&nbsp;&nbsp;STMicro WBA2 · CUBE · 1V8<br>
 
 </p></details>
 <!-- @medals-end -->
@@ -76,7 +77,7 @@ This repository uses **EM&bull;Scope** to benchmark **BlueJoule** &ndash; a repr
 <p align="right"><sub>
   🕒
 <!-- @timestamp-begin -->
-251202140816
+260416221224
 <!-- @timestamp-end -->
   &thinsp;&ratio;&thinsp;
   💻 <a href="https://vimeo.com/1143876573/ea5b01d4fa?fl=ip&fe=ec__s=h1i6g41pfmvr9sn57rsi&utm_source=drip&utm_medium=email&utm_campaign=BlueJoule+Webinar+Recording&utm_content=BlueJoule+Webinar+Recording+%28Attended%29">Webinar</a>
@@ -176,6 +177,10 @@ An `ABOUT.md` file found in each directory describes the capture's HW/SW configu
 | `sil-g22e-ehk/rail-1V8`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8 |
 | `sil-g22e-ehk/rail-3V0`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0 |
 | `sil-g22e-ehk/rail-3V3`&emsp; | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/sil-g22e-ehk/rail-3V3-P/ABOUT.md">&nearr;</a> | &emsp; SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3 |
+| `stm-wba2-nuc/cubewba-1V8`&emsp; | 📄&ensp;<a href="../captures/stm-wba2-nuc/cubewba-1V8-J/ABOUT.md">&nearr;</a> |  | &emsp; STMicro WBA2 · CUBE · 1V8 |
+| `stm-wba2-nuc/cubewba-2V7`&emsp; | 📄&ensp;<a href="../captures/stm-wba2-nuc/cubewba-2V7-J/ABOUT.md">&nearr;</a> |  | &emsp; Hardware Platform · Software Environment · xVx |
+| `stm-wba2-nuc/cubewba-3V0`&emsp; | 📄&ensp;<a href="../captures/stm-wba2-nuc/cubewba-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; NUCLEO-WBA25CE1 · STM32CubeWBA · v1.9.0 |
+| `stm-wba2-nuc/cubewba-3V3`&emsp; | 📄&ensp;<a href="../captures/stm-wba2-nuc/cubewba-3V3-J/ABOUT.md">&nearr;</a> |  | &emsp; Hardware Platform · Software Environment · xVx |
 | `ti-23-lp/emscript-2V2`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/emscript-2V2-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ti-23-lp/emscript-2V2-P/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2 |
 | `ti-23-lp/emscript-3V0`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/emscript-3V0-J/ABOUT.md">&nearr;</a> |  | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0 |
 | `ti-23-lp/emscript-3V3`&emsp; | 📄&ensp;<a href="../captures/ti-23-lp/emscript-3V3-J/ABOUT.md">&nearr;</a> | 📄&ensp;<a href="../captures/ti-23-lp/emscript-3V3-P/ABOUT.md">&nearr;</a> | &emsp; Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3 |
@@ -218,6 +223,7 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `nrf-52-dk/zephyr-2V7        `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-52-dk/zephyr-2V7-J/ABOUT.md#typical-event "Nordic nRF52832 · Zephyr OS · 2V7") | <code> 1.3</code> | <code> 27.0</code> | <code> 30.39</code> | <code>148.96</code> |
 | `nrf-54-dk/zephyr2-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/nrf-54-dk/zephyr2-1V8-J/ABOUT.md#typical-event "Nordic nRF54L15 · Zephyr OS · 1V8") | <code> 2.2</code> | <code> 15.8</code> | <code> 46.94</code> | <code>167.49</code> |
 | `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
+| `stm-wba2-nuc/cubewba-1V8    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/stm-wba2-nuc/cubewba-1V8-J/ABOUT.md#typical-event "STMicro WBA2 · CUBE · 1V8") | <code> 0.9</code> | <code> 19.0</code> | <code> 44.97</code> | <code>262.64</code> |
 | `ti-23-lp/simplelink-2V2     `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/simplelink-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · SimpleLink SDK · 2V2") | <code> 0.8</code> | <code> 29.4</code> | <code> 29.73</code> | <code>197.07</code> |
 
 
@@ -251,6 +257,10 @@ To keep the table manageable in size, we've applied the following filter criteri
 | `sil-g22e-ehk/rail-1V8       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-1V8-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 1V8") | <code> 2.5</code> | <code> 21.8</code> | <code> 35.28</code> | <code>140.22</code> |
 | `sil-g22e-ehk/rail-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-3V0-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 3V0") | <code> 1.7</code> | <code> 23.1</code> | <code> 33.02</code> | <code>127.88</code> |
 | `sil-g22e-ehk/rail-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/sil-g22e-ehk/rail-3V3-J/ABOUT.md#typical-event "SiLabs EFR32xG22E · Simplicity (RAIL) · 3V3") | <code> 1.5</code> | <code> 24.2</code> | <code> 31.93</code> | <code>128.64</code> |
+| `stm-wba2-nuc/cubewba-1V8    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/stm-wba2-nuc/cubewba-1V8-J/ABOUT.md#typical-event "STMicro WBA2 · CUBE · 1V8") | <code> 0.9</code> | <code> 19.0</code> | <code> 44.97</code> | <code>262.64</code> |
+| `stm-wba2-nuc/cubewba-2V7    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/stm-wba2-nuc/cubewba-2V7-J/ABOUT.md#typical-event "Hardware Platform · Software Environment · xVx") | <code> 1.0</code> | <code> 21.1</code> | <code> 39.01</code> | <code>195.50</code> |
+| `stm-wba2-nuc/cubewba-3V0    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/stm-wba2-nuc/cubewba-3V0-J/ABOUT.md#typical-event "NUCLEO-WBA25CE1 · STM32CubeWBA · v1.9.0") | <code> 1.0</code> | <code> 22.0</code> | <code> 36.97</code> | <code>176.28</code> |
+| `stm-wba2-nuc/cubewba-3V3    `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/stm-wba2-nuc/cubewba-3V3-J/ABOUT.md#typical-event "Hardware Platform · Software Environment · xVx") | <code> 1.2</code> | <code> 23.0</code> | <code> 34.43</code> | <code>149.21</code> |
 | `ti-23-lp/emscript-2V2       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-2V2-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 2V2") | <code> 0.8</code> | <code> 15.8</code> | <code> 52.93</code> | <code>280.77</code> |
 | `ti-23-lp/emscript-3V0       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-3V0-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V0") | <code> 0.7</code> | <code> 16.4</code> | <code> 50.50</code> | <code>257.96</code> |
 | `ti-23-lp/emscript-3V3       `&nbsp;📈&nbsp;[&nbsp;&nearr;](../captures/ti-23-lp/emscript-3V3-J/ABOUT.md#typical-event "Texas Instruments CC2340R5 · EM&bull;Script SDK · 3V3") | <code> 0.4</code> | <code> 21.4</code> | <code> 40.62</code> | <code>263.43</code> |

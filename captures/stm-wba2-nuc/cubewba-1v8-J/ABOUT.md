@@ -1,4 +1,4 @@
-<h1 align="center">Hardware Platform · Software Environment · xVx</h1>
+<h1 align="center">STMicro WBA2 · CUBE · 1V8</h1>
 
 <!-- @emscope-pack:start -->
 

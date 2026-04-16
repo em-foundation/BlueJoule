@@ -1,4 +1,4 @@
-<h1 align="center">NUCLEO-WBA25CE1 · STM32CubeWBA · v1.9.0</h1>
+<h1 align="center">STMicro WBA2 · CUBE · 3V0</h1>
 
 <!-- @emscope-pack:start -->
 
